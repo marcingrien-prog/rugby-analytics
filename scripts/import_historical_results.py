@@ -5,6 +5,12 @@ from __future__ import annotations
 import argparse
 import csv
 from pathlib import Path
+import sys
+
+# Make the repository root importable when this file is run directly.
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from backend.data_sources.world_rugby_feed import fetch_completed_tests
 
