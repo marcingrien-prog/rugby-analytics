@@ -44,6 +44,27 @@ curl -X POST http://127.0.0.1:8000/predict \
   -d '{"team_a":"NZL","team_b":"IRE","venue":"neutral","simulations":20000,"seed":42}'
 ```
 
+## Import wyników historycznych
+
+Projekt zawiera importer męskich meczów testowych (rugby union) z publicznego endpointu JSON serwisu TheBreakdown, którego rekordy wskazują na World Rugby match feed. Import obejmuje dostępne zakończone mecze i stronicuje odpowiedź API.
+
+Po instalacji zależności uruchom w katalogu głównym repozytorium:
+
+```bash
+python scripts/import_historical_results.py
+```
+
+Przydatne parametry:
+
+```bash
+python scripts/import_historical_results.py --start-year 1990 --end-year 2026
+python scripts/import_historical_results.py --output data/tests.csv --page-size 100
+```
+
+Wynik trafia domyślnie do `data/international_results.csv`. Importer zachowuje identyfikator meczu, datę, nazwy drużyn w postaci slugów, wynik, rozgrywki, miejsce i pole `confidence`. Rekordy bez poprawnej daty lub wyniku są pomijane. Pole `neutral` pozostaje puste, ponieważ nie należy zgadywać neutralnego boiska na podstawie samego wyniku.
+
+**Ograniczenia źródła:** publiczna dostępność endpointu nie oznacza automatycznie licencji na dalszą dystrybucję danych. Przed publikacją pobranego CSV należy sprawdzić aktualne warunki serwisu. Stare mecze mogą mieć niepełne wyniki lub niższy poziom pewności. Import nie pobiera jeszcze statystyk szczegółowych, składów ani zdarzeń punktowych. Nie jest też jeszcze podłączony do modelu prognoz.
+
 ## Ważne: status danych i modelu
 
 Dane drużyn w wersji 0.1.0 to **demonstracyjne wartości startowe (priors)**, a nie aktualny ani historyczny ranking World Rugby. Nie podłączono jeszcze zewnętrznego źródła wyników ani kursów. Prognozy nie są zweryfikowane i nie powinny być wykorzystywane jako rekomendacje zakładów.
@@ -76,6 +97,6 @@ Przed użyciem produkcyjnym należy:
 │   ├── __init__.py
 │   ├── main.py
 │   └── model.py
-├── requirements.txt
+├── scripts/\n│   └── import_historical_results.py\n├── data/\n│   └── .gitkeep\n├── requirements.txt
 └── .gitignore
 ```
