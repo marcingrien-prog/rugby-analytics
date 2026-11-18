@@ -65,6 +65,22 @@ Wynik trafia domyślnie do `data/international_results.csv`. Importer zachowuje 
 
 **Ograniczenia źródła:** publiczna dostępność endpointu nie oznacza automatycznie licencji na dalszą dystrybucję danych. Przed publikacją pobranego CSV należy sprawdzić aktualne warunki serwisu. Stare mecze mogą mieć niepełne wyniki lub niższy poziom pewności. Import nie pobiera jeszcze statystyk szczegółowych, składów ani zdarzeń punktowych. Nie jest też jeszcze podłączony do modelu prognoz.
 
+## Analiza historyczna API (wersja 0.2.0)
+
+Po umieszczeniu pliku `data/international_results.csv` w katalogu projektu backend automatycznie przelicza rating Elo chronologicznie i udostępnia statystyki z wyników końcowych.
+
+- `GET /analytics/status` — status danych, liczba meczów i reprezentacji, zakres dat.
+- `GET /analytics/teams` — ranking Elo oraz średnie punkty zdobyte/stracone i forma z ostatnich 10 meczów.
+- `GET /analytics/teams/{team_id}` — pełny profil reprezentacji i ostatnie mecze.
+- `GET /analytics/head-to-head/{team_a}/{team_b}` — bilans bezpośrednich spotkań.
+
+Jeżeli CSV nie istnieje, `/teams` i `/predict` pozostają przy demonstracyjnych wartościach startowych. Odpowiedź `/health` i `/analytics/status` wskazuje aktywny status danych. Prognozator po imporcie korzysta ze średnich punktów zdobywanych/traconych i Elo; jest to wstępne przybliżenie rozkładem normalnym, a nie model zwalidowany.
+
+### Testy
+
+```bash
+pytest -q
+```
 ## Ważne: status danych i modelu
 
 Dane drużyn w wersji 0.1.0 to **demonstracyjne wartości startowe (priors)**, a nie aktualny ani historyczny ranking World Rugby. Nie podłączono jeszcze zewnętrznego źródła wyników ani kursów. Prognozy nie są zweryfikowane i nie powinny być wykorzystywane jako rekomendacje zakładów.
@@ -95,8 +111,11 @@ Przed użyciem produkcyjnym należy:
 ├── app.js
 ├── backend/
 │   ├── __init__.py
+│   ├── historical.py
 │   ├── main.py
 │   └── model.py
+├── tests/
+│   └── test_historical.py
 ├── scripts/\n│   └── import_historical_results.py\n├── data/\n│   └── .gitkeep\n├── requirements.txt
 └── .gitignore
 ```
