@@ -1,6 +1,6 @@
 # Rugby Analytics
 
-Aplikacja analityczna dla **rugby union (15-osobowego)**. Projekt jest we wczesnej fazie prototypu.
+Aplikacja analityczna dla **rugby union (15-osobowego)**. Projekt jest we wczesnej fazie prototypu (API 0.2.0).
 
 ## Funkcje w wersji 0.1.0
 
@@ -83,7 +83,7 @@ pytest -q
 ```
 ## Ważne: status danych i modelu
 
-Dane drużyn w wersji 0.1.0 to **demonstracyjne wartości startowe (priors)**, a nie aktualny ani historyczny ranking World Rugby. Nie podłączono jeszcze zewnętrznego źródła wyników ani kursów. Prognozy nie są zweryfikowane i nie powinny być wykorzystywane jako rekomendacje zakładów.
+Dopóki nie umieścisz pliku CSV z importem, aplikacja korzysta z **demonstracyjnych wartości startowych (priors)**, a nie oficjalnego rankingu. Po imporcie API oblicza rating Elo i statystyki wynikowe na podstawie CSV. Frontend próbuje połączyć się z lokalnym API pod `http://127.0.0.1:8000`; jeśli API jest niedostępne, pozostaje przy trybie demonstracyjnym. Prognozy historyczne są wstępnym przybliżeniem i nie zostały zwalidowane backtestem — nie należy traktować ich jako rekomendacji zakładów.
 
 Przed użyciem produkcyjnym należy:
 1. pozyskać i udokumentować licencjonowane/wiarygodne dane historyczne,
