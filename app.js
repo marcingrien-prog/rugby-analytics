@@ -1,8 +1,120 @@
-const TEAMS=[{id:'RSA',name:'RPA',elo:1900,attack:2.9,defence:1.9},{id:'NZL',name:'Nowa Zelandia',elo:1885,attack:3.0,defence:2.0},{id:'IRE',name:'Irlandia',elo:1860,attack:2.7,defence:1.8},{id:'FRA',name:'Francja',elo:1850,attack:2.8,defence:2.1},{id:'ENG',name:'Anglia',elo:1810,attack:2.5,defence:2.0},{id:'SCO',name:'Szkocja',elo:1760,attack:2.6,defence:2.3},{id:'ARG',name:'Argentyna',elo:1750,attack:2.4,defence:2.1},{id:'AUS',name:'Australia',elo:1725,attack:2.5,defence:2.5},{id:'WAL',name:'Walia',elo:1700,attack:2.2,defence:2.4},{id:'ITA',name:'Włochy',elo:1650,attack:2.3,defence:2.7},{id:'JPN',name:'Japonia',elo:1640,attack:2.5,defence:2.8},{id:'FIJ',name:'Fidżi',elo:1690,attack:2.7,defence:2.8}];
-const $=s=>document.querySelector(s);function show(view){document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id==='view-'+view));document.querySelectorAll('.nav-item').forEach(b=>b.classList.toggle('active',b.dataset.view===view));const names={dashboard:'Panel główny',predictor:'Prognozator',teams:'Reprezentacje',worldcup:'Rugby World Cup',methodology:'Metodologia'};$('#page-title').textContent=names[view];window.scrollTo({top:0,behavior:'smooth'});}document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view)));document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.go)));
-function fillTeams(){for(const id of ['home','away']){$('#'+id).innerHTML=TEAMS.map(t=>'<option value="'+t.id+'">'+t.name+'</option>').join('');}$('#home').value='NZL';$('#away').value='IRE';$('#teams-table').innerHTML=TEAMS.slice().sort((a,b)=>b.elo-a.elo).map(t=>'<tr><td>'+t.name+' <span class="tag">'+t.id+'</span></td><td><b>'+t.elo+'</b></td><td>'+(t.dataStatus?'Pkt zdobyte '+t.attack.toFixed(1)+' · stracone '+t.defence.toFixed(1):'Atak '+t.attack.toFixed(1)+' · Obrona '+t.defence.toFixed(1)+'</td><td><span class="tag">'+(t.dataStatus?'DANE HISTORYCZNE':'PRIOR DEMO')+'</span></td></tr>').join('');}
-function randPoisson(lambda){const L=Math.exp(-lambda);let k=0,p=1;do{k++;p*=Math.random();}while(p>L&&k<30);return k-1;}function score(team,opp,eloAdj){const tries=Math.max(.3,team.attack*(opp.defence/2.3)*Math.exp(eloAdj/1800));const pen=Math.max(.2,.95*(1+Math.max(-.2,Math.min(.2,(opp.elo-team.elo)/400))));const tr=randPoisson(tries),pg=randPoisson(pen);const conv=Array.from({length:tr},()=>Math.random()<.78?2:0).reduce((a,b)=>a+b,0);return {points:tr*5+conv+pg*3,tries:tr,pen:pg};}
-function predict(){const a=TEAMS.find(t=>t.id===$('#home').value),b=TEAMS.find(t=>t.id===$('#away').value);if(a.id===b.id){$('#prediction-result').innerHTML='<div class="empty-state"><h3>Wybierz dwie różne drużyny</h3></div>';return;}const venue=$('#venue').value,n=Number($('#n-sims').value),adv=venue==='home'?55:venue==='away'?-55:0;const diff=a.elo+adv-b.elo;const pA=1/(1+Math.pow(10,-diff/400));let winsA=0,winsB=0,draw=0,sumA=0,sumB=0,results=[];for(let i=0;i<n;i++){const sa=score(a,b,diff/2),sb=score(b,a,-diff/2);sumA+=sa.points;sumB+=sb.points;if(sa.points>sb.points)winsA++;else if(sb.points>sa.points)winsB++;else draw++;results.push([sa.points,sb.points]);}const pct=x=>(100*x/n).toFixed(1);const avgA=sumA/n,avgB=sumB/n;const exact={};results.forEach(r=>{const k=r.join(':');exact[k]=(exact[k]||0)+1;});const common=Object.entries(exact).sort((x,y)=>y[1]-x[1])[0][0];const winPctA=pct(winsA),winPctB=pct(winsB),drawPct=pct(draw);$('#prediction-result').innerHTML='<div class="result-head"><h3>Wynik symulacji</h3><span class="tag">'+n.toLocaleString('pl-PL')+' symulacji</span></div><div class="scoreline"><div><span>'+a.name+'</span><br><strong>'+avgA.toFixed(0)+'</strong></div><span>ŚREDNIA<br>PROGNOZA</span><div><span>'+b.name+'</span><br><strong>'+avgB.toFixed(0)+'</strong></div></div><div class="win-grid"><div class="win-box"><b>'+winPctA+'%</b><span>Wygrana '+a.id+'</span></div><div class="win-box"><b>'+drawPct+'%</b><span>Remis</span></div><div class="win-box"><b>'+winPctB+'%</b><span>Wygrana '+b.id+'</span></div></div><div class="bar-label"><span>'+a.name+'</span><b>'+winPctA+'%</b></div><div class="bar"><div class="a" style="width:'+winPctA+'%"></div><div class="b" style="width:'+winPctB+'%"></div></div><div class="bar-label"><span>'+b.name+'</span><b>'+winPctB+'%</b></div><p class="fine">Najczęściej wylosowany dokładny wynik: <b>'+common+'</b>. Oczekiwana różnica punktów: <b>'+(avgA-avgB).toFixed(1)+'</b>.</p><div class="notice"><b>Interpretacja</b><p>To eksperymentalna symulacja na przykładowych parametrach drużyn. Wynik nie jest zweryfikowaną prognozą ani rekomendacją zakładu. Model wymaga danych historycznych i walidacji poza próbą.</p></div>';}$('#run-prediction').addEventListener('click',predict);fillTeams();
-function renderApiPrediction(data,aId,bId){const a=TEAMS.find(t=>t.id===aId),b=TEAMS.find(t=>t.id===bId);const pct=x=>(100*x).toFixed(1);const wa=pct(data.win_a),wb=pct(data.win_b),dr=pct(data.draw);$('#prediction-result').innerHTML='<div class="result-head"><h3>Prognoza na podstawie historii</h3><span class="tag">'+Number(data.simulations).toLocaleString('pl-PL')+' symulacji</span></div><div class="scoreline"><div><span>'+a.name+'</span><br><strong>'+Number(data.mean_points_a).toFixed(0)+'</strong></div><span>ŚREDNIA<br>PROGNOZA</span><div><span>'+b.name+'</span><br><strong>'+Number(data.mean_points_b).toFixed(0)+'</strong></div></div><div class="win-grid"><div class="win-box"><b>'+wa+'%</b><span>Wygrana '+a.id+'</span></div><div class="win-box"><b>'+dr+'%</b><span>Remis</span></div><div class="win-box"><b>'+wb+'%</b><span>Wygrana '+b.id+'</span></div></div><div class="notice"><b>Źródło modelu</b><p>Wyniki historyczne CSV, rating Elo i średnie punkty zdobywane/tracone. Model bazowy nie jest jeszcze skalibrowany ani zwalidowany backtestem.</p></div>';}
-async function loadHistoricalTeams(){try{const response=await fetch('http://127.0.0.1:8000/teams');if(!response.ok)return;const data=await response.json();if(!data.length||data[0].data_status!=='historical_csv')return;TEAMS.splice(0,TEAMS.length,...data.map(t=>({id:t.id,name:t.name,elo:t.elo,attack:t.points_for_avg,defence:t.points_against_avg,dataStatus:t.data_status})));fillTeams();}catch(error){console.info('Backend API unavailable; using demo data.',error);}}
-loadHistoricalTeams();
+(() => {
+  'use strict';
+
+  const TEAMS = [
+    {id:'RSA',name:'RPA',elo:1900,attack:2.9,defence:1.9},
+    {id:'NZL',name:'Nowa Zelandia',elo:1885,attack:3.0,defence:2.0},
+    {id:'IRE',name:'Irlandia',elo:1860,attack:2.7,defence:1.8},
+    {id:'FRA',name:'Francja',elo:1850,attack:2.8,defence:2.1},
+    {id:'ENG',name:'Anglia',elo:1810,attack:2.5,defence:2.0},
+    {id:'SCO',name:'Szkocja',elo:1760,attack:2.6,defence:2.3},
+    {id:'ARG',name:'Argentyna',elo:1750,attack:2.4,defence:2.1},
+    {id:'AUS',name:'Australia',elo:1725,attack:2.5,defence:2.5},
+    {id:'WAL',name:'Walia',elo:1700,attack:2.2,defence:2.4},
+    {id:'FIJ',name:'Fidżi',elo:1690,attack:2.7,defence:2.8},
+    {id:'ITA',name:'Włochy',elo:1650,attack:2.3,defence:2.7},
+    {id:'JPN',name:'Japonia',elo:1640,attack:2.5,defence:2.8}
+  ];
+
+  const $ = id => document.getElementById(id);
+  const titles = {dashboard:'Panel główny',predictor:'Prognozator',teams:'Reprezentacje',worldcup:'Rugby World Cup',methodology:'Metodologia'};
+
+  function showView(name) {
+    if (!titles[name]) return;
+    document.querySelectorAll('.view').forEach(el => el.classList.toggle('active', el.id === 'view-' + name));
+    document.querySelectorAll('.nav-item').forEach(el => el.classList.toggle('active', el.dataset.view === name));
+    if ($('page-title')) $('page-title').textContent = titles[name];
+    window.scrollTo(0, 0);
+  }
+
+  function fillTeams() {
+    ['home','away'].forEach((id, index) => {
+      const select = $(id);
+      if (!select) return;
+      select.replaceChildren(...TEAMS.map(team => {
+        const option = document.createElement('option');
+        option.value = team.id;
+        option.textContent = team.name;
+        return option;
+      }));
+      select.value = index === 0 ? 'NZL' : 'IRE';
+    });
+    const table = $('teams-table');
+    if (table) {
+      table.innerHTML = TEAMS.slice().sort((a,b) => b.elo-a.elo).map(t =>
+        '<tr><td>' + t.name + ' <span class="tag">' + t.id + '</span></td><td><b>' + t.elo +
+        '</b></td><td>Atak ' + t.attack.toFixed(1) + ' · Obrona ' + t.defence.toFixed(1) +
+        '</td><td><span class="tag">PRIOR DEMO</span></td></tr>'
+      ).join('');
+    }
+  }
+
+  function poisson(mean) {
+    const limit = Math.exp(-mean);
+    let product = 1, count = 0;
+    do { count++; product *= Math.random(); } while (product > limit && count < 30);
+    return count - 1;
+  }
+
+  function simulateScore(team, opponent, eloAdjustment) {
+    const triesMean = Math.max(0.2, team.attack * (opponent.defence / 2.3) * Math.exp(eloAdjustment / 1800));
+    const penaltiesMean = Math.max(0.2, 0.95 * (1 + Math.max(-0.2, Math.min(0.2, (opponent.elo-team.elo)/400))));
+    const tries = poisson(triesMean);
+    let points = tries * 5;
+    for (let i=0; i<tries; i++) if (Math.random() < 0.78) points += 2;
+    points += poisson(penaltiesMean) * 3;
+    return points;
+  }
+
+  function predict() {
+    const a = TEAMS.find(t => t.id === $('home').value);
+    const b = TEAMS.find(t => t.id === $('away').value);
+    const result = $('prediction-result');
+    if (!a || !b || !result) return;
+    if (a.id === b.id) {
+      result.innerHTML = '<div class="empty-state"><h3>Wybierz dwie różne drużyny</h3></div>';
+      return;
+    }
+    const venue = $('venue').value;
+    const simulations = Number($('n-sims').value) || 5000;
+    const adjustment = venue === 'home' ? 55 : venue === 'away' ? -55 : 0;
+    const difference = a.elo + adjustment - b.elo;
+    let winsA=0, winsB=0, draws=0, totalA=0, totalB=0;
+    const scoreCounts = {};
+    for (let i=0; i<simulations; i++) {
+      const scoreA = simulateScore(a,b,difference/2);
+      const scoreB = simulateScore(b,a,-difference/2);
+      totalA += scoreA; totalB += scoreB;
+      if (scoreA > scoreB) winsA++; else if (scoreB > scoreA) winsB++; else draws++;
+      const key = scoreA + ':' + scoreB;
+      scoreCounts[key] = (scoreCounts[key] || 0) + 1;
+    }
+    const pct = value => (100*value/simulations).toFixed(1);
+    const averageA = totalA/simulations, averageB = totalB/simulations;
+    const mostCommon = Object.entries(scoreCounts).sort((x,y)=>y[1]-x[1])[0][0];
+    result.innerHTML =
+      '<div class="result-head"><h3>Wynik symulacji</h3><span class="tag">' + simulations.toLocaleString('pl-PL') + ' symulacji</span></div>' +
+      '<div class="scoreline"><div><span>' + a.name + '</span><br><strong>' + averageA.toFixed(0) + '</strong></div><span>ŚREDNIA<br>PROGNOZA</span><div><span>' + b.name + '</span><br><strong>' + averageB.toFixed(0) + '</strong></div></div>' +
+      '<div class="win-grid"><div class="win-box"><b>' + pct(winsA) + '%</b><span>Wygrana ' + a.id + '</span></div><div class="win-box"><b>' + pct(draws) + '%</b><span>Remis</span></div><div class="win-box"><b>' + pct(winsB) + '%</b><span>Wygrana ' + b.id + '</span></div></div>' +
+      '<div class="bar-label"><span>' + a.name + '</span><b>' + pct(winsA) + '%</b></div><div class="bar"><div class="a" style="width:' + pct(winsA) + '%"></div><div class="b" style="width:' + pct(winsB) + '%"></div></div>' +
+      '<div class="bar-label"><span>' + b.name + '</span><b>' + pct(winsB) + '%</b></div>' +
+      '<p class="fine">Najczęściej wylosowany dokładny wynik: <b>' + mostCommon + '</b>. Oczekiwana różnica punktów: <b>' + (averageA-averageB).toFixed(1) + '</b>.</p>' +
+      '<div class="notice"><b>Interpretacja</b><p>Symulacja korzysta z przykładowych parametrów drużyn. To prototyp, nie zweryfikowana prognoza.</p></div>';
+  }
+
+  function init() {
+    document.addEventListener('click', event => {
+      const nav = event.target.closest('[data-view]');
+      const go = event.target.closest('[data-go]');
+      if (nav) showView(nav.dataset.view);
+      if (go) showView(go.dataset.go);
+    });
+    fillTeams();
+    const runButton = $('run-prediction');
+    if (runButton) runButton.addEventListener('click', predict);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true});
+  else init();
+  window.RugbyAnalytics = {version:'0.2.0', teams:TEAMS.length};
+})();
