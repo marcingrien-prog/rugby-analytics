@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-11-19T05:35:35.319799+00:00",
+  "generated_at": "2026-11-19T05:36:07.056947+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 214,
   "competitions_count": 51,
-  "standings_loaded": 5,
+  "standings_loaded": 3,
   "results_fetched": 0,
   "results_history_count": 0,
   "teams_with_form": 0,
+  "validation": {
+    "settled_predictions": 0,
+    "hit_rate": null,
+    "brier_score": null
+  },
   "rankings_as_of": "2026-09-19",
   "fixtures": [
     {
@@ -1454,15 +1459,8 @@
         "id": "tm_28GXJQH",
         "name": "Northampton Saints"
       },
-      "prediction": {
-        "home_win": 17.6,
-        "draw": 3.1,
-        "away_win": 79.3,
-        "home_score": 30,
-        "away_score": 47,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1482,15 +1480,8 @@
         "id": "tm_2XJ6QW4",
         "name": "Pau"
       },
-      "prediction": {
-        "home_win": 58.5,
-        "draw": 5.7,
-        "away_win": 35.8,
-        "home_score": 32,
-        "away_score": 28,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1552,15 +1543,8 @@
         "id": "tm_0F2PX42",
         "name": "Bayonne"
       },
-      "prediction": {
-        "home_win": 73.5,
-        "draw": 3.9,
-        "away_win": 22.6,
-        "home_score": 36,
-        "away_score": 25,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1580,15 +1564,8 @@
         "id": "tm_2N4666W",
         "name": "Clermont"
       },
-      "prediction": {
-        "home_win": 71.5,
-        "draw": 4.2,
-        "away_win": 24.3,
-        "home_score": 39,
-        "away_score": 29,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1608,15 +1585,8 @@
         "id": "tm_0FWX7QJ",
         "name": "Bulls"
       },
-      "prediction": {
-        "home_win": 68.8,
-        "draw": 4.5,
-        "away_win": 26.7,
-        "home_score": 35,
-        "away_score": 26,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1636,15 +1606,8 @@
         "id": "tm_0WZX95E",
         "name": "Stade Rochelais"
       },
-      "prediction": {
-        "home_win": 65.2,
-        "draw": 4.9,
-        "away_win": 29.9,
-        "home_score": 29,
-        "away_score": 22,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1664,15 +1627,8 @@
         "id": "tm_1M3P72S",
         "name": "Sale Sharks"
       },
-      "prediction": {
-        "home_win": 83.4,
-        "draw": 2.4,
-        "away_win": 14.2,
-        "home_score": 39,
-        "away_score": 22,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1734,15 +1690,8 @@
         "id": "tm_1EF5HP8",
         "name": "Bath"
       },
-      "prediction": {
-        "home_win": 28.1,
-        "draw": 4.7,
-        "away_win": 67.2,
-        "home_score": 23,
-        "away_score": 32,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1762,15 +1711,8 @@
         "id": "tm_344015A",
         "name": "Munster"
       },
-      "prediction": {
-        "home_win": 35.9,
-        "draw": 5.7,
-        "away_win": 58.4,
-        "home_score": 31,
-        "away_score": 38,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1832,15 +1774,8 @@
         "id": "tm_1QM2PPX",
         "name": "Dragons"
       },
-      "prediction": {
-        "home_win": 37.0,
-        "draw": 5.9,
-        "away_win": 57.1,
-        "home_score": 24,
-        "away_score": 29,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1860,15 +1795,8 @@
         "id": "tm_1ZZ7A6N",
         "name": "Connacht"
       },
-      "prediction": {
-        "home_win": 42.1,
-        "draw": 6.5,
-        "away_win": 51.4,
-        "home_score": 41,
-        "away_score": 44,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1909,15 +1837,8 @@
         "id": "tm_1MZ3SAG",
         "name": "Zebre"
       },
-      "prediction": {
-        "home_win": 60.8,
-        "draw": 5.5,
-        "away_win": 33.7,
-        "home_score": 30,
-        "away_score": 25,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1937,15 +1858,8 @@
         "id": "tm_3KFPVP6",
         "name": "Stormers"
       },
-      "prediction": {
-        "home_win": 76.9,
-        "draw": 3.4,
-        "away_win": 19.7,
-        "home_score": 39,
-        "away_score": 27,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -1965,15 +1879,8 @@
         "id": "tm_2G259FF",
         "name": "Gloucester"
       },
-      "prediction": {
-        "home_win": 53.7,
-        "draw": 6.2,
-        "away_win": 40.1,
-        "home_score": 31,
-        "away_score": 29,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -3925,15 +3832,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -3953,15 +3853,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -3981,15 +3874,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4009,15 +3895,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4037,15 +3916,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4086,15 +3958,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4114,15 +3979,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4142,15 +4000,8 @@
         "id": "tm_2X66TS0",
         "name": "Leicester Tigers"
       },
-      "prediction": {
-        "home_win": 79.2,
-        "draw": 3.1,
-        "away_win": 17.7,
-        "home_score": 38,
-        "away_score": 24,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4170,15 +4021,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4198,15 +4042,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4226,15 +4063,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4254,15 +4084,8 @@
         "id": "tm_0F2PX42",
         "name": "Bayonne"
       },
-      "prediction": {
-        "home_win": 69.8,
-        "draw": 4.4,
-        "away_win": 25.8,
-        "home_score": 31,
-        "away_score": 22,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4282,15 +4105,8 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": {
-        "home_win": 56.3,
-        "draw": 6.0,
-        "away_win": 37.7,
-        "home_score": 16,
-        "away_score": 14,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4352,15 +4168,8 @@
         "id": "tm_3KFPVP6",
         "name": "Stormers"
       },
-      "prediction": {
-        "home_win": 49.0,
-        "draw": 6.7,
-        "away_win": 44.3,
-        "home_score": 31,
-        "away_score": 31,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4401,15 +4210,8 @@
         "id": "tm_1EF5HP8",
         "name": "Bath"
       },
-      "prediction": {
-        "home_win": 51.1,
-        "draw": 6.5,
-        "away_win": 42.4,
-        "home_score": 36,
-        "away_score": 35,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4429,15 +4231,8 @@
         "id": "tm_0WZX95E",
         "name": "Stade Rochelais"
       },
-      "prediction": {
-        "home_win": 71.3,
-        "draw": 4.2,
-        "away_win": 24.5,
-        "home_score": 38,
-        "away_score": 28,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4457,15 +4252,8 @@
         "id": "tm_2XJ6QW4",
         "name": "Pau"
       },
-      "prediction": {
-        "home_win": 56.2,
-        "draw": 6.0,
-        "away_win": 37.8,
-        "home_score": 33,
-        "away_score": 31,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4485,15 +4273,8 @@
         "id": "tm_28GXJQH",
         "name": "Northampton Saints"
       },
-      "prediction": {
-        "home_win": 70.7,
-        "draw": 4.3,
-        "away_win": 25.0,
-        "home_score": 36,
-        "away_score": 26,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4555,15 +4336,8 @@
         "id": "tm_179VXFK",
         "name": "Cardiff Rugby"
       },
-      "prediction": {
-        "home_win": 34.9,
-        "draw": 5.6,
-        "away_win": 59.5,
-        "home_score": 27,
-        "away_score": 34,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4583,15 +4357,8 @@
         "id": "tm_1J9G85H",
         "name": "Ulster"
       },
-      "prediction": {
-        "home_win": 21.6,
-        "draw": 3.7,
-        "away_win": 74.7,
-        "home_score": 20,
-        "away_score": 34,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4632,15 +4399,8 @@
         "id": "tm_2SF953S",
         "name": "Bristol"
       },
-      "prediction": {
-        "home_win": 65.8,
-        "draw": 4.9,
-        "away_win": 29.3,
-        "home_score": 38,
-        "away_score": 31,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4660,15 +4420,8 @@
         "id": "tm_344015A",
         "name": "Munster"
       },
-      "prediction": {
-        "home_win": 75.6,
-        "draw": 3.6,
-        "away_win": 20.8,
-        "home_score": 37,
-        "away_score": 25,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4688,15 +4441,8 @@
         "id": "tm_3M68FPT",
         "name": "Lions"
       },
-      "prediction": {
-        "home_win": 29.1,
-        "draw": 4.8,
-        "away_win": 66.1,
-        "home_score": 20,
-        "away_score": 30,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4716,15 +4462,8 @@
         "id": "tm_2N4666W",
         "name": "Clermont"
       },
-      "prediction": {
-        "home_win": 63.6,
-        "draw": 5.1,
-        "away_win": 31.3,
-        "home_score": 35,
-        "away_score": 29,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4744,15 +4483,8 @@
         "id": "tm_0ZTCJ6D",
         "name": "Cheetahs"
       },
-      "prediction": {
-        "home_win": 37.6,
-        "draw": 5.9,
-        "away_win": 56.5,
-        "home_score": 28,
-        "away_score": 34,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4940,15 +4672,8 @@
         "id": "tm_0FWX7QJ",
         "name": "Bulls"
       },
-      "prediction": {
-        "home_win": 53.9,
-        "draw": 6.2,
-        "away_win": 39.9,
-        "home_score": 38,
-        "away_score": 36,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -4989,15 +4714,8 @@
         "id": "tm_2QWN0R8",
         "name": "Montpellier"
       },
-      "prediction": {
-        "home_win": 21.4,
-        "draw": 3.7,
-        "away_win": 74.9,
-        "home_score": 16,
-        "away_score": 30,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5017,15 +4735,8 @@
         "id": "tm_1M3P72S",
         "name": "Sale Sharks"
       },
-      "prediction": {
-        "home_win": 83.5,
-        "draw": 2.3,
-        "away_win": 14.2,
-        "home_score": 41,
-        "away_score": 23,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5045,15 +4756,8 @@
         "id": "tm_1MZ3SAG",
         "name": "Zebre"
       },
-      "prediction": {
-        "home_win": 78.3,
-        "draw": 3.2,
-        "away_win": 18.5,
-        "home_score": 38,
-        "away_score": 24,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5073,15 +4777,8 @@
         "id": "tm_2XD4Y17",
         "name": "Exeter Chiefs"
       },
-      "prediction": {
-        "home_win": 76.9,
-        "draw": 3.4,
-        "away_win": 19.7,
-        "home_score": 40,
-        "away_score": 27,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5101,15 +4798,8 @@
         "id": "tm_2V0SRR1",
         "name": "Bordeaux Begles"
       },
-      "prediction": {
-        "home_win": 19.6,
-        "draw": 3.4,
-        "away_win": 77.0,
-        "home_score": 28,
-        "away_score": 43,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5129,15 +4819,8 @@
         "id": "tm_0QS8K9D",
         "name": "Racing 92"
       },
-      "prediction": {
-        "home_win": 65.8,
-        "draw": 4.9,
-        "away_win": 29.3,
-        "home_score": 35,
-        "away_score": 28,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5157,15 +4840,8 @@
         "id": "tm_1QM2PPX",
         "name": "Dragons"
       },
-      "prediction": {
-        "home_win": 60.8,
-        "draw": 5.5,
-        "away_win": 33.7,
-        "home_score": 30,
-        "away_score": 25,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5227,15 +4903,8 @@
         "id": "tm_1ZZ7A6N",
         "name": "Connacht"
       },
-      "prediction": {
-        "home_win": 28.2,
-        "draw": 4.7,
-        "away_win": 67.1,
-        "home_score": 28,
-        "away_score": 38,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5255,15 +4924,8 @@
         "id": "tm_2G259FF",
         "name": "Gloucester"
       },
-      "prediction": {
-        "home_win": 65.1,
-        "draw": 5.0,
-        "away_win": 29.9,
-        "home_score": 33,
-        "away_score": 26,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5283,15 +4945,8 @@
         "id": "tm_2XG5PQN",
         "name": "Leinster"
       },
-      "prediction": {
-        "home_win": 33.5,
-        "draw": 5.4,
-        "away_win": 61.1,
-        "home_score": 29,
-        "away_score": 37,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5311,15 +4966,8 @@
         "id": "tm_0QPNGJQ",
         "name": "Glasgow Warriors"
       },
-      "prediction": {
-        "home_win": 19.5,
-        "draw": 3.4,
-        "away_win": 77.1,
-        "home_score": 22,
-        "away_score": 37,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5402,15 +5050,8 @@
         "id": "tm_2EA92SC",
         "name": "USA Perpignan"
       },
-      "prediction": {
-        "home_win": 70.3,
-        "draw": 4.3,
-        "away_win": 25.4,
-        "home_score": 31,
-        "away_score": 22,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -5451,15 +5092,8 @@
         "id": "tm_1B02ZEK",
         "name": "Stade Francais Paris"
       },
-      "prediction": {
-        "home_win": 91.2,
-        "draw": 2.0,
-        "away_win": 6.8,
-        "home_score": 49,
-        "away_score": 24,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela sezonu",
+      "prediction": null,
+      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     }
