@@ -1,6 +1,11 @@
 name: Refresh rugby fixtures
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_live_data.py'
+      - '.github/workflows/refresh-rugby-data.yml'
   workflow_dispatch:
   schedule:
     - cron: "17 */12 * * *"
