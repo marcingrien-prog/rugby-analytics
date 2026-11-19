@@ -27,6 +27,7 @@
     if($('metric-predictions')) $('metric-predictions').textContent=predicted;
     if($('metric-competitions')) $('metric-competitions').textContent=liveData?.competitions_count ?? '—';
     if($('metric-standings')) $('metric-standings').textContent=liveData?.standings_loaded ?? '—';
+    if($('metric-validated')) $('metric-validated').textContent=liveData?.validation?.settled_predictions ?? 0;
   }
   function renderFixtures() {
     const list=$('fixtures-list'), status=$('fixtures-status');
@@ -92,5 +93,5 @@
     box.addEventListener('change',()=>{currentFilter=box.value;renderFixtures();});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
-  window.RugbyAnalytics={version:'0.5.0',dataMode:'live-static-feed'};
+  window.RugbyAnalytics={version:'0.6.0',dataMode:'live-static-feed'};
 })();
