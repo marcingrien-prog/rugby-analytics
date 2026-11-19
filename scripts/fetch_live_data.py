@@ -227,6 +227,44 @@ def main() -> None:
             "away_form": away_form,
         })
 
+    # Preserve the first forecast made for each fixture, then score it when
+    # the result arrives. This creates a genuine prospective validation set.
+    prediction_path = Path("data/prediction-history.json")
+    try:
+        prediction_ledger = json.loads(prediction_path.read_text(encoding="utf-8")) if prediction_path.exists() else []
+    except (json.JSONDecodeError, OSError):
+        prediction_ledger = []
+    ledger_by_id = {x.get("id"): x for x in prediction_ledger if isinstance(x, dict) and x.get("id")}
+    for result in results_history:
+        saved = ledger_by_id.get(result.get("id"))
+        if saved and saved.get("actual") is None:
+            hs, aws = float(result["home"]["score"]), float(result["away"]["score"])
+            actual = "home" if hs > aws else ("away" if aws > hs else "draw")
+            predicted = max(("home", "draw", "away"), key=lambda k: saved["probabilities"][k])
+            target = {"home": 1.0, "draw": 1.0, "away": 1.0}
+            for key in target:
+                target[key] = 1.0 if key == actual else 0.0
+            brier = sum((saved["probabilities"][key] - target[key]) ** 2 for key in target) / 3
+            saved.update({"actual": actual, "actual_score": [hs, aws], "hit": predicted == actual, "brier": round(brier, 5)})
+    for match in enriched:
+        pred = match.get("prediction")
+        if pred and match.get("status") == "scheduled" and match.get("id") not in ledger_by_id:
+            ledger_by_id[match["id"]] = {
+                "id": match["id"], "date": match.get("date"), "competition": match.get("competition"),
+                "home": match["home"].get("name"), "away": match["away"].get("name"),
+                "probabilities": {"home": pred["home_win"] / 100, "draw": pred["draw"] / 100, "away": pred["away_win"] / 100},
+                "prediction_basis": match.get("prediction_basis"), "actual": None,
+            }
+    prediction_ledger = sorted(ledger_by_id.values(), key=lambda x: (x.get("date") or "", x.get("id") or ""))[-5000:]
+    prediction_path.parent.mkdir(parents=True, exist_ok=True)
+    prediction_path.write_text(json.dumps(prediction_ledger, ensure_ascii=False, indent=2), encoding="utf-8")
+    settled = [x for x in prediction_ledger if x.get("actual") is not None]
+    validation = {
+        "settled_predictions": len(settled),
+        "hit_rate": round(sum(1 for x in settled if x.get("hit")) / len(settled) * 100, 1) if settled else None,
+        "brier_score": round(sum(x["brier"] for x in settled) / len(settled), 4) if settled else None,
+    }
+
     enriched.sort(key=lambda item: (item.get("kickoff_utc") or item.get("date") or "", item["id"] or ""))
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -238,6 +276,7 @@ def main() -> None:
         "results_fetched": len(results_payload.get("data", [])),
         "results_history_count": len(results_history),
         "teams_with_form": len(recent_form),
+        "validation": validation,
         "rankings_as_of": rankings_payload.get("as_of"),
         "fixtures": enriched,
     }
