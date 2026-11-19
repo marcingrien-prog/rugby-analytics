@@ -1,0 +1,5036 @@
+{
+  "generated_at": "2026-11-19T05:05:37.896520+00:00",
+  "source": "rugbyAPI",
+  "window_days": 60,
+  "fixtures_count": 214,
+  "competitions_count": 51,
+  "standings_loaded": 5,
+  "rankings_as_of": "2026-09-19",
+  "fixtures": [
+    {
+      "id": "mt_0J466HC",
+      "date": "2026-11-19",
+      "kickoff_utc": "2026-11-19T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "away": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0ERV3P1",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "away": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_11CEVQM",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "away": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_133H1QC",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "away": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_20NJ5Q5",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "away": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2S6T290",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "away": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_395Y96Y",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "away": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0BNB5YW",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "away": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3RQY3Z4",
+      "date": "2026-11-26",
+      "kickoff_utc": "2026-11-26T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "away": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0K7SY9W",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "away": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0X554V8",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "away": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_130WVGQ",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "away": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_219CBQD",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "away": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_331530F",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "away": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3MEM4A4",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "away": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0BQWWAQ",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "away": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_01MH849",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": {
+        "home_win": 61.7,
+        "draw": 5.3,
+        "away_win": 33.0,
+        "home_score": 31,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_028BE4H",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "away": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "prediction": {
+        "home_win": 46.4,
+        "draw": 7.0,
+        "away_win": 46.6,
+        "home_score": 26,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_10KD3CF",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "away": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "prediction": {
+        "home_win": 63.0,
+        "draw": 5.2,
+        "away_win": 31.8,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1N7FAN0",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "away": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "prediction": {
+        "home_win": 49.4,
+        "draw": 6.7,
+        "away_win": 43.9,
+        "home_score": 31,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2XY0B64",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "away": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "prediction": {
+        "home_win": 68.8,
+        "draw": 4.5,
+        "away_win": 26.7,
+        "home_score": 32,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2Y7T635",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "away": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "prediction": {
+        "home_win": 51.4,
+        "draw": 6.5,
+        "away_win": 42.1,
+        "home_score": 28,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_36ZVXXV",
+      "date": "2026-11-28",
+      "kickoff_utc": "2026-11-28T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "away": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "prediction": {
+        "home_win": 37.1,
+        "draw": 5.9,
+        "away_win": 57.0,
+        "home_score": 30,
+        "away_score": 35,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0F3Z437",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "away": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0ZSKXHV",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "away": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1CHJVK6",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "away": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_28G4Y2Z",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "away": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2KEY24J",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "away": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3MC7MMB",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "away": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3VQ4AMT",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "away": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_18JSKGG",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 60.9,
+        "draw": 5.4,
+        "away_win": 33.7,
+        "home_score": 28,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1WQSS4B",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T19:45:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "away": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "prediction": {
+        "home_win": 51.9,
+        "draw": 6.4,
+        "away_win": 41.7,
+        "home_score": 30,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_20KE98H",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "away": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "prediction": {
+        "home_win": 33.9,
+        "draw": 5.5,
+        "away_win": 60.6,
+        "home_score": 22,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_00R4EX6",
+      "date": "2026-12-04",
+      "kickoff_utc": "2026-12-04T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "away": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0X9K8FE",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "away": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "prediction": {
+        "home_win": 65.9,
+        "draw": 4.9,
+        "away_win": 29.2,
+        "home_score": 27,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_181YYNW",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "away": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "prediction": {
+        "home_win": 53.2,
+        "draw": 6.3,
+        "away_win": 40.5,
+        "home_score": 28,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1Y6WTZ7",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "away": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "prediction": {
+        "home_win": 71.8,
+        "draw": 4.1,
+        "away_win": 24.1,
+        "home_score": 34,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_23XK6Q8",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "away": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "prediction": {
+        "home_win": 44.1,
+        "draw": 6.7,
+        "away_win": 49.2,
+        "home_score": 28,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_35GBK7G",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "away": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "prediction": {
+        "home_win": 70.1,
+        "draw": 4.3,
+        "away_win": 25.6,
+        "home_score": 36,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3JMMFT0",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "prediction": {
+        "home_win": 51.0,
+        "draw": 6.5,
+        "away_win": 42.5,
+        "home_score": 31,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3V4478C",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "away": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "prediction": {
+        "home_win": 51.4,
+        "draw": 6.5,
+        "away_win": 42.1,
+        "home_score": 30,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0PN0TYW",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T12:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "away": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "prediction": {
+        "home_win": 23.0,
+        "draw": 4.0,
+        "away_win": 73.0,
+        "home_score": 24,
+        "away_score": 38,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0SVRADR",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "away": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "prediction": {
+        "home_win": 66.4,
+        "draw": 4.8,
+        "away_win": 28.8,
+        "home_score": 30,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1W3T0WX",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "prediction": {
+        "home_win": 48.9,
+        "draw": 6.7,
+        "away_win": 44.4,
+        "home_score": 27,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3GBTWK7",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "away": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "prediction": {
+        "home_win": 77.3,
+        "draw": 3.4,
+        "away_win": 19.3,
+        "home_score": 35,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0RAE81K",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "away": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "prediction": {
+        "home_win": 37.5,
+        "draw": 5.9,
+        "away_win": 56.6,
+        "home_score": 25,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_18TARZ4",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T17:15:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "away": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "prediction": {
+        "home_win": 55.1,
+        "draw": 6.1,
+        "away_win": 38.8,
+        "home_score": 32,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0K26SXR",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 51.1,
+        "draw": 6.5,
+        "away_win": 42.4,
+        "home_score": 33,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0AP26Y0",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 62.5,
+        "draw": 5.3,
+        "away_win": 32.2,
+        "home_score": 28,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3CMNJCC",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "away": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "prediction": {
+        "home_win": 37.3,
+        "draw": 5.9,
+        "away_win": 56.8,
+        "home_score": 24,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2AWJ0F4",
+      "date": "2026-12-06",
+      "kickoff_utc": "2026-12-06T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 59.2,
+        "draw": 5.6,
+        "away_win": 35.2,
+        "home_score": 30,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_09DCQ51",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "away": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_09GYVRE",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "away": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1HKBE29",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "away": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1Y6CD72",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "away": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3BPXJNP",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "away": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3KNZB7A",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "away": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1HHGCW2",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "away": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2PEYMXE",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "away": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_231WYYC",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 17.6,
+        "draw": 3.1,
+        "away_win": 79.3,
+        "home_score": 30,
+        "away_score": 47,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2Y90YJG",
+      "date": "2026-12-11",
+      "kickoff_utc": "2026-12-11T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "away": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "prediction": {
+        "home_win": 58.5,
+        "draw": 5.7,
+        "away_win": 35.8,
+        "home_score": 32,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_00EE5XT",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "away": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0C0FDFR",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "away": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_37T1P9P",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "away": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "prediction": {
+        "home_win": 73.5,
+        "draw": 3.9,
+        "away_win": 22.6,
+        "home_score": 36,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1CXRZZH",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "prediction": {
+        "home_win": 71.5,
+        "draw": 4.2,
+        "away_win": 24.3,
+        "home_score": 39,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2JM9KG0",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "away": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "prediction": {
+        "home_win": 68.8,
+        "draw": 4.5,
+        "away_win": 26.7,
+        "home_score": 35,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_24K6HE5",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "away": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "prediction": {
+        "home_win": 65.2,
+        "draw": 4.9,
+        "away_win": 29.9,
+        "home_score": 29,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2JPQPWS",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 83.4,
+        "draw": 2.4,
+        "away_win": 14.2,
+        "home_score": 39,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3234ASY",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_32MCWV2",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0CM0QT7",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "away": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "prediction": {
+        "home_win": 28.1,
+        "draw": 4.7,
+        "away_win": 67.2,
+        "home_score": 23,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_197HX8V",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "away": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "prediction": {
+        "home_win": 35.9,
+        "draw": 5.7,
+        "away_win": 58.4,
+        "home_score": 31,
+        "away_score": 38,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1AVBXVR",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_32HPSBA",
+      "date": "2026-12-12",
+      "kickoff_utc": "2026-12-12T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "away": {
+        "id": "tm_0Q95ZA8",
+        "name": "Black Lion"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0ZKR8CX",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0ZTCJ6D",
+        "name": "Cheetahs"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 37.0,
+        "draw": 5.9,
+        "away_win": 57.1,
+        "home_score": 24,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_10T5R63",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "away": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "prediction": {
+        "home_win": 42.1,
+        "draw": 6.5,
+        "away_win": 51.4,
+        "home_score": 41,
+        "away_score": 44,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_18NQ4D4",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "away": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_01JBKV9",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "prediction": {
+        "home_win": 60.8,
+        "draw": 5.5,
+        "away_win": 33.7,
+        "home_score": 30,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2XWZEQF",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "away": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "prediction": {
+        "home_win": 76.9,
+        "draw": 3.4,
+        "away_win": 19.7,
+        "home_score": 39,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1A99GKM",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "away": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "prediction": {
+        "home_win": 53.7,
+        "draw": 6.2,
+        "away_win": 40.1,
+        "home_score": 31,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0C5VHPD",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "away": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1GR0T8X",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "away": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1VZMFQR",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "away": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1X4F7P5",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "away": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2B5E694",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "away": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3JKY27H",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "away": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3MSWS4S",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "away": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0TR7DBD",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "away": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0GRP1V8",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "away": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "prediction": {
+        "home_win": 55.2,
+        "draw": 6.1,
+        "away_win": 38.7,
+        "home_score": 30,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1V89EE0",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T19:45:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "away": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "prediction": {
+        "home_win": 49.7,
+        "draw": 6.7,
+        "away_win": 43.6,
+        "home_score": 32,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_346Z18S",
+      "date": "2026-12-18",
+      "kickoff_utc": "2026-12-18T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "away": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "prediction": {
+        "home_win": 64.5,
+        "draw": 5.0,
+        "away_win": 30.5,
+        "home_score": 31,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_09904DV",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": {
+        "home_win": 69.1,
+        "draw": 4.5,
+        "away_win": 26.4,
+        "home_score": 28,
+        "away_score": 19,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_09F40G3",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "away": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "prediction": {
+        "home_win": 39.3,
+        "draw": 6.1,
+        "away_win": 54.6,
+        "home_score": 25,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1JG45DK",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "away": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "prediction": {
+        "home_win": 57.8,
+        "draw": 5.8,
+        "away_win": 36.4,
+        "home_score": 30,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2ESQD1Y",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "away": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "prediction": {
+        "home_win": 61.3,
+        "draw": 5.4,
+        "away_win": 33.3,
+        "home_score": 35,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2G2Y6GB",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "away": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "prediction": {
+        "home_win": 53.0,
+        "draw": 6.3,
+        "away_win": 40.7,
+        "home_score": 30,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2NDGN1Q",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "away": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "prediction": {
+        "home_win": 52.5,
+        "draw": 6.4,
+        "away_win": 41.1,
+        "home_score": 33,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_30JF3WQ",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "away": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "prediction": {
+        "home_win": 44.8,
+        "draw": 6.8,
+        "away_win": 48.4,
+        "home_score": 27,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_12BFRCM",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T13:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 31.1,
+        "draw": 5.1,
+        "away_win": 63.8,
+        "home_score": 23,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1QF9MR7",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T14:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "away": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "prediction": {
+        "home_win": 80.1,
+        "draw": 2.9,
+        "away_win": 17.0,
+        "home_score": 36,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0X90DWC",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "away": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "prediction": {
+        "home_win": 68.1,
+        "draw": 4.6,
+        "away_win": 27.3,
+        "home_score": 32,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2500M6K",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 55.6,
+        "draw": 6.0,
+        "away_win": 38.4,
+        "home_score": 27,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3BG25Q2",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 69.9,
+        "draw": 4.4,
+        "away_win": 25.7,
+        "home_score": 31,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1XM13NF",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T16:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "prediction": {
+        "home_win": 39.8,
+        "draw": 6.2,
+        "away_win": 54.0,
+        "home_score": 28,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_06ADC8E",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 71.5,
+        "draw": 4.2,
+        "away_win": 24.3,
+        "home_score": 38,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3TPTT6V",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T17:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "away": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "prediction": {
+        "home_win": 63.0,
+        "draw": 5.2,
+        "away_win": 31.8,
+        "home_score": 29,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1AKDVT5",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "away": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "prediction": {
+        "home_win": 38.4,
+        "draw": 6.0,
+        "away_win": 55.6,
+        "home_score": 23,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2J3WBQA",
+      "date": "2026-12-20",
+      "kickoff_utc": "2026-12-20T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "away": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "prediction": {
+        "home_win": 68.4,
+        "draw": 4.6,
+        "away_win": 27.0,
+        "home_score": 30,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0TSZZ32",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "away": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "prediction": {
+        "home_win": 71.6,
+        "draw": 4.2,
+        "away_win": 24.2,
+        "home_score": 37,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2M49VKA",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "away": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "prediction": {
+        "home_win": 59.8,
+        "draw": 5.6,
+        "away_win": 34.6,
+        "home_score": 29,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2WKHY5J",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "prediction": {
+        "home_win": 44.5,
+        "draw": 6.8,
+        "away_win": 48.7,
+        "home_score": 32,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2X7C45T",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "away": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "prediction": {
+        "home_win": 38.4,
+        "draw": 6.0,
+        "away_win": 55.6,
+        "home_score": 24,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_33RJDME",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "away": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "prediction": {
+        "home_win": 51.0,
+        "draw": 6.5,
+        "away_win": 42.5,
+        "home_score": 29,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3M8ZFM6",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "away": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "prediction": {
+        "home_win": 72.8,
+        "draw": 4.0,
+        "away_win": 23.2,
+        "home_score": 34,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0Q2FQ5P",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "away": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "prediction": {
+        "home_win": 66.7,
+        "draw": 4.8,
+        "away_win": 28.5,
+        "home_score": 31,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2QA3R5Q",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "away": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "prediction": {
+        "home_win": 56.9,
+        "draw": 5.9,
+        "away_win": 37.2,
+        "home_score": 27,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_08R2B5F",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "away": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "prediction": {
+        "home_win": 45.1,
+        "draw": 6.8,
+        "away_win": 48.1,
+        "home_score": 30,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2K81XFX",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T15:35:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "away": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "prediction": {
+        "home_win": 43.3,
+        "draw": 6.6,
+        "away_win": 50.1,
+        "home_score": 23,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0TZ59S1",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T17:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "away": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "prediction": {
+        "home_win": 61.3,
+        "draw": 5.4,
+        "away_win": 33.3,
+        "home_score": 33,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1MPMSPV",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "prediction": {
+        "home_win": 36.5,
+        "draw": 5.8,
+        "away_win": 57.7,
+        "home_score": 23,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1KCGGAD",
+      "date": "2026-12-27",
+      "kickoff_utc": "2026-12-27T13:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "prediction": {
+        "home_win": 79.5,
+        "draw": 3.0,
+        "away_win": 17.5,
+        "home_score": 34,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3WY0BFC",
+      "date": "2026-12-27",
+      "kickoff_utc": "2026-12-27T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "away": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "prediction": {
+        "home_win": 54.2,
+        "draw": 6.2,
+        "away_win": 39.6,
+        "home_score": 26,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_152C7NQ",
+      "date": "2026-12-27",
+      "kickoff_utc": "2026-12-27T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "away": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "prediction": {
+        "home_win": 45.1,
+        "draw": 6.8,
+        "away_win": 48.1,
+        "home_score": 29,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2BRJ943",
+      "date": "2026-12-27",
+      "kickoff_utc": "2026-12-27T17:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "away": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "prediction": {
+        "home_win": 59.2,
+        "draw": 5.6,
+        "away_win": 35.2,
+        "home_score": 31,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3E2K9G8",
+      "date": "2026-12-27",
+      "kickoff_utc": "2026-12-27T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "away": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "prediction": {
+        "home_win": 36.8,
+        "draw": 5.8,
+        "away_win": 57.4,
+        "home_score": 20,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2WWKGM3",
+      "date": "2026-12-28",
+      "kickoff_utc": "2026-12-28T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 38.4,
+        "draw": 6.0,
+        "away_win": 55.6,
+        "home_score": 29,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2MV6JQH",
+      "date": "2027-01-01",
+      "kickoff_utc": "2027-01-01T19:45:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "away": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "prediction": {
+        "home_win": 68.7,
+        "draw": 4.5,
+        "away_win": 26.8,
+        "home_score": 30,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0K72A39",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": {
+        "home_win": 63.7,
+        "draw": 5.1,
+        "away_win": 31.2,
+        "home_score": 30,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1SWWB61",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "away": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "prediction": {
+        "home_win": 65.9,
+        "draw": 4.9,
+        "away_win": 29.2,
+        "home_score": 35,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2CS6B7D",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "away": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "prediction": {
+        "home_win": 72.9,
+        "draw": 4.0,
+        "away_win": 23.1,
+        "home_score": 36,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_35PH4MN",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "away": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "prediction": {
+        "home_win": 48.3,
+        "draw": 6.8,
+        "away_win": 44.9,
+        "home_score": 26,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_36ABAMX",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "away": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "prediction": {
+        "home_win": 47.0,
+        "draw": 6.9,
+        "away_win": 46.1,
+        "home_score": 29,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3V1H4HP",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T00:00:00Z",
+      "status": "scheduled",
+      "competition": "Top 14",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "away": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "prediction": {
+        "home_win": 61.4,
+        "draw": 5.4,
+        "away_win": 33.2,
+        "home_score": 30,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_04FKKAP",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 41.5,
+        "draw": 6.4,
+        "away_win": 52.1,
+        "home_score": 29,
+        "away_score": 33,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2WH07WA",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "away": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "prediction": {
+        "home_win": 26.1,
+        "draw": 4.4,
+        "away_win": 69.5,
+        "home_score": 24,
+        "away_score": 35,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_333RHMB",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T15:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "prediction": {
+        "home_win": 74.8,
+        "draw": 3.7,
+        "away_win": 21.5,
+        "home_score": 33,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2AQGJRX",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "away": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "prediction": {
+        "home_win": 61.2,
+        "draw": 5.4,
+        "away_win": 33.4,
+        "home_score": 34,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1WC2JSJ",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:15:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "away": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "prediction": {
+        "home_win": 49.0,
+        "draw": 6.7,
+        "away_win": 44.3,
+        "home_score": 25,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_05AN1AY",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 60.6,
+        "draw": 5.5,
+        "away_win": 33.9,
+        "home_score": 26,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0EHVC65",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "away": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "prediction": {
+        "home_win": 58.1,
+        "draw": 5.8,
+        "away_win": 36.1,
+        "home_score": 30,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_37V2QCA",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 72.3,
+        "draw": 4.1,
+        "away_win": 23.6,
+        "home_score": 34,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3GCJGST",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:30:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "away": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "prediction": {
+        "home_win": 65.4,
+        "draw": 4.9,
+        "away_win": 29.7,
+        "home_score": 29,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1DGKR86",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T19:45:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "away": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "prediction": {
+        "home_win": 77.9,
+        "draw": 3.3,
+        "away_win": 18.8,
+        "home_score": 34,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3E9BTQZ",
+      "date": "2027-01-03",
+      "kickoff_utc": "2027-01-03T14:00:00Z",
+      "status": "scheduled",
+      "competition": "United Rugby Championship",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "away": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "prediction": {
+        "home_win": 46.5,
+        "draw": 7.0,
+        "away_win": 46.5,
+        "home_score": 30,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3ZGG8TY",
+      "date": "2027-01-03",
+      "kickoff_utc": "2027-01-03T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership Rugby",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 69.0,
+        "draw": 4.5,
+        "away_win": 26.5,
+        "home_score": 35,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0Z767Z8",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "away": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1PG8WFG",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "away": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1ZBZSK4",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "away": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_264HEGM",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "away": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2FWGZ1R",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "away": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2PDQ8GC",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "away": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_35X0920",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "away": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3E6TRSS",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "away": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_11NXMJB",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_16XRDYJ",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1A4SFP0",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1HXSXVG",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1PBBDT6",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1Q1YHVH",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1T1VVB3",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_28N50GR",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2P7VZ50",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "away": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "prediction": {
+        "home_win": 79.2,
+        "draw": 3.1,
+        "away_win": 17.7,
+        "home_score": 38,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2TY6R6R",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2V7D8N9",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3GCKZ1R",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3GNFQA5",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "away": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "prediction": {
+        "home_win": 69.8,
+        "draw": 4.4,
+        "away_win": 25.8,
+        "home_score": 31,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3NQHKMF",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "placeholder",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 6.0,
+        "away_win": 37.7,
+        "home_score": 16,
+        "away_score": 14,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_02FBF4V",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "away": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_08AX8RS",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_0Q8QY0W",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "away": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "prediction": {
+        "home_win": 49.0,
+        "draw": 6.7,
+        "away_win": 44.3,
+        "home_score": 31,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3FK1F3F",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "away": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_05Q4WCY",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "away": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "prediction": {
+        "home_win": 51.1,
+        "draw": 6.5,
+        "away_win": 42.4,
+        "home_score": 36,
+        "away_score": 35,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0956RJ8",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "away": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "prediction": {
+        "home_win": 71.3,
+        "draw": 4.2,
+        "away_win": 24.5,
+        "home_score": 38,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_063KPYA",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "away": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "prediction": {
+        "home_win": 56.2,
+        "draw": 6.0,
+        "away_win": 37.8,
+        "home_score": 33,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_384AVA6",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 70.7,
+        "draw": 4.3,
+        "away_win": 25.0,
+        "home_score": 36,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1EGSNVJ",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "away": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1K9CFH0",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "away": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2RM99VB",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "away": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "prediction": {
+        "home_win": 34.9,
+        "draw": 5.6,
+        "away_win": 59.5,
+        "home_score": 27,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1FNW6ZC",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "prediction": {
+        "home_win": 21.6,
+        "draw": 3.7,
+        "away_win": 74.7,
+        "home_score": 20,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2VFB6E8",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "away": {
+        "id": "tm_0Q95ZA8",
+        "name": "Black Lion"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3E660CQ",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "away": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "prediction": {
+        "home_win": 65.8,
+        "draw": 4.9,
+        "away_win": 29.3,
+        "home_score": 38,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1RVTF9Z",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "away": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "prediction": {
+        "home_win": 75.6,
+        "draw": 3.6,
+        "away_win": 20.8,
+        "home_score": 37,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_2HFGF8K",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "away": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "prediction": {
+        "home_win": 29.1,
+        "draw": 4.8,
+        "away_win": 66.1,
+        "home_score": 20,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1RNKHDD",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "prediction": {
+        "home_win": 63.6,
+        "draw": 5.1,
+        "away_win": 31.3,
+        "home_score": 35,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1YVT0ZM",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "away": {
+        "id": "tm_0ZTCJ6D",
+        "name": "Cheetahs"
+      },
+      "prediction": {
+        "home_win": 37.6,
+        "draw": 5.9,
+        "away_win": 56.5,
+        "home_score": 28,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0048JTV",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "away": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_18A79R3",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "away": {
+        "id": "tm_2JPCFNS",
+        "name": "Biarritz Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1DMSR9F",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1SV4K8X",
+        "name": "US Dax"
+      },
+      "away": {
+        "id": "tm_01V3HMS",
+        "name": "Angouleme"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2FYW7XW",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0NTKB7H",
+        "name": "Nevers"
+      },
+      "away": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_2SDYS6Z",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
+      },
+      "away": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_34V8NQ7",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "away": {
+        "id": "tm_02EKCKP",
+        "name": "Grenoble FC"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3MFH7RB",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "away": {
+        "id": "tm_2ZKXEJB",
+        "name": "Provence Rugby"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3Q8029Q",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "away": {
+        "id": "tm_3CWTAY8",
+        "name": "Narbonne"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_02S6ABS",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "away": {
+        "id": "tm_0FWX7QJ",
+        "name": "Bulls"
+      },
+      "prediction": {
+        "home_win": 53.9,
+        "draw": 6.2,
+        "away_win": 39.9,
+        "home_score": 38,
+        "away_score": 36,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0YEXGEG",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "away": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3FYJ8AN",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_179VXFK",
+        "name": "Cardiff Rugby"
+      },
+      "away": {
+        "id": "tm_2QWN0R8",
+        "name": "Montpellier"
+      },
+      "prediction": {
+        "home_win": 21.4,
+        "draw": 3.7,
+        "away_win": 74.9,
+        "home_score": 16,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1KB12W1",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XJ6QW4",
+        "name": "Pau"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 83.5,
+        "draw": 2.3,
+        "away_win": 14.2,
+        "home_score": 41,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_1TFMFWW",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "away": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "prediction": {
+        "home_win": 78.3,
+        "draw": 3.2,
+        "away_win": 18.5,
+        "home_score": 38,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3MCARZE",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T13:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3M68FPT",
+        "name": "Lions"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 76.9,
+        "draw": 3.4,
+        "away_win": 19.7,
+        "home_score": 40,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_10AX7GT",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2SF953S",
+        "name": "Bristol"
+      },
+      "away": {
+        "id": "tm_2V0SRR1",
+        "name": "Bordeaux Begles"
+      },
+      "prediction": {
+        "home_win": 19.6,
+        "draw": 3.4,
+        "away_win": 77.0,
+        "home_score": 28,
+        "away_score": 43,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_16127WP",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3KFPVP6",
+        "name": "Stormers"
+      },
+      "away": {
+        "id": "tm_0QS8K9D",
+        "name": "Racing 92"
+      },
+      "prediction": {
+        "home_win": 65.8,
+        "draw": 4.9,
+        "away_win": 29.3,
+        "home_score": 35,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_17Q2C8F",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 60.8,
+        "draw": 5.5,
+        "away_win": 33.7,
+        "home_score": 30,
+        "away_score": 25,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_3Y7CY8Y",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "away": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1GG50RQ",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1ZVKGRW",
+        "name": "Benetton"
+      },
+      "away": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_1QKVYE2",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0WZX95E",
+        "name": "Stade Rochelais"
+      },
+      "away": {
+        "id": "tm_1ZZ7A6N",
+        "name": "Connacht"
+      },
+      "prediction": {
+        "home_win": 28.2,
+        "draw": 4.7,
+        "away_win": 67.1,
+        "home_score": 28,
+        "away_score": 38,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_20FF0HG",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_344015A",
+        "name": "Munster"
+      },
+      "away": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "prediction": {
+        "home_win": 65.1,
+        "draw": 5.0,
+        "away_win": 29.9,
+        "home_score": 33,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_05NRKZN",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_2XG5PQN",
+        "name": "Leinster"
+      },
+      "prediction": {
+        "home_win": 33.5,
+        "draw": 5.4,
+        "away_win": 61.1,
+        "home_score": 29,
+        "away_score": 37,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_0QXXHFW",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T20:00:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2N4666W",
+        "name": "Clermont"
+      },
+      "away": {
+        "id": "tm_0QPNGJQ",
+        "name": "Glasgow Warriors"
+      },
+      "prediction": {
+        "home_win": 19.5,
+        "draw": 3.4,
+        "away_win": 77.1,
+        "home_score": 22,
+        "away_score": 37,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_110W073",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "away": {
+        "id": "tm_1ZDY5V0",
+        "name": "Vannes"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_39TAZNZ",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3XANJDG",
+        "name": "Lyon"
+      },
+      "away": {
+        "id": "tm_2DN807Y",
+        "name": "Falcons"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_3A6ST7B",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0Q95ZA8",
+        "name": "Black Lion"
+      },
+      "away": {
+        "id": "tm_228XDAM",
+        "name": "Edinburgh"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_08155P7",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0ZTCJ6D",
+        "name": "Cheetahs"
+      },
+      "away": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "prediction": {
+        "home_win": 70.3,
+        "draw": 4.3,
+        "away_win": 25.4,
+        "home_score": 31,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    },
+    {
+      "id": "mt_270NA04",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T15:15:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0JZD9XK",
+        "name": "Stade Toulousain"
+      },
+      "away": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "prediction": null,
+      "prediction_basis": null
+    },
+    {
+      "id": "mt_069JSZX",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T17:30:00Z",
+      "status": "scheduled",
+      "competition": "European Rugby Champions Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "away": {
+        "id": "tm_1B02ZEK",
+        "name": "Stade Francais Paris"
+      },
+      "prediction": {
+        "home_win": 91.2,
+        "draw": 2.0,
+        "away_win": 6.8,
+        "home_score": 49,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela bieżącego sezonu"
+    }
+  ]
+}
