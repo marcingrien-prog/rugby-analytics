@@ -38,8 +38,10 @@
     if(!visible.length){list.innerHTML='<div class="panel empty-state"><h3>Brak spotkań</h3><p>Nie znaleziono meczów dla wybranego filtra.</p></div>';return;}
     list.innerHTML=visible.map(m=>{
       const p=m.prediction;
+      const formLine=f=>f&&f.sequence?'<p class="fixture-form">Forma: <b>'+esc(f.sequence)+'</b> · '+esc(f.points_for_avg)+' pkt zdobytych / '+esc(f.points_against_avg)+' straconych</p>':'';
       const analysis=p?'<div class="fixture-prob"><div><b>'+p.home_win+'%</b><span>Wygrana gospodarzy</span></div><div><b>'+p.draw+'%</b><span>Remis</span></div><div><b>'+p.away_win+'%</b><span>Wygrana gości</span></div></div><p class="fixture-basis">Podstawa: '+esc(m.prediction_basis||'dane bieżące')+(p.home_score!==null&&p.away_score!==null?' · wynik orientacyjny: '+p.home_score+'–'+p.away_score:'')+'</p>':'<p class="fixture-basis no-prediction">Brak wystarczających danych dla obu drużyn – prognoza nie jest wyliczana.</p>';
-      return '<article class="fixture-card"><div class="fixture-meta"><span>'+esc(m.competition)+'</span><time>'+formatDate(m)+'</time></div><div class="fixture-teams"><div><small>GOSPODARZE</small><strong>'+esc(m.home?.name)+'</strong></div><span class="fixture-vs">VS</span><div class="away"><small>GOŚCIE</small><strong>'+esc(m.away?.name)+'</strong></div></div>'+analysis+'</article>';
+      const formHtml='<div class="fixture-forms">'+formLine(m.home_form)+formLine(m.away_form)+'</div>';
+      return '<article class="fixture-card"><div class="fixture-meta"><span>'+esc(m.competition)+'</span><time>'+formatDate(m)+'</time></div><div class="fixture-teams"><div><small>GOSPODARZE</small><strong>'+esc(m.home?.name)+'</strong></div><span class="fixture-vs">VS</span><div class="away"><small>GOŚCIE</small><strong>'+esc(m.away?.name)+'</strong></div></div>'+analysis+formHtml+'</article>';
     }).join('');
   }
   function populatePredictor() {
@@ -90,5 +92,5 @@
     box.addEventListener('change',()=>{currentFilter=box.value;renderFixtures();});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
-  window.RugbyAnalytics={version:'0.4.0',dataMode:'live-static-feed'};
+  window.RugbyAnalytics={version:'0.5.0',dataMode:'live-static-feed'};
 })();
