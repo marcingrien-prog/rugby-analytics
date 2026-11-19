@@ -1,10 +1,13 @@
 {
-  "generated_at": "2026-11-19T05:05:37.896520+00:00",
+  "generated_at": "2026-11-19T05:35:35.319799+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 214,
   "competitions_count": 51,
   "standings_loaded": 5,
+  "results_fetched": 0,
+  "results_history_count": 0,
+  "teams_with_form": 0,
   "rankings_as_of": "2026-09-19",
   "fixtures": [
     {
@@ -24,7 +27,9 @@
         "name": "Provence Rugby"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0ERV3P1",
@@ -43,7 +48,9 @@
         "name": "Agen"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_11CEVQM",
@@ -62,7 +69,9 @@
         "name": "Angouleme"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_133H1QC",
@@ -81,7 +90,9 @@
         "name": "Colomiers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_20NJ5Q5",
@@ -100,7 +111,9 @@
         "name": "Valence Romans"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2S6T290",
@@ -119,7 +132,9 @@
         "name": "CA Brive"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_395Y96Y",
@@ -138,7 +153,9 @@
         "name": "US Dax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0BNB5YW",
@@ -157,7 +174,9 @@
         "name": "Narbonne"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3RQY3Z4",
@@ -176,7 +195,9 @@
         "name": "Biarritz Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0K7SY9W",
@@ -195,7 +216,9 @@
         "name": "Aurillac"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0X554V8",
@@ -214,7 +237,9 @@
         "name": "Nice"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_130WVGQ",
@@ -233,7 +258,9 @@
         "name": "Nevers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_219CBQD",
@@ -252,7 +279,9 @@
         "name": "Beziers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_331530F",
@@ -271,7 +300,9 @@
         "name": "US Oyonnax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3MEM4A4",
@@ -290,7 +321,9 @@
         "name": "Montauban"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0BQWWAQ",
@@ -309,7 +342,9 @@
         "name": "Grenoble FC"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_01MH849",
@@ -335,7 +370,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_028BE4H",
@@ -361,7 +398,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_10KD3CF",
@@ -387,7 +426,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1N7FAN0",
@@ -413,7 +454,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2XY0B64",
@@ -439,7 +482,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2Y7T635",
@@ -465,7 +510,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_36ZVXXV",
@@ -491,7 +538,9 @@
         "away_score": 35,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0F3Z437",
@@ -510,7 +559,9 @@
         "name": "Valence Romans"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0ZSKXHV",
@@ -529,7 +580,9 @@
         "name": "Colomiers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1CHJVK6",
@@ -548,7 +601,9 @@
         "name": "CA Brive"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_28G4Y2Z",
@@ -567,7 +622,9 @@
         "name": "Angouleme"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2KEY24J",
@@ -586,7 +643,9 @@
         "name": "Provence Rugby"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3MC7MMB",
@@ -605,7 +664,9 @@
         "name": "US Dax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3VQ4AMT",
@@ -624,7 +685,9 @@
         "name": "Grenoble FC"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_18JSKGG",
@@ -650,7 +713,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1WQSS4B",
@@ -676,7 +741,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_20KE98H",
@@ -702,7 +769,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_00R4EX6",
@@ -721,7 +790,9 @@
         "name": "Agen"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0X9K8FE",
@@ -747,7 +818,9 @@
         "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_181YYNW",
@@ -773,7 +846,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1Y6WTZ7",
@@ -799,7 +874,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_23XK6Q8",
@@ -825,7 +902,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_35GBK7G",
@@ -851,7 +930,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3JMMFT0",
@@ -877,7 +958,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3V4478C",
@@ -903,7 +986,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0PN0TYW",
@@ -929,7 +1014,9 @@
         "away_score": 38,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0SVRADR",
@@ -955,7 +1042,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1W3T0WX",
@@ -981,7 +1070,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3GBTWK7",
@@ -1007,7 +1098,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0RAE81K",
@@ -1033,7 +1126,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_18TARZ4",
@@ -1059,7 +1154,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0K26SXR",
@@ -1085,7 +1182,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0AP26Y0",
@@ -1111,7 +1210,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3CMNJCC",
@@ -1137,7 +1238,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2AWJ0F4",
@@ -1163,7 +1266,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_09DCQ51",
@@ -1182,7 +1287,9 @@
         "name": "Aurillac"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_09GYVRE",
@@ -1201,7 +1308,9 @@
         "name": "Biarritz Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1HKBE29",
@@ -1220,7 +1329,9 @@
         "name": "Nevers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1Y6CD72",
@@ -1239,7 +1350,9 @@
         "name": "CA Brive"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3BPXJNP",
@@ -1258,7 +1371,9 @@
         "name": "Beziers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3KNZB7A",
@@ -1277,7 +1392,9 @@
         "name": "Montauban"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1HHGCW2",
@@ -1296,7 +1413,9 @@
         "name": "Narbonne"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2PEYMXE",
@@ -1315,7 +1434,9 @@
         "name": "US Oyonnax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_231WYYC",
@@ -1341,7 +1462,9 @@
         "away_score": 47,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2Y90YJG",
@@ -1367,7 +1490,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_00EE5XT",
@@ -1386,7 +1511,9 @@
         "name": "Harlequins"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0C0FDFR",
@@ -1405,7 +1532,9 @@
         "name": "Stade Toulousain"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_37T1P9P",
@@ -1431,7 +1560,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1CXRZZH",
@@ -1457,7 +1588,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2JM9KG0",
@@ -1483,7 +1616,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_24K6HE5",
@@ -1509,7 +1644,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2JPQPWS",
@@ -1535,7 +1672,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3234ASY",
@@ -1554,7 +1693,9 @@
         "name": "Scarlets"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_32MCWV2",
@@ -1573,7 +1714,9 @@
         "name": "Lyon"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0CM0QT7",
@@ -1599,7 +1742,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_197HX8V",
@@ -1625,7 +1770,9 @@
         "away_score": 38,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1AVBXVR",
@@ -1644,7 +1791,9 @@
         "name": "Castres Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_32HPSBA",
@@ -1663,7 +1812,9 @@
         "name": "Black Lion"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0ZKR8CX",
@@ -1689,7 +1840,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_10T5R63",
@@ -1715,7 +1868,9 @@
         "away_score": 44,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_18NQ4D4",
@@ -1734,7 +1889,9 @@
         "name": "Edinburgh"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_01JBKV9",
@@ -1760,7 +1917,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2XWZEQF",
@@ -1786,7 +1945,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1A99GKM",
@@ -1812,7 +1973,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0C5VHPD",
@@ -1831,7 +1994,9 @@
         "name": "Agen"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1GR0T8X",
@@ -1850,7 +2015,9 @@
         "name": "Angouleme"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1VZMFQR",
@@ -1869,7 +2036,9 @@
         "name": "Biarritz Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1X4F7P5",
@@ -1888,7 +2057,9 @@
         "name": "Provence Rugby"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2B5E694",
@@ -1907,7 +2078,9 @@
         "name": "Grenoble FC"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3JKY27H",
@@ -1926,7 +2099,9 @@
         "name": "Colomiers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3MSWS4S",
@@ -1945,7 +2120,9 @@
         "name": "Nice"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0TR7DBD",
@@ -1964,7 +2141,9 @@
         "name": "Narbonne"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0GRP1V8",
@@ -1990,7 +2169,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1V89EE0",
@@ -2016,7 +2197,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_346Z18S",
@@ -2042,7 +2225,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_09904DV",
@@ -2068,7 +2253,9 @@
         "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_09F40G3",
@@ -2094,7 +2281,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1JG45DK",
@@ -2120,7 +2309,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2ESQD1Y",
@@ -2146,7 +2337,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2G2Y6GB",
@@ -2172,7 +2365,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2NDGN1Q",
@@ -2198,7 +2393,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_30JF3WQ",
@@ -2224,7 +2421,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_12BFRCM",
@@ -2250,7 +2449,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1QF9MR7",
@@ -2276,7 +2477,9 @@
         "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0X90DWC",
@@ -2302,7 +2505,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2500M6K",
@@ -2328,7 +2533,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3BG25Q2",
@@ -2354,7 +2561,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1XM13NF",
@@ -2380,7 +2589,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_06ADC8E",
@@ -2406,7 +2617,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3TPTT6V",
@@ -2432,7 +2645,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1AKDVT5",
@@ -2458,7 +2673,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2J3WBQA",
@@ -2484,7 +2701,9 @@
         "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0TSZZ32",
@@ -2510,7 +2729,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2M49VKA",
@@ -2536,7 +2757,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2WKHY5J",
@@ -2562,7 +2785,9 @@
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2X7C45T",
@@ -2588,7 +2813,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_33RJDME",
@@ -2614,7 +2841,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3M8ZFM6",
@@ -2640,7 +2869,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0Q2FQ5P",
@@ -2666,7 +2897,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2QA3R5Q",
@@ -2692,7 +2925,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_08R2B5F",
@@ -2718,7 +2953,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2K81XFX",
@@ -2744,7 +2981,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0TZ59S1",
@@ -2770,7 +3009,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1MPMSPV",
@@ -2796,7 +3037,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1KCGGAD",
@@ -2822,7 +3065,9 @@
         "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3WY0BFC",
@@ -2848,7 +3093,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_152C7NQ",
@@ -2874,7 +3121,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2BRJ943",
@@ -2900,7 +3149,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3E2K9G8",
@@ -2926,7 +3177,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2WWKGM3",
@@ -2952,7 +3205,9 @@
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2MV6JQH",
@@ -2978,7 +3233,9 @@
         "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0K72A39",
@@ -3004,7 +3261,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1SWWB61",
@@ -3030,7 +3289,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2CS6B7D",
@@ -3056,7 +3317,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_35PH4MN",
@@ -3082,7 +3345,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_36ABAMX",
@@ -3108,7 +3373,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3V1H4HP",
@@ -3134,7 +3401,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_04FKKAP",
@@ -3160,7 +3429,9 @@
         "away_score": 33,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2WH07WA",
@@ -3186,7 +3457,9 @@
         "away_score": 35,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_333RHMB",
@@ -3212,7 +3485,9 @@
         "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2AQGJRX",
@@ -3238,7 +3513,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1WC2JSJ",
@@ -3264,7 +3541,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_05AN1AY",
@@ -3290,7 +3569,9 @@
         "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0EHVC65",
@@ -3316,7 +3597,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_37V2QCA",
@@ -3342,7 +3625,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3GCJGST",
@@ -3368,7 +3653,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1DGKR86",
@@ -3394,7 +3681,9 @@
         "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3E9BTQZ",
@@ -3420,7 +3709,9 @@
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3ZGG8TY",
@@ -3446,7 +3737,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0Z767Z8",
@@ -3465,7 +3758,9 @@
         "name": "Beziers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1PG8WFG",
@@ -3484,7 +3779,9 @@
         "name": "Valence Romans"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1ZBZSK4",
@@ -3503,7 +3800,9 @@
         "name": "US Oyonnax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_264HEGM",
@@ -3522,7 +3821,9 @@
         "name": "Aurillac"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2FWGZ1R",
@@ -3541,7 +3842,9 @@
         "name": "CA Brive"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2PDQ8GC",
@@ -3560,7 +3863,9 @@
         "name": "US Dax"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_35X0920",
@@ -3579,7 +3884,9 @@
         "name": "Nevers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3E6TRSS",
@@ -3598,7 +3905,9 @@
         "name": "Montauban"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_11NXMJB",
@@ -3624,7 +3933,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_16XRDYJ",
@@ -3650,7 +3961,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1A4SFP0",
@@ -3676,7 +3989,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1HXSXVG",
@@ -3702,7 +4017,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1PBBDT6",
@@ -3728,7 +4045,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1Q1YHVH",
@@ -3747,7 +4066,9 @@
         "name": "Benetton"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1T1VVB3",
@@ -3773,7 +4094,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_28N50GR",
@@ -3799,7 +4122,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2P7VZ50",
@@ -3825,7 +4150,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2TY6R6R",
@@ -3851,7 +4178,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2V7D8N9",
@@ -3877,7 +4206,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3GCKZ1R",
@@ -3903,7 +4234,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3GNFQA5",
@@ -3929,7 +4262,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3NQHKMF",
@@ -3955,7 +4290,9 @@
         "away_score": 14,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_02FBF4V",
@@ -3974,7 +4311,9 @@
         "name": "Ospreys"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_08AX8RS",
@@ -3993,7 +4332,9 @@
         "name": "Castres Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0Q8QY0W",
@@ -4019,7 +4360,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3FK1F3F",
@@ -4038,7 +4381,9 @@
         "name": "Harlequins"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_05Q4WCY",
@@ -4064,7 +4409,9 @@
         "away_score": 35,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0956RJ8",
@@ -4090,7 +4437,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_063KPYA",
@@ -4116,7 +4465,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_384AVA6",
@@ -4142,7 +4493,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1EGSNVJ",
@@ -4161,7 +4514,9 @@
         "name": "Stade Toulousain"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1K9CFH0",
@@ -4180,7 +4535,9 @@
         "name": "Lyon"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2RM99VB",
@@ -4206,7 +4563,9 @@
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1FNW6ZC",
@@ -4232,7 +4591,9 @@
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2VFB6E8",
@@ -4251,7 +4612,9 @@
         "name": "Black Lion"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3E660CQ",
@@ -4277,7 +4640,9 @@
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1RVTF9Z",
@@ -4303,7 +4668,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2HFGF8K",
@@ -4329,7 +4696,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1RNKHDD",
@@ -4355,7 +4724,9 @@
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1YVT0ZM",
@@ -4381,7 +4752,9 @@
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0048JTV",
@@ -4400,7 +4773,9 @@
         "name": "Colomiers"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_18A79R3",
@@ -4419,7 +4794,9 @@
         "name": "Biarritz Olympique"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1DMSR9F",
@@ -4438,7 +4815,9 @@
         "name": "Angouleme"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2FYW7XW",
@@ -4457,7 +4836,9 @@
         "name": "Nice"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_2SDYS6Z",
@@ -4476,7 +4857,9 @@
         "name": "Agen"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_34V8NQ7",
@@ -4495,7 +4878,9 @@
         "name": "Grenoble FC"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3MFH7RB",
@@ -4514,7 +4899,9 @@
         "name": "Provence Rugby"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3Q8029Q",
@@ -4533,7 +4920,9 @@
         "name": "Narbonne"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_02S6ABS",
@@ -4559,7 +4948,9 @@
         "away_score": 36,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0YEXGEG",
@@ -4578,7 +4969,9 @@
         "name": "RC Toulonnais"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3FYJ8AN",
@@ -4604,7 +4997,9 @@
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1KB12W1",
@@ -4630,7 +5025,9 @@
         "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1TFMFWW",
@@ -4656,7 +5053,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3MCARZE",
@@ -4682,7 +5081,9 @@
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_10AX7GT",
@@ -4708,7 +5109,9 @@
         "away_score": 43,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_16127WP",
@@ -4734,7 +5137,9 @@
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_17Q2C8F",
@@ -4760,7 +5165,9 @@
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3Y7CY8Y",
@@ -4779,7 +5186,9 @@
         "name": "Scarlets"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1GG50RQ",
@@ -4798,7 +5207,9 @@
         "name": "Sharks"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_1QKVYE2",
@@ -4824,7 +5235,9 @@
         "away_score": 38,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_20FF0HG",
@@ -4850,7 +5263,9 @@
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_05NRKZN",
@@ -4876,7 +5291,9 @@
         "away_score": 37,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_0QXXHFW",
@@ -4902,7 +5319,9 @@
         "away_score": 37,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_110W073",
@@ -4921,7 +5340,9 @@
         "name": "Vannes"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_39TAZNZ",
@@ -4940,7 +5361,9 @@
         "name": "Falcons"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_3A6ST7B",
@@ -4959,7 +5382,9 @@
         "name": "Edinburgh"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_08155P7",
@@ -4985,7 +5410,9 @@
         "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_270NA04",
@@ -5004,7 +5431,9 @@
         "name": "Saracens"
       },
       "prediction": null,
-      "prediction_basis": null
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
     },
     {
       "id": "mt_069JSZX",
@@ -5030,7 +5459,9 @@
         "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela bieżącego sezonu"
+      "prediction_basis": "tabela sezonu",
+      "home_form": null,
+      "away_form": null
     }
   ]
 }
