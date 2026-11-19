@@ -52,6 +52,47 @@ def main() -> None:
     if not isinstance(fixtures, list):
         raise RuntimeError("Fixtures response has no data array")
 
+    # Keep an incremental local archive of the free API's rolling results feed.
+    results_payload = api_get("/results", key)
+    history_path = Path("data/results-history.json")
+    try:
+        history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
+    except (json.JSONDecodeError, OSError):
+        history = []
+    by_match = {m.get("id"): m for m in history if isinstance(m, dict) and m.get("id")}
+    for match in results_payload.get("data", []):
+        if not isinstance(match, dict) or match.get("status") != "finished":
+            continue
+        h, a = match.get("home") or {}, match.get("away") or {}
+        if h.get("id") and a.get("id") and h.get("score") is not None and a.get("score") is not None:
+            by_match[match.get("id")] = {
+                "id": match.get("id"), "date": match.get("date"),
+                "competition": (match.get("competition") or {}).get("name", "Rugby"),
+                "home": {"id": h.get("id"), "name": h.get("name"), "score": h.get("score")},
+                "away": {"id": a.get("id"), "name": a.get("name"), "score": a.get("score")},
+            }
+    results_history = sorted(by_match.values(), key=lambda x: (x.get("date") or "", x.get("id") or ""))[-2000:]
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(json.dumps(results_history, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    team_games = {}
+    for result in results_history:
+        h, a = result["home"], result["away"]
+        hs, aws = float(h["score"]), float(a["score"])
+        team_games.setdefault(h["id"], []).append({"date": result.get("date"), "opponent": a.get("name"), "venue": "H", "scored": hs, "conceded": aws, "outcome": "W" if hs > aws else ("D" if hs == aws else "L")})
+        team_games.setdefault(a["id"], []).append({"date": result.get("date"), "opponent": h.get("name"), "venue": "A", "scored": aws, "conceded": hs, "outcome": "W" if aws > hs else ("D" if hs == aws else "L")})
+    recent_form = {}
+    for team_id, games in team_games.items():
+        last = sorted(games, key=lambda x: x.get("date") or "", reverse=True)[:5]
+        if last:
+            recent_form[team_id] = {
+                "sequence": "".join(x["outcome"] for x in last), "played": len(last),
+                "points_for_avg": round(sum(x["scored"] for x in last) / len(last), 1),
+                "points_against_avg": round(sum(x["conceded"] for x in last) / len(last), 1),
+                "points_diff_avg": round(sum(x["scored"] - x["conceded"] for x in last) / len(last), 1),
+                "results": last,
+            }
+
     # League tables are free for the current season. Limit calls to keep
     # comfortably inside the free key's daily allowance.
     season_ids = []
@@ -116,18 +157,19 @@ def main() -> None:
         away_stats = standings_lookup.get((season_id, away["id"]))
         prediction = None
         basis = None
+        home_form = recent_form.get(home["id"])
+        away_form = recent_form.get(away["id"])
 
         if home_stats and away_stats:
             home_expected = (home_stats["points_for_avg"] + away_stats["points_against_avg"]) / 2 + 3.0
             away_expected = (away_stats["points_for_avg"] + home_stats["points_against_avg"]) / 2
             # Score-margin proxy combines attack/defence and table strength.
-            strength_gap = (
+            table_gap = (
                 (home_stats["points_difference_avg"] - away_stats["points_difference_avg"]) * 0.35
-                + (home_stats["points"] - away_stats["points"]) / max(
-                    1, home_stats["played"] + away_stats["played"]
-                ) * 0.20
-                + 3.0
+                + (home_stats["points"] - away_stats["points"]) / max(1, home_stats["played"] + away_stats["played"]) * 0.20
             )
+            form_gap = (home_form["points_diff_avg"] - away_form["points_diff_avg"]) * 0.20 if home_form and away_form else 0.0
+            strength_gap = table_gap + form_gap + 3.0
             p_home = logistic(strength_gap / 7.5)
             prediction = {
                 "home_win": round(p_home * 100, 1),
@@ -143,7 +185,15 @@ def main() -> None:
             total = prediction["home_win"] + prediction["away_win"]
             prediction["home_win"] = round(remaining * prediction["home_win"] / total, 1)
             prediction["away_win"] = round(100 - draw - prediction["home_win"], 1)
-            basis = "tabela bieżącego sezonu"
+            basis = "tabela sezonu" + (" + forma z ostatnich 5 meczów" if home_form and away_form else "")
+        elif home_form and away_form:
+            form_gap = (home_form["points_diff_avg"] - away_form["points_diff_avg"]) * 0.22 + 3.0
+            p_home = logistic(form_gap / 8.5)
+            home_expected = (home_form["points_for_avg"] + away_form["points_against_avg"]) / 2 + 2.5
+            away_expected = (away_form["points_for_avg"] + home_form["points_against_avg"]) / 2
+            draw = 5.0
+            prediction = {"home_win": round((100-draw)*p_home, 1), "draw": draw, "away_win": round(100-draw-(100-draw)*p_home, 1), "home_score": round(home_expected), "away_score": round(away_expected), "confidence": "niska"}
+            basis = "forma z ostatnich 5 meczów"
         else:
             h_rank = national_ratings.get(home["id"])
             a_rank = national_ratings.get(away["id"])
@@ -173,6 +223,8 @@ def main() -> None:
             "away": {"id": away.get("id"), "name": away.get("name")},
             "prediction": prediction,
             "prediction_basis": basis,
+            "home_form": home_form,
+            "away_form": away_form,
         })
 
     enriched.sort(key=lambda item: (item.get("kickoff_utc") or item.get("date") or "", item["id"] or ""))
@@ -183,6 +235,9 @@ def main() -> None:
         "fixtures_count": len(enriched),
         "competitions_count": len(competitions),
         "standings_loaded": len(standings_by_season),
+        "results_fetched": len(results_payload.get("data", [])),
+        "results_history_count": len(results_history),
+        "teams_with_form": len(recent_form),
         "rankings_as_of": rankings_payload.get("as_of"),
         "fixtures": enriched,
     }
