@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Test Rugby Analytics</title></head>
+<body style="font-family:Arial,sans-serif;padding:24px;background:#f2f4f0;color:#17221e">
+<h1>Test działania JavaScript</h1>
+<p>Jeśli widzisz tę stronę, GitHub Pages serwuje pliki.</p>
+<p id="state">Sprawdzam uruchomienie JavaScript…</p>
+<button id="test" style="padding:14px 20px;font-size:18px">Naciśnij mnie</button>
+<p id="result">Przycisk jeszcze nie został naciśnięty.</p>
+<script>
+document.getElementById('state').textContent='JavaScript działa. Dokument: '+document.readyState;
+document.getElementById('test').addEventListener('click',function(){document.getElementById('result').textContent='SUKCES — kliknięcie działa.';});
+</script></body></html>
