@@ -35,7 +35,7 @@ jobs:
         run: python scripts/fetch_live_data.py
       - name: Publish updated data
         run: |
-          if [ -z "$(git status --porcelain -- data/live-data.json data/results-history.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/live-data.json data/results-history.json data/prediction-history.json)" ]; then
             echo "No data changes."
             exit 0
           fi
