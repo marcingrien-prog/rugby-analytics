@@ -41,7 +41,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live-data.json data/results-history.json
+          git add data/live-data.json data/results-history.json data/prediction-history.json
           git commit -m "Refresh rugby fixtures and predictions [skip ci]"
           git pull --rebase origin main
           git push
