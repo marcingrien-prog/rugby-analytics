@@ -15,7 +15,7 @@ import requests
 BASE = "https://api.rugbyapi.com/v1"
 OUT = Path("data/live-data.json")
 TIMEOUT = 25
-MAX_STANDINGS = 14
+MAX_STANDINGS = 10
 
 
 def api_get(path: str, key: str, params: dict | None = None) -> dict:
@@ -36,6 +36,22 @@ def logistic(value: float) -> float:
     value = max(-20.0, min(20.0, value))
     return 1.0 / (1.0 + math.exp(-value))
 
+def normal_cdf(value: float, mean: float, sd: float) -> float:
+    return 0.5 * (1.0 + math.erf((value - mean) / (sd * math.sqrt(2.0))))
+
+
+def match_probabilities(expected_home: float, expected_away: float, uncertainty: float = 16.5) -> dict:
+    margin = expected_home - expected_away
+    draw = max(0.0, normal_cdf(3.5, margin, uncertainty) - normal_cdf(-3.5, margin, uncertainty))
+    home = max(0.0, 1.0 - normal_cdf(3.5, margin, uncertainty))
+    away = max(0.0, normal_cdf(-3.5, margin, uncertainty))
+    total = home + draw + away
+    if total <= 0:
+        return {"home_win": 33.3, "draw": 33.4, "away_win": 33.3}
+    hp = round(home / total * 100, 1)
+    dp = round(draw / total * 100, 1)
+    return {"home_win": hp, "draw": dp, "away_win": round(100 - hp - dp, 1)}
+
 
 def main() -> None:
     key = os.environ.get("RUGBY_API_KEY", "").strip()
@@ -53,7 +69,11 @@ def main() -> None:
         raise RuntimeError("Fixtures response has no data array")
 
     # Keep an incremental local archive of the free API's rolling results feed.
-    results_payload = api_get("/results", key)
+    try:
+        results_payload = api_get("/results", key)
+    except requests.HTTPError as exc:
+        print(f"Results endpoint unavailable; retaining saved results: {exc}")
+        results_payload = {"data": []}
     history_path = Path("data/results-history.json")
     try:
         history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
@@ -161,55 +181,48 @@ def main() -> None:
         away_form = recent_form.get(away["id"])
 
         if home_stats and away_stats:
-            home_expected = (home_stats["points_for_avg"] + away_stats["points_against_avg"]) / 2 + 3.0
-            away_expected = (away_stats["points_for_avg"] + home_stats["points_against_avg"]) / 2
-            # Score-margin proxy combines attack/defence and table strength.
-            table_gap = (
-                (home_stats["points_difference_avg"] - away_stats["points_difference_avg"]) * 0.35
-                + (home_stats["points"] - away_stats["points"]) / max(1, home_stats["played"] + away_stats["played"]) * 0.20
-            )
-            form_gap = (home_form["points_diff_avg"] - away_form["points_diff_avg"]) * 0.20 if home_form and away_form else 0.0
-            strength_gap = table_gap + form_gap + 3.0
-            p_home = logistic(strength_gap / 7.5)
+            h_for, h_against = home_stats["points_for_avg"], home_stats["points_against_avg"]
+            a_for, a_against = away_stats["points_for_avg"], away_stats["points_against_avg"]
+            if home_form and away_form:
+                h_for = 0.70 * h_for + 0.30 * home_form["points_for_avg"]
+                h_against = 0.70 * h_against + 0.30 * home_form["points_against_avg"]
+                a_for = 0.70 * a_for + 0.30 * away_form["points_for_avg"]
+                a_against = 0.70 * a_against + 0.30 * away_form["points_against_avg"]
+            home_expected = max(5.0, (h_for + a_against) / 2 + 2.5)
+            away_expected = max(5.0, (a_for + h_against) / 2 - 1.0)
+            table_gap = (home_stats["points_difference_avg"] - away_stats["points_difference_avg"]) * 0.18
+            form_gap = ((home_form["points_diff_avg"] - away_form["points_diff_avg"]) * 0.12
+                        if home_form and away_form else 0.0)
+            correction = max(-5.0, min(5.0, table_gap + form_gap))
+            home_expected += correction / 2
+            away_expected -= correction / 2
             prediction = {
-                "home_win": round(p_home * 100, 1),
-                "draw": round(max(2.0, 7.0 - abs(strength_gap) * 0.35), 1),
-                "away_win": round((1 - p_home) * 100, 1),
-                "home_score": round(home_expected),
-                "away_score": round(away_expected),
+                **match_probabilities(home_expected, away_expected),
+                "home_score": round(home_expected), "away_score": round(away_expected),
                 "confidence": "wstępna",
             }
-            # Normalize win/draw percentages to exactly 100.
-            draw = prediction["draw"]
-            remaining = 100 - draw
-            total = prediction["home_win"] + prediction["away_win"]
-            prediction["home_win"] = round(remaining * prediction["home_win"] / total, 1)
-            prediction["away_win"] = round(100 - draw - prediction["home_win"], 1)
-            basis = "tabela sezonu" + (" + forma z ostatnich 5 meczów" if home_form and away_form else "")
+            basis = "tabela + średnie punktowe" + (" + forma (ostatnie 5)" if home_form and away_form else "")
         elif home_form and away_form:
-            form_gap = (home_form["points_diff_avg"] - away_form["points_diff_avg"]) * 0.22 + 3.0
-            p_home = logistic(form_gap / 8.5)
-            home_expected = (home_form["points_for_avg"] + away_form["points_against_avg"]) / 2 + 2.5
-            away_expected = (away_form["points_for_avg"] + home_form["points_against_avg"]) / 2
-            draw = 5.0
-            prediction = {"home_win": round((100-draw)*p_home, 1), "draw": draw, "away_win": round(100-draw-(100-draw)*p_home, 1), "home_score": round(home_expected), "away_score": round(away_expected), "confidence": "niska"}
+            home_expected = max(5.0, (home_form["points_for_avg"] + away_form["points_against_avg"]) / 2 + 2.5)
+            away_expected = max(5.0, (away_form["points_for_avg"] + home_form["points_against_avg"]) / 2 - 1.0)
+            prediction = {
+                **match_probabilities(home_expected, away_expected, uncertainty=19.0),
+                "home_score": round(home_expected), "away_score": round(away_expected),
+                "confidence": "niska",
+            }
             basis = "forma z ostatnich 5 meczów"
         else:
             h_rank = national_ratings.get(home["id"])
             a_rank = national_ratings.get(away["id"])
             comp_type = competition_types.get(comp.get("id"), "")
             if h_rank and a_rank and comp_type == "international":
-                gap = float(h_rank.get("rating") or 0) - float(a_rank.get("rating") or 0) + 3.0
-                p_home = logistic(gap / 7.5)
+                rating_gap = float(h_rank.get("rating") or 0) - float(a_rank.get("rating") or 0)
+                expected_margin = max(-35.0, min(35.0, rating_gap * 0.75 + 3.0))
                 prediction = {
-                    "home_win": round(p_home * 98, 1),
-                    "draw": 2.0,
-                    "away_win": round((1 - p_home) * 98, 1),
-                    "home_score": None,
-                    "away_score": None,
-                    "confidence": "wstępna",
+                    **match_probabilities(30.0 + expected_margin / 2, 30.0 - expected_margin / 2),
+                    "home_score": None, "away_score": None, "confidence": "wstępna",
                 }
-                basis = "ranking obliczony na podstawie testów"
+                basis = "ranking reprezentacji + przewaga gospodarzy"
 
         enriched.append({
             "id": match.get("id"),
