@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T05:36:07.056947+00:00",
+  "generated_at": "2026-11-20T01:22:41.876301+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 214,
+  "fixtures_count": 213,
   "competitions_count": 51,
-  "standings_loaded": 3,
+  "standings_loaded": 5,
   "results_fetched": 0,
   "results_history_count": 0,
   "teams_with_form": 0,
@@ -15,48 +15,6 @@
   },
   "rankings_as_of": "2026-09-19",
   "fixtures": [
-    {
-      "id": "mt_0J466HC",
-      "date": "2026-11-19",
-      "kickoff_utc": "2026-11-19T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_02EKCKP",
-        "name": "Grenoble FC"
-      },
-      "away": {
-        "id": "tm_2ZKXEJB",
-        "name": "Provence Rugby"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_0ERV3P1",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_3WJP259",
-        "name": "Montauban"
-      },
-      "away": {
-        "id": "tm_3MN366H",
-        "name": "Agen"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
     {
       "id": "mt_11CEVQM",
       "date": "2026-11-20",
@@ -72,69 +30,6 @@
       "away": {
         "id": "tm_01V3HMS",
         "name": "Angouleme"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_133H1QC",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_3RYW47W",
-        "name": "Aurillac"
-      },
-      "away": {
-        "id": "tm_31AZMJ3",
-        "name": "Colomiers"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_20NJ5Q5",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_37YCSFM",
-        "name": "Nice"
-      },
-      "away": {
-        "id": "tm_24TSY8Y",
-        "name": "Valence Romans"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_2S6T290",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_0M35813",
-        "name": "US Oyonnax"
-      },
-      "away": {
-        "id": "tm_1NZTESA",
-        "name": "CA Brive"
       },
       "prediction": null,
       "prediction_basis": null,
@@ -163,6 +58,69 @@
       "away_form": null
     },
     {
+      "id": "mt_0ERV3P1",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T18:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3WJP259",
+        "name": "Montauban"
+      },
+      "away": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_133H1QC",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "away": {
+        "id": "tm_31AZMJ3",
+        "name": "Colomiers"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_20NJ5Q5",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_37YCSFM",
+        "name": "Nice"
+      },
+      "away": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_0BNB5YW",
       "date": "2026-11-20",
       "kickoff_utc": "2026-11-20T20:00:00Z",
@@ -177,6 +135,27 @@
       "away": {
         "id": "tm_3CWTAY8",
         "name": "Narbonne"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_2S6T290",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0M35813",
+        "name": "US Oyonnax"
+      },
+      "away": {
+        "id": "tm_1NZTESA",
+        "name": "CA Brive"
       },
       "prediction": null,
       "prediction_basis": null,
@@ -368,14 +347,14 @@
         "name": "Castres Olympique"
       },
       "prediction": {
-        "home_win": 61.7,
-        "draw": 5.3,
-        "away_win": 33.0,
+        "home_win": 57.8,
+        "draw": 15.5,
+        "away_win": 26.7,
         "home_score": 31,
-        "away_score": 26,
+        "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -396,14 +375,14 @@
         "name": "RC Toulonnais"
       },
       "prediction": {
-        "home_win": 46.4,
-        "draw": 7.0,
-        "away_win": 46.6,
-        "home_score": 26,
+        "home_win": 36.6,
+        "draw": 16.7,
+        "away_win": 46.7,
+        "home_score": 25,
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -424,14 +403,14 @@
         "name": "Vannes"
       },
       "prediction": {
-        "home_win": 63.0,
-        "draw": 5.2,
-        "away_win": 31.8,
+        "home_win": 59.4,
+        "draw": 15.2,
+        "away_win": 25.4,
         "home_score": 30,
-        "away_score": 24,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -452,14 +431,14 @@
         "name": "Stade Toulousain"
       },
       "prediction": {
-        "home_win": 49.4,
-        "draw": 6.7,
-        "away_win": 43.9,
-        "home_score": 31,
-        "away_score": 31,
+        "home_win": 40.6,
+        "draw": 16.8,
+        "away_win": 42.6,
+        "home_score": 30,
+        "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -480,14 +459,14 @@
         "name": "USA Perpignan"
       },
       "prediction": {
-        "home_win": 68.8,
-        "draw": 4.5,
-        "away_win": 26.7,
-        "home_score": 32,
-        "away_score": 23,
+        "home_win": 69.6,
+        "draw": 13.0,
+        "away_win": 17.4,
+        "home_score": 33,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -508,14 +487,14 @@
         "name": "Montpellier"
       },
       "prediction": {
-        "home_win": 51.4,
-        "draw": 6.5,
-        "away_win": 42.1,
-        "home_score": 28,
-        "away_score": 27,
+        "home_win": 42.9,
+        "draw": 16.8,
+        "away_win": 40.3,
+        "home_score": 27,
+        "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -536,14 +515,14 @@
         "name": "Pau"
       },
       "prediction": {
-        "home_win": 37.1,
-        "draw": 5.9,
-        "away_win": 57.0,
-        "home_score": 30,
-        "away_score": 35,
+        "home_win": 23.9,
+        "draw": 14.9,
+        "away_win": 61.2,
+        "home_score": 28,
+        "away_score": 36,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -711,14 +690,14 @@
         "name": "Dragons"
       },
       "prediction": {
-        "home_win": 60.9,
-        "draw": 5.4,
-        "away_win": 33.7,
+        "home_win": 56.2,
+        "draw": 15.7,
+        "away_win": 28.1,
         "home_score": 28,
-        "away_score": 23,
+        "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -727,7 +706,7 @@
       "date": "2026-12-04",
       "kickoff_utc": "2026-12-04T19:45:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -739,14 +718,14 @@
         "name": "Bristol"
       },
       "prediction": {
-        "home_win": 51.9,
-        "draw": 6.4,
-        "away_win": 41.7,
-        "home_score": 30,
-        "away_score": 29,
+        "home_win": 43.5,
+        "draw": 16.8,
+        "away_win": 39.7,
+        "home_score": 29,
+        "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -767,14 +746,14 @@
         "name": "Leinster"
       },
       "prediction": {
-        "home_win": 33.9,
-        "draw": 5.5,
-        "away_win": 60.6,
-        "home_score": 22,
+        "home_win": 19.8,
+        "draw": 13.8,
+        "away_win": 66.4,
+        "home_score": 20,
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -816,14 +795,14 @@
         "name": "Stade Rochelais"
       },
       "prediction": {
-        "home_win": 65.9,
-        "draw": 4.9,
-        "away_win": 29.2,
+        "home_win": 62.4,
+        "draw": 14.6,
+        "away_win": 23.0,
         "home_score": 27,
-        "away_score": 20,
+        "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -844,14 +823,14 @@
         "name": "Bordeaux Begles"
       },
       "prediction": {
-        "home_win": 53.2,
-        "draw": 6.3,
-        "away_win": 40.5,
-        "home_score": 28,
-        "away_score": 26,
+        "home_win": 45.6,
+        "draw": 16.7,
+        "away_win": 37.7,
+        "home_score": 27,
+        "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -872,14 +851,14 @@
         "name": "Racing 92"
       },
       "prediction": {
-        "home_win": 71.8,
-        "draw": 4.1,
-        "away_win": 24.1,
-        "home_score": 34,
-        "away_score": 24,
+        "home_win": 72.3,
+        "draw": 12.2,
+        "away_win": 15.5,
+        "home_score": 35,
+        "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -900,14 +879,14 @@
         "name": "Lyon"
       },
       "prediction": {
-        "home_win": 44.1,
-        "draw": 6.7,
-        "away_win": 49.2,
-        "home_score": 28,
+        "home_win": 33.0,
+        "draw": 16.4,
+        "away_win": 50.6,
+        "home_score": 27,
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -928,14 +907,14 @@
         "name": "Stade Francais Paris"
       },
       "prediction": {
-        "home_win": 70.1,
-        "draw": 4.3,
-        "away_win": 25.6,
-        "home_score": 36,
-        "away_score": 27,
+        "home_win": 69.9,
+        "draw": 12.9,
+        "away_win": 17.2,
+        "home_score": 37,
+        "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -956,14 +935,14 @@
         "name": "Clermont"
       },
       "prediction": {
-        "home_win": 51.0,
-        "draw": 6.5,
-        "away_win": 42.5,
-        "home_score": 31,
+        "home_win": 42.2,
+        "draw": 16.8,
+        "away_win": 41.0,
+        "home_score": 30,
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -984,14 +963,14 @@
         "name": "Bayonne"
       },
       "prediction": {
-        "home_win": 51.4,
-        "draw": 6.5,
-        "away_win": 42.1,
-        "home_score": 30,
+        "home_win": 43.6,
+        "draw": 16.8,
+        "away_win": 39.6,
+        "home_score": 29,
         "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1012,14 +991,14 @@
         "name": "Bulls"
       },
       "prediction": {
-        "home_win": 23.0,
-        "draw": 4.0,
-        "away_win": 73.0,
-        "home_score": 24,
-        "away_score": 38,
+        "home_win": 9.8,
+        "draw": 9.5,
+        "away_win": 80.7,
+        "home_score": 21,
+        "away_score": 39,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1040,14 +1019,14 @@
         "name": "Ulster"
       },
       "prediction": {
-        "home_win": 66.4,
-        "draw": 4.8,
-        "away_win": 28.8,
-        "home_score": 30,
-        "away_score": 23,
+        "home_win": 64.5,
+        "draw": 14.2,
+        "away_win": 21.3,
+        "home_score": 31,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1068,14 +1047,14 @@
         "name": "Stormers"
       },
       "prediction": {
-        "home_win": 48.9,
-        "draw": 6.7,
-        "away_win": 44.4,
-        "home_score": 27,
+        "home_win": 39.6,
+        "draw": 16.8,
+        "away_win": 43.6,
+        "home_score": 26,
         "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1084,7 +1063,7 @@
       "date": "2026-12-05",
       "kickoff_utc": "2026-12-05T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -1096,14 +1075,14 @@
         "name": "Falcons"
       },
       "prediction": {
-        "home_win": 77.3,
-        "draw": 3.4,
-        "away_win": 19.3,
-        "home_score": 35,
-        "away_score": 22,
+        "home_win": 80.4,
+        "draw": 9.6,
+        "away_win": 10.0,
+        "home_score": 36,
+        "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1112,7 +1091,7 @@
       "date": "2026-12-05",
       "kickoff_utc": "2026-12-05T15:05:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -1124,14 +1103,14 @@
         "name": "Leicester Tigers"
       },
       "prediction": {
-        "home_win": 37.5,
-        "draw": 5.9,
-        "away_win": 56.6,
-        "home_score": 25,
-        "away_score": 30,
+        "home_win": 24.4,
+        "draw": 15.0,
+        "away_win": 60.6,
+        "home_score": 23,
+        "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1152,14 +1131,14 @@
         "name": "Connacht"
       },
       "prediction": {
-        "home_win": 55.1,
-        "draw": 6.1,
-        "away_win": 38.8,
+        "home_win": 48.4,
+        "draw": 16.6,
+        "away_win": 35.0,
         "home_score": 32,
-        "away_score": 30,
+        "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1168,7 +1147,7 @@
       "date": "2026-12-05",
       "kickoff_utc": "2026-12-05T17:30:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -1180,14 +1159,14 @@
         "name": "Northampton Saints"
       },
       "prediction": {
-        "home_win": 51.1,
-        "draw": 6.5,
-        "away_win": 42.4,
-        "home_score": 33,
+        "home_win": 42.5,
+        "draw": 16.8,
+        "away_win": 40.7,
+        "home_score": 32,
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1208,14 +1187,14 @@
         "name": "Benetton"
       },
       "prediction": {
-        "home_win": 62.5,
-        "draw": 5.3,
-        "away_win": 32.2,
+        "home_win": 58.2,
+        "draw": 15.4,
+        "away_win": 26.4,
         "home_score": 28,
-        "away_score": 23,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1236,14 +1215,14 @@
         "name": "Munster"
       },
       "prediction": {
-        "home_win": 37.3,
-        "draw": 5.9,
-        "away_win": 56.8,
-        "home_score": 24,
-        "away_score": 29,
+        "home_win": 23.9,
+        "draw": 14.9,
+        "away_win": 61.2,
+        "home_score": 22,
+        "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1252,7 +1231,7 @@
       "date": "2026-12-06",
       "kickoff_utc": "2026-12-06T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -1264,14 +1243,14 @@
         "name": "Exeter Chiefs"
       },
       "prediction": {
-        "home_win": 59.2,
-        "draw": 5.6,
-        "away_win": 35.2,
+        "home_win": 54.3,
+        "draw": 16.0,
+        "away_win": 29.7,
         "home_score": 30,
-        "away_score": 26,
+        "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1459,8 +1438,15 @@
         "id": "tm_28GXJQH",
         "name": "Northampton Saints"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 6.9,
+        "draw": 7.6,
+        "away_win": 85.5,
+        "home_score": 27,
+        "away_score": 48,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1480,8 +1466,15 @@
         "id": "tm_2XJ6QW4",
         "name": "Pau"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 52.1,
+        "draw": 16.2,
+        "away_win": 31.7,
+        "home_score": 31,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1543,8 +1536,15 @@
         "id": "tm_0F2PX42",
         "name": "Bayonne"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 75.8,
+        "draw": 11.1,
+        "away_win": 13.1,
+        "home_score": 38,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1564,8 +1564,15 @@
         "id": "tm_2N4666W",
         "name": "Clermont"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 71.8,
+        "draw": 12.4,
+        "away_win": 15.8,
+        "home_score": 40,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1585,8 +1592,15 @@
         "id": "tm_0FWX7QJ",
         "name": "Bulls"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 69.7,
+        "draw": 12.9,
+        "away_win": 17.4,
+        "home_score": 36,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1606,8 +1620,15 @@
         "id": "tm_0WZX95E",
         "name": "Stade Rochelais"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 62.5,
+        "draw": 14.6,
+        "away_win": 22.9,
+        "home_score": 29,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1627,8 +1648,15 @@
         "id": "tm_1M3P72S",
         "name": "Sale Sharks"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 87.7,
+        "draw": 6.6,
+        "away_win": 5.7,
+        "home_score": 41,
+        "away_score": 19,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1690,8 +1718,15 @@
         "id": "tm_1EF5HP8",
         "name": "Bath"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 14.7,
+        "draw": 11.9,
+        "away_win": 73.4,
+        "home_score": 20,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1711,8 +1746,15 @@
         "id": "tm_344015A",
         "name": "Munster"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 21.9,
+        "draw": 14.4,
+        "away_win": 63.7,
+        "home_score": 29,
+        "away_score": 38,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1774,8 +1816,15 @@
         "id": "tm_1QM2PPX",
         "name": "Dragons"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 24.2,
+        "draw": 14.9,
+        "away_win": 60.9,
+        "home_score": 21,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1795,8 +1844,15 @@
         "id": "tm_1ZZ7A6N",
         "name": "Connacht"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 31.0,
+        "draw": 16.2,
+        "away_win": 52.8,
+        "home_score": 39,
+        "away_score": 44,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1837,8 +1893,15 @@
         "id": "tm_1MZ3SAG",
         "name": "Zebre"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 56.5,
+        "draw": 15.7,
+        "away_win": 27.8,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1858,8 +1921,15 @@
         "id": "tm_3KFPVP6",
         "name": "Stormers"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 78.9,
+        "draw": 10.1,
+        "away_win": 11.0,
+        "home_score": 41,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -1879,8 +1949,15 @@
         "id": "tm_2G259FF",
         "name": "Gloucester"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 47.3,
+        "draw": 16.6,
+        "away_win": 36.1,
+        "home_score": 30,
+        "away_score": 28,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2069,14 +2146,14 @@
         "name": "Ospreys"
       },
       "prediction": {
-        "home_win": 55.2,
-        "draw": 6.1,
-        "away_win": 38.7,
-        "home_score": 30,
-        "away_score": 27,
+        "home_win": 48.7,
+        "draw": 16.5,
+        "away_win": 34.8,
+        "home_score": 29,
+        "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2085,7 +2162,7 @@
       "date": "2026-12-18",
       "kickoff_utc": "2026-12-18T19:45:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2097,14 +2174,14 @@
         "name": "Bath"
       },
       "prediction": {
-        "home_win": 49.7,
-        "draw": 6.7,
-        "away_win": 43.6,
-        "home_score": 32,
+        "home_win": 41.2,
+        "draw": 16.8,
+        "away_win": 42.0,
+        "home_score": 31,
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2125,14 +2202,14 @@
         "name": "Scarlets"
       },
       "prediction": {
-        "home_win": 64.5,
-        "draw": 5.0,
-        "away_win": 30.5,
-        "home_score": 31,
-        "away_score": 25,
+        "home_win": 62.0,
+        "draw": 14.7,
+        "away_win": 23.3,
+        "home_score": 32,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2153,14 +2230,14 @@
         "name": "Castres Olympique"
       },
       "prediction": {
-        "home_win": 69.1,
-        "draw": 4.5,
-        "away_win": 26.4,
-        "home_score": 28,
-        "away_score": 19,
+        "home_win": 70.2,
+        "draw": 12.8,
+        "away_win": 17.0,
+        "home_score": 29,
+        "away_score": 17,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2181,14 +2258,14 @@
         "name": "Montpellier"
       },
       "prediction": {
-        "home_win": 39.3,
-        "draw": 6.1,
-        "away_win": 54.6,
-        "home_score": 25,
-        "away_score": 29,
+        "home_win": 26.4,
+        "draw": 15.4,
+        "away_win": 58.2,
+        "home_score": 23,
+        "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2209,14 +2286,14 @@
         "name": "Vannes"
       },
       "prediction": {
-        "home_win": 57.8,
-        "draw": 5.8,
-        "away_win": 36.4,
-        "home_score": 30,
-        "away_score": 26,
+        "home_win": 52.0,
+        "draw": 16.2,
+        "away_win": 31.8,
+        "home_score": 29,
+        "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2237,14 +2314,14 @@
         "name": "USA Perpignan"
       },
       "prediction": {
-        "home_win": 61.3,
-        "draw": 5.4,
-        "away_win": 33.3,
+        "home_win": 57.1,
+        "draw": 15.6,
+        "away_win": 27.3,
         "home_score": 35,
-        "away_score": 30,
+        "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2265,14 +2342,14 @@
         "name": "RC Toulonnais"
       },
       "prediction": {
-        "home_win": 53.0,
-        "draw": 6.3,
-        "away_win": 40.7,
-        "home_score": 30,
-        "away_score": 29,
+        "home_win": 45.3,
+        "draw": 16.7,
+        "away_win": 38.0,
+        "home_score": 29,
+        "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2293,14 +2370,14 @@
         "name": "Pau"
       },
       "prediction": {
-        "home_win": 52.5,
-        "draw": 6.4,
-        "away_win": 41.1,
-        "home_score": 33,
+        "home_win": 44.9,
+        "draw": 16.7,
+        "away_win": 38.4,
+        "home_score": 32,
         "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2321,14 +2398,14 @@
         "name": "Stade Toulousain"
       },
       "prediction": {
-        "home_win": 44.8,
-        "draw": 6.8,
-        "away_win": 48.4,
-        "home_score": 27,
+        "home_win": 34.3,
+        "draw": 16.5,
+        "away_win": 49.2,
+        "home_score": 26,
         "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2349,14 +2426,14 @@
         "name": "Benetton"
       },
       "prediction": {
-        "home_win": 31.1,
-        "draw": 5.1,
-        "away_win": 63.8,
-        "home_score": 23,
-        "away_score": 31,
+        "home_win": 16.7,
+        "draw": 12.7,
+        "away_win": 70.6,
+        "home_score": 20,
+        "away_score": 33,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2377,14 +2454,14 @@
         "name": "Lions"
       },
       "prediction": {
-        "home_win": 80.1,
-        "draw": 2.9,
-        "away_win": 17.0,
-        "home_score": 36,
-        "away_score": 21,
+        "home_win": 83.9,
+        "draw": 8.3,
+        "away_win": 7.8,
+        "home_score": 37,
+        "away_score": 18,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2393,7 +2470,7 @@
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2405,14 +2482,14 @@
         "name": "Saracens"
       },
       "prediction": {
-        "home_win": 68.1,
-        "draw": 4.6,
-        "away_win": 27.3,
-        "home_score": 32,
-        "away_score": 24,
+        "home_win": 67.5,
+        "draw": 13.5,
+        "away_win": 19.0,
+        "home_score": 33,
+        "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2433,14 +2510,14 @@
         "name": "Dragons"
       },
       "prediction": {
-        "home_win": 55.6,
-        "draw": 6.0,
-        "away_win": 38.4,
+        "home_win": 49.0,
+        "draw": 16.5,
+        "away_win": 34.5,
         "home_score": 27,
-        "away_score": 24,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2449,7 +2526,7 @@
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T15:05:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2461,14 +2538,14 @@
         "name": "Sale Sharks"
       },
       "prediction": {
-        "home_win": 69.9,
-        "draw": 4.4,
-        "away_win": 25.7,
+        "home_win": 69.2,
+        "draw": 13.1,
+        "away_win": 17.7,
         "home_score": 31,
-        "away_score": 22,
+        "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2489,14 +2566,14 @@
         "name": "Bulls"
       },
       "prediction": {
-        "home_win": 39.8,
-        "draw": 6.2,
-        "away_win": 54.0,
-        "home_score": 28,
+        "home_win": 26.8,
+        "draw": 15.5,
+        "away_win": 57.7,
+        "home_score": 26,
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2505,7 +2582,7 @@
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T17:30:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2517,14 +2594,14 @@
         "name": "Exeter Chiefs"
       },
       "prediction": {
-        "home_win": 71.5,
-        "draw": 4.2,
-        "away_win": 24.3,
-        "home_score": 38,
-        "away_score": 28,
+        "home_win": 72.1,
+        "draw": 12.3,
+        "away_win": 15.6,
+        "home_score": 39,
+        "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2545,14 +2622,14 @@
         "name": "Glasgow Warriors"
       },
       "prediction": {
-        "home_win": 63.0,
-        "draw": 5.2,
-        "away_win": 31.8,
+        "home_win": 60.4,
+        "draw": 15.0,
+        "away_win": 24.6,
         "home_score": 29,
-        "away_score": 23,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2573,14 +2650,14 @@
         "name": "Edinburgh"
       },
       "prediction": {
-        "home_win": 38.4,
-        "draw": 6.0,
-        "away_win": 55.6,
-        "home_score": 23,
-        "away_score": 28,
+        "home_win": 25.5,
+        "draw": 15.2,
+        "away_win": 59.3,
+        "home_score": 21,
+        "away_score": 29,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2589,7 +2666,7 @@
       "date": "2026-12-20",
       "kickoff_utc": "2026-12-20T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2601,14 +2678,14 @@
         "name": "Harlequins"
       },
       "prediction": {
-        "home_win": 68.4,
-        "draw": 4.6,
-        "away_win": 27.0,
-        "home_score": 30,
-        "away_score": 21,
+        "home_win": 67.8,
+        "draw": 13.4,
+        "away_win": 18.8,
+        "home_score": 31,
+        "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2629,14 +2706,14 @@
         "name": "Clermont"
       },
       "prediction": {
-        "home_win": 71.6,
-        "draw": 4.2,
-        "away_win": 24.2,
-        "home_score": 37,
-        "away_score": 27,
+        "home_win": 72.0,
+        "draw": 12.3,
+        "away_win": 15.7,
+        "home_score": 38,
+        "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2657,14 +2734,14 @@
         "name": "RC Toulonnais"
       },
       "prediction": {
-        "home_win": 59.8,
-        "draw": 5.6,
-        "away_win": 34.6,
+        "home_win": 54.7,
+        "draw": 15.9,
+        "away_win": 29.4,
         "home_score": 29,
-        "away_score": 25,
+        "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2685,14 +2762,14 @@
         "name": "Lyon"
       },
       "prediction": {
-        "home_win": 44.5,
-        "draw": 6.8,
-        "away_win": 48.7,
-        "home_score": 32,
+        "home_win": 33.7,
+        "draw": 16.4,
+        "away_win": 49.9,
+        "home_score": 31,
         "away_score": 34,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2713,14 +2790,14 @@
         "name": "Bordeaux Begles"
       },
       "prediction": {
-        "home_win": 38.4,
-        "draw": 6.0,
-        "away_win": 55.6,
-        "home_score": 24,
+        "home_win": 25.2,
+        "draw": 15.2,
+        "away_win": 59.6,
+        "home_score": 23,
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2741,14 +2818,14 @@
         "name": "Stade Francais Paris"
       },
       "prediction": {
-        "home_win": 51.0,
-        "draw": 6.5,
-        "away_win": 42.5,
-        "home_score": 29,
-        "away_score": 28,
+        "home_win": 42.6,
+        "draw": 16.8,
+        "away_win": 40.6,
+        "home_score": 28,
+        "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2769,14 +2846,14 @@
         "name": "Bayonne"
       },
       "prediction": {
-        "home_win": 72.8,
-        "draw": 4.0,
-        "away_win": 23.2,
-        "home_score": 34,
-        "away_score": 23,
+        "home_win": 74.2,
+        "draw": 11.6,
+        "away_win": 14.2,
+        "home_score": 35,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2785,7 +2862,7 @@
       "date": "2026-12-26",
       "kickoff_utc": "2026-12-26T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2797,14 +2874,14 @@
         "name": "Falcons"
       },
       "prediction": {
-        "home_win": 66.7,
-        "draw": 4.8,
-        "away_win": 28.5,
+        "home_win": 65.1,
+        "draw": 14.1,
+        "away_win": 20.8,
         "home_score": 31,
-        "away_score": 23,
+        "away_score": 21,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2825,14 +2902,14 @@
         "name": "Cardiff Rugby"
       },
       "prediction": {
-        "home_win": 56.9,
-        "draw": 5.9,
-        "away_win": 37.2,
+        "home_win": 51.0,
+        "draw": 16.3,
+        "away_win": 32.7,
         "home_score": 27,
-        "away_score": 24,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2841,7 +2918,7 @@
       "date": "2026-12-26",
       "kickoff_utc": "2026-12-26T15:05:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2853,14 +2930,14 @@
         "name": "Leicester Tigers"
       },
       "prediction": {
-        "home_win": 45.1,
-        "draw": 6.8,
-        "away_win": 48.1,
-        "home_score": 30,
+        "home_win": 34.6,
+        "draw": 16.5,
+        "away_win": 48.9,
+        "home_score": 29,
         "away_score": 32,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2881,14 +2958,14 @@
         "name": "Stade Rochelais"
       },
       "prediction": {
-        "home_win": 43.3,
-        "draw": 6.6,
-        "away_win": 50.1,
-        "home_score": 23,
+        "home_win": 31.0,
+        "draw": 16.2,
+        "away_win": 52.8,
+        "home_score": 21,
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2909,14 +2986,14 @@
         "name": "Scarlets"
       },
       "prediction": {
-        "home_win": 61.3,
-        "draw": 5.4,
-        "away_win": 33.3,
+        "home_win": 57.2,
+        "draw": 15.6,
+        "away_win": 27.2,
         "home_score": 33,
-        "away_score": 28,
+        "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2925,7 +3002,7 @@
       "date": "2026-12-26",
       "kickoff_utc": "2026-12-26T17:30:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -2937,14 +3014,14 @@
         "name": "Gloucester"
       },
       "prediction": {
-        "home_win": 36.5,
-        "draw": 5.8,
-        "away_win": 57.7,
-        "home_score": 23,
-        "away_score": 29,
+        "home_win": 22.9,
+        "draw": 14.6,
+        "away_win": 62.5,
+        "home_score": 21,
+        "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2965,14 +3042,14 @@
         "name": "Zebre"
       },
       "prediction": {
-        "home_win": 79.5,
-        "draw": 3.0,
-        "away_win": 17.5,
-        "home_score": 34,
-        "away_score": 20,
+        "home_win": 83.3,
+        "draw": 8.5,
+        "away_win": 8.2,
+        "home_score": 36,
+        "away_score": 17,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -2993,14 +3070,14 @@
         "name": "Glasgow Warriors"
       },
       "prediction": {
-        "home_win": 54.2,
-        "draw": 6.2,
-        "away_win": 39.6,
+        "home_win": 47.4,
+        "draw": 16.6,
+        "away_win": 36.0,
         "home_score": 26,
-        "away_score": 24,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3009,7 +3086,7 @@
       "date": "2026-12-27",
       "kickoff_utc": "2026-12-27T15:05:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3021,14 +3098,14 @@
         "name": "Saracens"
       },
       "prediction": {
-        "home_win": 45.1,
-        "draw": 6.8,
-        "away_win": 48.1,
-        "home_score": 29,
+        "home_win": 34.6,
+        "draw": 16.5,
+        "away_win": 48.9,
+        "home_score": 27,
         "away_score": 30,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3049,14 +3126,14 @@
         "name": "Connacht"
       },
       "prediction": {
-        "home_win": 59.2,
-        "draw": 5.6,
-        "away_win": 35.2,
+        "home_win": 54.3,
+        "draw": 16.0,
+        "away_win": 29.7,
         "home_score": 31,
-        "away_score": 27,
+        "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3077,14 +3154,14 @@
         "name": "Leinster"
       },
       "prediction": {
-        "home_win": 36.8,
-        "draw": 5.8,
-        "away_win": 57.4,
-        "home_score": 20,
-        "away_score": 26,
+        "home_win": 23.4,
+        "draw": 14.8,
+        "away_win": 61.8,
+        "home_score": 18,
+        "away_score": 27,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3093,7 +3170,7 @@
       "date": "2026-12-28",
       "kickoff_utc": "2026-12-28T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3105,14 +3182,14 @@
         "name": "Northampton Saints"
       },
       "prediction": {
-        "home_win": 38.4,
-        "draw": 6.0,
-        "away_win": 55.6,
-        "home_score": 29,
-        "away_score": 34,
+        "home_win": 25.2,
+        "draw": 15.2,
+        "away_win": 59.6,
+        "home_score": 27,
+        "away_score": 35,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3121,7 +3198,7 @@
       "date": "2027-01-01",
       "kickoff_utc": "2027-01-01T19:45:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3133,14 +3210,14 @@
         "name": "Bristol"
       },
       "prediction": {
-        "home_win": 68.7,
-        "draw": 4.5,
-        "away_win": 26.8,
-        "home_score": 30,
-        "away_score": 21,
+        "home_win": 68.1,
+        "draw": 13.4,
+        "away_win": 18.5,
+        "home_score": 31,
+        "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3161,14 +3238,14 @@
         "name": "Castres Olympique"
       },
       "prediction": {
-        "home_win": 63.7,
-        "draw": 5.1,
-        "away_win": 31.2,
+        "home_win": 60.8,
+        "draw": 14.9,
+        "away_win": 24.3,
         "home_score": 30,
-        "away_score": 23,
+        "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3189,14 +3266,14 @@
         "name": "Racing 92"
       },
       "prediction": {
-        "home_win": 65.9,
-        "draw": 4.9,
-        "away_win": 29.2,
+        "home_win": 63.8,
+        "draw": 14.4,
+        "away_win": 21.8,
         "home_score": 35,
-        "away_score": 28,
+        "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3217,14 +3294,14 @@
         "name": "USA Perpignan"
       },
       "prediction": {
-        "home_win": 72.9,
-        "draw": 4.0,
-        "away_win": 23.1,
-        "home_score": 36,
-        "away_score": 25,
+        "home_win": 74.2,
+        "draw": 11.6,
+        "away_win": 14.2,
+        "home_score": 37,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3245,14 +3322,14 @@
         "name": "Montpellier"
       },
       "prediction": {
-        "home_win": 48.3,
-        "draw": 6.8,
-        "away_win": 44.9,
-        "home_score": 26,
+        "home_win": 38.6,
+        "draw": 16.8,
+        "away_win": 44.6,
+        "home_score": 24,
         "away_score": 26,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3273,14 +3350,14 @@
         "name": "Pau"
       },
       "prediction": {
-        "home_win": 47.0,
-        "draw": 6.9,
-        "away_win": 46.1,
-        "home_score": 29,
-        "away_score": 29,
+        "home_win": 39.5,
+        "draw": 16.8,
+        "away_win": 43.7,
+        "home_score": 27,
+        "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3301,14 +3378,14 @@
         "name": "Vannes"
       },
       "prediction": {
-        "home_win": 61.4,
-        "draw": 5.4,
-        "away_win": 33.2,
+        "home_win": 57.1,
+        "draw": 15.6,
+        "away_win": 27.3,
         "home_score": 30,
-        "away_score": 25,
+        "away_score": 23,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3329,14 +3406,14 @@
         "name": "Dragons"
       },
       "prediction": {
-        "home_win": 41.5,
-        "draw": 6.4,
-        "away_win": 52.1,
-        "home_score": 29,
+        "home_win": 29.3,
+        "draw": 15.9,
+        "away_win": 54.8,
+        "home_score": 28,
         "away_score": 33,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3357,14 +3434,14 @@
         "name": "Glasgow Warriors"
       },
       "prediction": {
-        "home_win": 26.1,
-        "draw": 4.4,
-        "away_win": 69.5,
-        "home_score": 24,
-        "away_score": 35,
+        "home_win": 12.2,
+        "draw": 10.8,
+        "away_win": 77.0,
+        "home_score": 20,
+        "away_score": 36,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3385,14 +3462,14 @@
         "name": "Lions"
       },
       "prediction": {
-        "home_win": 74.8,
-        "draw": 3.7,
-        "away_win": 21.5,
-        "home_score": 33,
-        "away_score": 21,
+        "home_win": 76.6,
+        "draw": 10.9,
+        "away_win": 12.5,
+        "home_score": 34,
+        "away_score": 19,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3401,7 +3478,7 @@
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T15:05:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3413,14 +3490,14 @@
         "name": "Bath"
       },
       "prediction": {
-        "home_win": 61.2,
-        "draw": 5.4,
-        "away_win": 33.4,
+        "home_win": 57.2,
+        "draw": 15.6,
+        "away_win": 27.2,
         "home_score": 34,
-        "away_score": 29,
+        "away_score": 28,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3441,14 +3518,14 @@
         "name": "Munster"
       },
       "prediction": {
-        "home_win": 49.0,
-        "draw": 6.7,
-        "away_win": 44.3,
-        "home_score": 25,
+        "home_win": 39.6,
+        "draw": 16.8,
+        "away_win": 43.6,
+        "home_score": 24,
         "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3469,14 +3546,14 @@
         "name": "Benetton"
       },
       "prediction": {
-        "home_win": 60.6,
-        "draw": 5.5,
-        "away_win": 33.9,
+        "home_win": 55.6,
+        "draw": 15.8,
+        "away_win": 28.6,
         "home_score": 26,
-        "away_score": 21,
+        "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3485,7 +3562,7 @@
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T17:30:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3497,14 +3574,14 @@
         "name": "Harlequins"
       },
       "prediction": {
-        "home_win": 58.1,
-        "draw": 5.8,
-        "away_win": 36.1,
+        "home_win": 53.0,
+        "draw": 16.1,
+        "away_win": 30.9,
         "home_score": 30,
-        "away_score": 26,
+        "away_score": 25,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3513,7 +3590,7 @@
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T17:30:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3525,14 +3602,14 @@
         "name": "Exeter Chiefs"
       },
       "prediction": {
-        "home_win": 72.3,
-        "draw": 4.1,
-        "away_win": 23.6,
-        "home_score": 34,
-        "away_score": 24,
+        "home_win": 72.9,
+        "draw": 12.0,
+        "away_win": 15.1,
+        "home_score": 35,
+        "away_score": 22,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3553,14 +3630,14 @@
         "name": "Ospreys"
       },
       "prediction": {
-        "home_win": 65.4,
-        "draw": 4.9,
-        "away_win": 29.7,
+        "home_win": 63.2,
+        "draw": 14.5,
+        "away_win": 22.3,
         "home_score": 29,
-        "away_score": 22,
+        "away_score": 20,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3581,14 +3658,14 @@
         "name": "Ulster"
       },
       "prediction": {
-        "home_win": 77.9,
-        "draw": 3.3,
-        "away_win": 18.8,
-        "home_score": 34,
-        "away_score": 20,
+        "home_win": 81.1,
+        "draw": 9.3,
+        "away_win": 9.6,
+        "home_score": 35,
+        "away_score": 17,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3609,14 +3686,14 @@
         "name": "Bulls"
       },
       "prediction": {
-        "home_win": 46.5,
-        "draw": 7.0,
-        "away_win": 46.5,
-        "home_score": 30,
-        "away_score": 32,
+        "home_win": 36.2,
+        "draw": 16.6,
+        "away_win": 47.2,
+        "home_score": 29,
+        "away_score": 31,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3625,7 +3702,7 @@
       "date": "2027-01-03",
       "kickoff_utc": "2027-01-03T15:00:00Z",
       "status": "scheduled",
-      "competition": "Premiership Rugby",
+      "competition": "Premiership",
       "competition_type": "club",
       "season": "2026-27",
       "home": {
@@ -3637,14 +3714,14 @@
         "name": "Sale Sharks"
       },
       "prediction": {
-        "home_win": 69.0,
-        "draw": 4.5,
-        "away_win": 26.5,
+        "home_win": 68.4,
+        "draw": 13.3,
+        "away_win": 18.3,
         "home_score": 35,
-        "away_score": 26,
+        "away_score": 24,
         "confidence": "wstępna"
       },
-      "prediction_basis": "tabela sezonu",
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3832,8 +3909,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3853,8 +3937,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3874,8 +3965,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3895,8 +3993,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3916,8 +4021,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3958,8 +4070,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -3979,8 +4098,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4000,8 +4126,15 @@
         "id": "tm_2X66TS0",
         "name": "Leicester Tigers"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 82.4,
+        "draw": 8.8,
+        "away_win": 8.8,
+        "home_score": 39,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4021,8 +4154,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4042,8 +4182,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4063,8 +4210,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4084,8 +4238,15 @@
         "id": "tm_0F2PX42",
         "name": "Bayonne"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 70.4,
+        "draw": 12.8,
+        "away_win": 16.8,
+        "home_score": 32,
+        "away_score": 19,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4105,8 +4266,15 @@
         "id": "tm_1ZVKGRW",
         "name": "Benetton"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 16.4,
+        "away_win": 33.6,
+        "home_score": 16,
+        "away_score": 12,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4168,8 +4336,15 @@
         "id": "tm_3KFPVP6",
         "name": "Stormers"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 40.5,
+        "draw": 16.8,
+        "away_win": 42.7,
+        "home_score": 30,
+        "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4210,8 +4385,15 @@
         "id": "tm_1EF5HP8",
         "name": "Bath"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 43.5,
+        "draw": 16.8,
+        "away_win": 39.7,
+        "home_score": 35,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4231,8 +4413,15 @@
         "id": "tm_0WZX95E",
         "name": "Stade Rochelais"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 71.8,
+        "draw": 12.4,
+        "away_win": 15.8,
+        "home_score": 39,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4252,8 +4441,15 @@
         "id": "tm_2XJ6QW4",
         "name": "Pau"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 48.3,
+        "draw": 16.6,
+        "away_win": 35.1,
+        "home_score": 33,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4273,8 +4469,15 @@
         "id": "tm_28GXJQH",
         "name": "Northampton Saints"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 73.2,
+        "draw": 12.0,
+        "away_win": 14.8,
+        "home_score": 37,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4336,8 +4539,15 @@
         "id": "tm_179VXFK",
         "name": "Cardiff Rugby"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 20.5,
+        "draw": 14.0,
+        "away_win": 65.5,
+        "home_score": 25,
+        "away_score": 35,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4357,8 +4567,15 @@
         "id": "tm_1J9G85H",
         "name": "Ulster"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 9.1,
+        "draw": 9.0,
+        "away_win": 81.9,
+        "home_score": 18,
+        "away_score": 36,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4399,8 +4616,15 @@
         "id": "tm_2SF953S",
         "name": "Bristol"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 65.2,
+        "draw": 14.0,
+        "away_win": 20.8,
+        "home_score": 39,
+        "away_score": 29,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4420,8 +4644,15 @@
         "id": "tm_344015A",
         "name": "Munster"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 76.7,
+        "draw": 10.9,
+        "away_win": 12.4,
+        "home_score": 38,
+        "away_score": 23,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4441,8 +4672,15 @@
         "id": "tm_3M68FPT",
         "name": "Lions"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 14.0,
+        "draw": 11.6,
+        "away_win": 74.4,
+        "home_score": 17,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4462,8 +4700,15 @@
         "id": "tm_2N4666W",
         "name": "Clermont"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 59.8,
+        "draw": 15.1,
+        "away_win": 25.1,
+        "home_score": 35,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4483,8 +4728,15 @@
         "id": "tm_0ZTCJ6D",
         "name": "Cheetahs"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 24.2,
+        "draw": 14.9,
+        "away_win": 60.9,
+        "home_score": 26,
+        "away_score": 34,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4672,8 +4924,15 @@
         "id": "tm_0FWX7QJ",
         "name": "Bulls"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 45.9,
+        "draw": 16.7,
+        "away_win": 37.4,
+        "home_score": 37,
+        "away_score": 36,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4714,8 +4973,15 @@
         "id": "tm_2QWN0R8",
         "name": "Montpellier"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 9.1,
+        "draw": 9.0,
+        "away_win": 81.9,
+        "home_score": 13,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4735,8 +5001,15 @@
         "id": "tm_1M3P72S",
         "name": "Sale Sharks"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 88.3,
+        "draw": 6.4,
+        "away_win": 5.3,
+        "home_score": 43,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4756,8 +5029,15 @@
         "id": "tm_1MZ3SAG",
         "name": "Zebre"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 80.7,
+        "draw": 9.5,
+        "away_win": 9.8,
+        "home_score": 39,
+        "away_score": 21,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4777,8 +5057,15 @@
         "id": "tm_2XD4Y17",
         "name": "Exeter Chiefs"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 79.5,
+        "draw": 9.9,
+        "away_win": 10.6,
+        "home_score": 41,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4798,8 +5085,15 @@
         "id": "tm_2V0SRR1",
         "name": "Bordeaux Begles"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 7.9,
+        "draw": 8.3,
+        "away_win": 83.8,
+        "home_score": 25,
+        "away_score": 45,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4819,8 +5113,15 @@
         "id": "tm_0QS8K9D",
         "name": "Racing 92"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 62.1,
+        "draw": 14.7,
+        "away_win": 23.2,
+        "home_score": 35,
+        "away_score": 27,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4840,8 +5141,15 @@
         "id": "tm_1QM2PPX",
         "name": "Dragons"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 56.5,
+        "draw": 15.7,
+        "away_win": 27.8,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4903,8 +5211,15 @@
         "id": "tm_1ZZ7A6N",
         "name": "Connacht"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 14.2,
+        "draw": 11.7,
+        "away_win": 74.1,
+        "home_score": 25,
+        "away_score": 39,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4924,8 +5239,15 @@
         "id": "tm_2G259FF",
         "name": "Gloucester"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 62.4,
+        "draw": 14.6,
+        "away_win": 23.0,
+        "home_score": 33,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4945,8 +5267,15 @@
         "id": "tm_2XG5PQN",
         "name": "Leinster"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 20.2,
+        "draw": 13.9,
+        "away_win": 65.9,
+        "home_score": 27,
+        "away_score": 37,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -4966,8 +5295,15 @@
         "id": "tm_0QPNGJQ",
         "name": "Glasgow Warriors"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 7.9,
+        "draw": 8.3,
+        "away_win": 83.8,
+        "home_score": 19,
+        "away_score": 39,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -5050,8 +5386,15 @@
         "id": "tm_2EA92SC",
         "name": "USA Perpignan"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 70.4,
+        "draw": 12.8,
+        "away_win": 16.8,
+        "home_score": 32,
+        "away_score": 19,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -5092,8 +5435,15 @@
         "id": "tm_1B02ZEK",
         "name": "Stade Francais Paris"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 95.4,
+        "draw": 2.9,
+        "away_win": 1.7,
+        "home_score": 51,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     }

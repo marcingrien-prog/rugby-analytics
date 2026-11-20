@@ -1,1 +1,1766 @@
-[]
+[
+  {
+    "id": "mt_01MH849",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Bayonne",
+    "away": "Castres Olympique",
+    "probabilities": {
+      "home": 0.578,
+      "draw": 0.155,
+      "away": 0.267
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_028BE4H",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Clermont",
+    "away": "RC Toulonnais",
+    "probabilities": {
+      "home": 0.366,
+      "draw": 0.16699999999999998,
+      "away": 0.467
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_10KD3CF",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Stade Francais Paris",
+    "away": "Vannes",
+    "probabilities": {
+      "home": 0.594,
+      "draw": 0.152,
+      "away": 0.254
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1N7FAN0",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Lyon",
+    "away": "Stade Toulousain",
+    "probabilities": {
+      "home": 0.406,
+      "draw": 0.168,
+      "away": 0.426
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2XY0B64",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Stade Rochelais",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.696,
+      "draw": 0.13,
+      "away": 0.174
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2Y7T635",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Bordeaux Begles",
+    "away": "Montpellier",
+    "probabilities": {
+      "home": 0.429,
+      "draw": 0.168,
+      "away": 0.40299999999999997
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_36ZVXXV",
+    "date": "2026-11-28",
+    "competition": "Top 14",
+    "home": "Racing 92",
+    "away": "Pau",
+    "probabilities": {
+      "home": 0.239,
+      "draw": 0.149,
+      "away": 0.612
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_18JSKGG",
+    "date": "2026-12-04",
+    "competition": "United Rugby Championship",
+    "home": "Edinburgh",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.562,
+      "draw": 0.157,
+      "away": 0.281
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1WQSS4B",
+    "date": "2026-12-04",
+    "competition": "Premiership",
+    "home": "Bath",
+    "away": "Bristol",
+    "probabilities": {
+      "home": 0.435,
+      "draw": 0.168,
+      "away": 0.397
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_20KE98H",
+    "date": "2026-12-04",
+    "competition": "United Rugby Championship",
+    "home": "Ospreys",
+    "away": "Leinster",
+    "probabilities": {
+      "home": 0.198,
+      "draw": 0.138,
+      "away": 0.664
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0AP26Y0",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Glasgow Warriors",
+    "away": "Benetton",
+    "probabilities": {
+      "home": 0.5820000000000001,
+      "draw": 0.154,
+      "away": 0.264
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0K26SXR",
+    "date": "2026-12-05",
+    "competition": "Premiership",
+    "home": "Saracens",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.425,
+      "draw": 0.168,
+      "away": 0.40700000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0PN0TYW",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Lions",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.098,
+      "draw": 0.095,
+      "away": 0.807
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0RAE81K",
+    "date": "2026-12-05",
+    "competition": "Premiership",
+    "home": "Harlequins",
+    "away": "Leicester Tigers",
+    "probabilities": {
+      "home": 0.244,
+      "draw": 0.15,
+      "away": 0.606
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0SVRADR",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Cardiff Rugby",
+    "away": "Ulster",
+    "probabilities": {
+      "home": 0.645,
+      "draw": 0.142,
+      "away": 0.213
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0X9K8FE",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "Montpellier",
+    "away": "Stade Rochelais",
+    "probabilities": {
+      "home": 0.624,
+      "draw": 0.146,
+      "away": 0.23
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_181YYNW",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "RC Toulonnais",
+    "away": "Bordeaux Begles",
+    "probabilities": {
+      "home": 0.456,
+      "draw": 0.16699999999999998,
+      "away": 0.377
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_18TARZ4",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Scarlets",
+    "away": "Connacht",
+    "probabilities": {
+      "home": 0.484,
+      "draw": 0.166,
+      "away": 0.35
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1W3T0WX",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Sharks",
+    "away": "Stormers",
+    "probabilities": {
+      "home": 0.396,
+      "draw": 0.168,
+      "away": 0.436
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1Y6WTZ7",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "Stade Toulousain",
+    "away": "Racing 92",
+    "probabilities": {
+      "home": 0.723,
+      "draw": 0.122,
+      "away": 0.155
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_23XK6Q8",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "Castres Olympique",
+    "away": "Lyon",
+    "probabilities": {
+      "home": 0.33,
+      "draw": 0.16399999999999998,
+      "away": 0.506
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_35GBK7G",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "Pau",
+    "away": "Stade Francais Paris",
+    "probabilities": {
+      "home": 0.6990000000000001,
+      "draw": 0.129,
+      "away": 0.172
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3CMNJCC",
+    "date": "2026-12-05",
+    "competition": "United Rugby Championship",
+    "home": "Zebre",
+    "away": "Munster",
+    "probabilities": {
+      "home": 0.239,
+      "draw": 0.149,
+      "away": 0.612
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3GBTWK7",
+    "date": "2026-12-05",
+    "competition": "Premiership",
+    "home": "Gloucester",
+    "away": "Falcons",
+    "probabilities": {
+      "home": 0.804,
+      "draw": 0.096,
+      "away": 0.1
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3JMMFT0",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "USA Perpignan",
+    "away": "Clermont",
+    "probabilities": {
+      "home": 0.42200000000000004,
+      "draw": 0.168,
+      "away": 0.41
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3V4478C",
+    "date": "2026-12-05",
+    "competition": "Top 14",
+    "home": "Vannes",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.436,
+      "draw": 0.168,
+      "away": 0.396
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2AWJ0F4",
+    "date": "2026-12-06",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.5429999999999999,
+      "draw": 0.16,
+      "away": 0.297
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_231WYYC",
+    "date": "2026-12-11",
+    "competition": "European Rugby Champions Cup",
+    "home": "Stade Francais Paris",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.069,
+      "draw": 0.076,
+      "away": 0.855
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2Y90YJG",
+    "date": "2026-12-11",
+    "competition": "European Rugby Champions Cup",
+    "home": "Glasgow Warriors",
+    "away": "Pau",
+    "probabilities": {
+      "home": 0.521,
+      "draw": 0.162,
+      "away": 0.317
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0CM0QT7",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Cardiff Rugby",
+    "away": "Bath",
+    "probabilities": {
+      "home": 0.147,
+      "draw": 0.11900000000000001,
+      "away": 0.7340000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_197HX8V",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bristol",
+    "away": "Munster",
+    "probabilities": {
+      "home": 0.21899999999999997,
+      "draw": 0.14400000000000002,
+      "away": 0.637
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1CXRZZH",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Leicester Tigers",
+    "away": "Clermont",
+    "probabilities": {
+      "home": 0.718,
+      "draw": 0.124,
+      "away": 0.158
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_24K6HE5",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Saracens",
+    "away": "Stade Rochelais",
+    "probabilities": {
+      "home": 0.625,
+      "draw": 0.146,
+      "away": 0.22899999999999998
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2JM9KG0",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Montpellier",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.6970000000000001,
+      "draw": 0.129,
+      "away": 0.174
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2JPQPWS",
+    "date": "2026-12-12",
+    "competition": "European Rugby Champions Cup",
+    "home": "Leinster",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.877,
+      "draw": 0.066,
+      "away": 0.057
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_37T1P9P",
+    "date": "2026-12-12",
+    "competition": "Challenge Cup",
+    "home": "Ulster",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.758,
+      "draw": 0.111,
+      "away": 0.131
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_01JBKV9",
+    "date": "2026-12-13",
+    "competition": "Challenge Cup",
+    "home": "USA Perpignan",
+    "away": "Zebre",
+    "probabilities": {
+      "home": 0.565,
+      "draw": 0.157,
+      "away": 0.278
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0ZKR8CX",
+    "date": "2026-12-13",
+    "competition": "Challenge Cup",
+    "home": "Cheetahs",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.242,
+      "draw": 0.149,
+      "away": 0.609
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_10T5R63",
+    "date": "2026-12-13",
+    "competition": "European Rugby Champions Cup",
+    "home": "Exeter Chiefs",
+    "away": "Connacht",
+    "probabilities": {
+      "home": 0.31,
+      "draw": 0.162,
+      "away": 0.528
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1A99GKM",
+    "date": "2026-12-13",
+    "competition": "European Rugby Champions Cup",
+    "home": "Racing 92",
+    "away": "Gloucester",
+    "probabilities": {
+      "home": 0.473,
+      "draw": 0.166,
+      "away": 0.361
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2XWZEQF",
+    "date": "2026-12-13",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bordeaux Begles",
+    "away": "Stormers",
+    "probabilities": {
+      "home": 0.789,
+      "draw": 0.10099999999999999,
+      "away": 0.11
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0GRP1V8",
+    "date": "2026-12-18",
+    "competition": "United Rugby Championship",
+    "home": "Ulster",
+    "away": "Ospreys",
+    "probabilities": {
+      "home": 0.48700000000000004,
+      "draw": 0.165,
+      "away": 0.348
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1V89EE0",
+    "date": "2026-12-18",
+    "competition": "Premiership",
+    "home": "Falcons",
+    "away": "Bath",
+    "probabilities": {
+      "home": 0.41200000000000003,
+      "draw": 0.168,
+      "away": 0.42
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_346Z18S",
+    "date": "2026-12-18",
+    "competition": "United Rugby Championship",
+    "home": "Munster",
+    "away": "Scarlets",
+    "probabilities": {
+      "home": 0.62,
+      "draw": 0.147,
+      "away": 0.233
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_06ADC8E",
+    "date": "2026-12-19",
+    "competition": "Premiership",
+    "home": "Northampton Saints",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.721,
+      "draw": 0.12300000000000001,
+      "away": 0.156
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_09904DV",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Stade Rochelais",
+    "away": "Castres Olympique",
+    "probabilities": {
+      "home": 0.7020000000000001,
+      "draw": 0.128,
+      "away": 0.17
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_09F40G3",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Clermont",
+    "away": "Montpellier",
+    "probabilities": {
+      "home": 0.264,
+      "draw": 0.154,
+      "away": 0.5820000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0X90DWC",
+    "date": "2026-12-19",
+    "competition": "Premiership",
+    "home": "Gloucester",
+    "away": "Saracens",
+    "probabilities": {
+      "home": 0.675,
+      "draw": 0.135,
+      "away": 0.19
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_12BFRCM",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Zebre",
+    "away": "Benetton",
+    "probabilities": {
+      "home": 0.16699999999999998,
+      "draw": 0.127,
+      "away": 0.706
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1AKDVT5",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Connacht",
+    "away": "Edinburgh",
+    "probabilities": {
+      "home": 0.255,
+      "draw": 0.152,
+      "away": 0.593
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1JG45DK",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Racing 92",
+    "away": "Vannes",
+    "probabilities": {
+      "home": 0.52,
+      "draw": 0.162,
+      "away": 0.318
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1QF9MR7",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Stormers",
+    "away": "Lions",
+    "probabilities": {
+      "home": 0.8390000000000001,
+      "draw": 0.083,
+      "away": 0.078
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1XM13NF",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Sharks",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.268,
+      "draw": 0.155,
+      "away": 0.5770000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2500M6K",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Cardiff Rugby",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.49,
+      "draw": 0.165,
+      "away": 0.345
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2ESQD1Y",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Bayonne",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.5710000000000001,
+      "draw": 0.156,
+      "away": 0.273
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2G2Y6GB",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Lyon",
+    "away": "RC Toulonnais",
+    "probabilities": {
+      "home": 0.45299999999999996,
+      "draw": 0.16699999999999998,
+      "away": 0.38
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2NDGN1Q",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Bordeaux Begles",
+    "away": "Pau",
+    "probabilities": {
+      "home": 0.449,
+      "draw": 0.16699999999999998,
+      "away": 0.384
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_30JF3WQ",
+    "date": "2026-12-19",
+    "competition": "Top 14",
+    "home": "Stade Francais Paris",
+    "away": "Stade Toulousain",
+    "probabilities": {
+      "home": 0.34299999999999997,
+      "draw": 0.165,
+      "away": 0.49200000000000005
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3BG25Q2",
+    "date": "2026-12-19",
+    "competition": "Premiership",
+    "home": "Leicester Tigers",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.6920000000000001,
+      "draw": 0.131,
+      "away": 0.177
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3TPTT6V",
+    "date": "2026-12-19",
+    "competition": "United Rugby Championship",
+    "home": "Leinster",
+    "away": "Glasgow Warriors",
+    "probabilities": {
+      "home": 0.604,
+      "draw": 0.15,
+      "away": 0.24600000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2J3WBQA",
+    "date": "2026-12-20",
+    "competition": "Premiership",
+    "home": "Bristol",
+    "away": "Harlequins",
+    "probabilities": {
+      "home": 0.6779999999999999,
+      "draw": 0.134,
+      "away": 0.188
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_08R2B5F",
+    "date": "2026-12-26",
+    "competition": "Premiership",
+    "home": "Bath",
+    "away": "Leicester Tigers",
+    "probabilities": {
+      "home": 0.34600000000000003,
+      "draw": 0.165,
+      "away": 0.489
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0Q2FQ5P",
+    "date": "2026-12-26",
+    "competition": "Premiership",
+    "home": "Bristol",
+    "away": "Falcons",
+    "probabilities": {
+      "home": 0.6509999999999999,
+      "draw": 0.141,
+      "away": 0.20800000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0TSZZ32",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Pau",
+    "away": "Clermont",
+    "probabilities": {
+      "home": 0.72,
+      "draw": 0.12300000000000001,
+      "away": 0.157
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0TZ59S1",
+    "date": "2026-12-26",
+    "competition": "United Rugby Championship",
+    "home": "Ospreys",
+    "away": "Scarlets",
+    "probabilities": {
+      "home": 0.5720000000000001,
+      "draw": 0.156,
+      "away": 0.272
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1MPMSPV",
+    "date": "2026-12-26",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Gloucester",
+    "probabilities": {
+      "home": 0.22899999999999998,
+      "draw": 0.146,
+      "away": 0.625
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2K81XFX",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Vannes",
+    "away": "Stade Rochelais",
+    "probabilities": {
+      "home": 0.31,
+      "draw": 0.162,
+      "away": 0.528
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2M49VKA",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Stade Toulousain",
+    "away": "RC Toulonnais",
+    "probabilities": {
+      "home": 0.547,
+      "draw": 0.159,
+      "away": 0.294
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2QA3R5Q",
+    "date": "2026-12-26",
+    "competition": "United Rugby Championship",
+    "home": "Dragons",
+    "away": "Cardiff Rugby",
+    "probabilities": {
+      "home": 0.51,
+      "draw": 0.163,
+      "away": 0.327
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2WKHY5J",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "USA Perpignan",
+    "away": "Lyon",
+    "probabilities": {
+      "home": 0.337,
+      "draw": 0.16399999999999998,
+      "away": 0.499
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2X7C45T",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Castres Olympique",
+    "away": "Bordeaux Begles",
+    "probabilities": {
+      "home": 0.252,
+      "draw": 0.152,
+      "away": 0.596
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_33RJDME",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Racing 92",
+    "away": "Stade Francais Paris",
+    "probabilities": {
+      "home": 0.426,
+      "draw": 0.168,
+      "away": 0.406
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3M8ZFM6",
+    "date": "2026-12-26",
+    "competition": "Top 14",
+    "home": "Montpellier",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.742,
+      "draw": 0.11599999999999999,
+      "away": 0.142
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_152C7NQ",
+    "date": "2026-12-27",
+    "competition": "Premiership",
+    "home": "Exeter Chiefs",
+    "away": "Saracens",
+    "probabilities": {
+      "home": 0.34600000000000003,
+      "draw": 0.165,
+      "away": 0.489
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1KCGGAD",
+    "date": "2026-12-27",
+    "competition": "United Rugby Championship",
+    "home": "Benetton",
+    "away": "Zebre",
+    "probabilities": {
+      "home": 0.833,
+      "draw": 0.085,
+      "away": 0.08199999999999999
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2BRJ943",
+    "date": "2026-12-27",
+    "competition": "United Rugby Championship",
+    "home": "Ulster",
+    "away": "Connacht",
+    "probabilities": {
+      "home": 0.5429999999999999,
+      "draw": 0.16,
+      "away": 0.297
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3E2K9G8",
+    "date": "2026-12-27",
+    "competition": "United Rugby Championship",
+    "home": "Munster",
+    "away": "Leinster",
+    "probabilities": {
+      "home": 0.23399999999999999,
+      "draw": 0.14800000000000002,
+      "away": 0.618
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3WY0BFC",
+    "date": "2026-12-27",
+    "competition": "United Rugby Championship",
+    "home": "Edinburgh",
+    "away": "Glasgow Warriors",
+    "probabilities": {
+      "home": 0.474,
+      "draw": 0.166,
+      "away": 0.36
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2WWKGM3",
+    "date": "2026-12-28",
+    "competition": "Premiership",
+    "home": "Harlequins",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.252,
+      "draw": 0.152,
+      "away": 0.596
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2MV6JQH",
+    "date": "2027-01-01",
+    "competition": "Premiership",
+    "home": "Gloucester",
+    "away": "Bristol",
+    "probabilities": {
+      "home": 0.6809999999999999,
+      "draw": 0.134,
+      "away": 0.185
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_04FKKAP",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Scarlets",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.293,
+      "draw": 0.159,
+      "away": 0.5479999999999999
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_05AN1AY",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Edinburgh",
+    "away": "Benetton",
+    "probabilities": {
+      "home": 0.556,
+      "draw": 0.158,
+      "away": 0.28600000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0EHVC65",
+    "date": "2027-01-02",
+    "competition": "Premiership",
+    "home": "Falcons",
+    "away": "Harlequins",
+    "probabilities": {
+      "home": 0.53,
+      "draw": 0.161,
+      "away": 0.309
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0K72A39",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Stade Francais Paris",
+    "away": "Castres Olympique",
+    "probabilities": {
+      "home": 0.608,
+      "draw": 0.149,
+      "away": 0.243
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1DGKR86",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Leinster",
+    "away": "Ulster",
+    "probabilities": {
+      "home": 0.8109999999999999,
+      "draw": 0.09300000000000001,
+      "away": 0.096
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1SWWB61",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Lyon",
+    "away": "Racing 92",
+    "probabilities": {
+      "home": 0.638,
+      "draw": 0.14400000000000002,
+      "away": 0.218
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1WC2JSJ",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Connacht",
+    "away": "Munster",
+    "probabilities": {
+      "home": 0.396,
+      "draw": 0.168,
+      "away": 0.436
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2AQGJRX",
+    "date": "2027-01-02",
+    "competition": "Premiership",
+    "home": "Saracens",
+    "away": "Bath",
+    "probabilities": {
+      "home": 0.5720000000000001,
+      "draw": 0.156,
+      "away": 0.272
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2CS6B7D",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Bordeaux Begles",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.742,
+      "draw": 0.11599999999999999,
+      "away": 0.142
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2WH07WA",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Zebre",
+    "away": "Glasgow Warriors",
+    "probabilities": {
+      "home": 0.122,
+      "draw": 0.10800000000000001,
+      "away": 0.77
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_333RHMB",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Sharks",
+    "away": "Lions",
+    "probabilities": {
+      "home": 0.7659999999999999,
+      "draw": 0.109,
+      "away": 0.125
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_35PH4MN",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "RC Toulonnais",
+    "away": "Montpellier",
+    "probabilities": {
+      "home": 0.386,
+      "draw": 0.168,
+      "away": 0.446
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_36ABAMX",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Stade Rochelais",
+    "away": "Pau",
+    "probabilities": {
+      "home": 0.395,
+      "draw": 0.168,
+      "away": 0.43700000000000006
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_37V2QCA",
+    "date": "2027-01-02",
+    "competition": "Premiership",
+    "home": "Leicester Tigers",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.7290000000000001,
+      "draw": 0.12,
+      "away": 0.151
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3GCJGST",
+    "date": "2027-01-02",
+    "competition": "United Rugby Championship",
+    "home": "Cardiff Rugby",
+    "away": "Ospreys",
+    "probabilities": {
+      "home": 0.632,
+      "draw": 0.145,
+      "away": 0.223
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3V1H4HP",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Clermont",
+    "away": "Vannes",
+    "probabilities": {
+      "home": 0.5710000000000001,
+      "draw": 0.156,
+      "away": 0.273
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3E9BTQZ",
+    "date": "2027-01-03",
+    "competition": "United Rugby Championship",
+    "home": "Stormers",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.36200000000000004,
+      "draw": 0.166,
+      "away": 0.47200000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3ZGG8TY",
+    "date": "2027-01-03",
+    "competition": "Premiership",
+    "home": "Northampton Saints",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.684,
+      "draw": 0.133,
+      "away": 0.183
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2P7VZ50",
+    "date": "2027-01-08",
+    "competition": "European Rugby Champions Cup",
+    "home": "Glasgow Warriors",
+    "away": "Leicester Tigers",
+    "probabilities": {
+      "home": 0.8240000000000001,
+      "draw": 0.08800000000000001,
+      "away": 0.08800000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3GNFQA5",
+    "date": "2027-01-08",
+    "competition": "Challenge Cup",
+    "home": "Dragons",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.7040000000000001,
+      "draw": 0.128,
+      "away": 0.168
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_05Q4WCY",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bulls",
+    "away": "Bath",
+    "probabilities": {
+      "home": 0.435,
+      "draw": 0.168,
+      "away": 0.397
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_063KPYA",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Leinster",
+    "away": "Pau",
+    "probabilities": {
+      "home": 0.483,
+      "draw": 0.166,
+      "away": 0.35100000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0956RJ8",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Exeter Chiefs",
+    "away": "Stade Rochelais",
+    "probabilities": {
+      "home": 0.718,
+      "draw": 0.124,
+      "away": 0.158
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0Q8QY0W",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Gloucester",
+    "away": "Stormers",
+    "probabilities": {
+      "home": 0.405,
+      "draw": 0.168,
+      "away": 0.42700000000000005
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2RM99VB",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Stade Francais Paris",
+    "away": "Cardiff Rugby",
+    "probabilities": {
+      "home": 0.205,
+      "draw": 0.14,
+      "away": 0.655
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_384AVA6",
+    "date": "2027-01-09",
+    "competition": "European Rugby Champions Cup",
+    "home": "Montpellier",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.732,
+      "draw": 0.12,
+      "away": 0.14800000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1FNW6ZC",
+    "date": "2027-01-10",
+    "competition": "Challenge Cup",
+    "home": "USA Perpignan",
+    "away": "Ulster",
+    "probabilities": {
+      "home": 0.091,
+      "draw": 0.09,
+      "away": 0.8190000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1RNKHDD",
+    "date": "2027-01-10",
+    "competition": "European Rugby Champions Cup",
+    "home": "Sale Sharks",
+    "away": "Clermont",
+    "probabilities": {
+      "home": 0.598,
+      "draw": 0.151,
+      "away": 0.251
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1RVTF9Z",
+    "date": "2027-01-10",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bordeaux Begles",
+    "away": "Munster",
+    "probabilities": {
+      "home": 0.767,
+      "draw": 0.109,
+      "away": 0.124
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1YVT0ZM",
+    "date": "2027-01-10",
+    "competition": "Challenge Cup",
+    "home": "Zebre",
+    "away": "Cheetahs",
+    "probabilities": {
+      "home": 0.242,
+      "draw": 0.149,
+      "away": 0.609
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2HFGF8K",
+    "date": "2027-01-10",
+    "competition": "European Rugby Champions Cup",
+    "home": "Saracens",
+    "away": "Lions",
+    "probabilities": {
+      "home": 0.14,
+      "draw": 0.11599999999999999,
+      "away": 0.7440000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3E660CQ",
+    "date": "2027-01-10",
+    "competition": "European Rugby Champions Cup",
+    "home": "Racing 92",
+    "away": "Bristol",
+    "probabilities": {
+      "home": 0.652,
+      "draw": 0.14,
+      "away": 0.20800000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_02S6ABS",
+    "date": "2027-01-15",
+    "competition": "European Rugby Champions Cup",
+    "home": "Northampton Saints",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.45899999999999996,
+      "draw": 0.16699999999999998,
+      "away": 0.374
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3FYJ8AN",
+    "date": "2027-01-15",
+    "competition": "European Rugby Champions Cup",
+    "home": "Cardiff Rugby",
+    "away": "Montpellier",
+    "probabilities": {
+      "home": 0.091,
+      "draw": 0.09,
+      "away": 0.8190000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_05NRKZN",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Leicester Tigers",
+    "away": "Leinster",
+    "probabilities": {
+      "home": 0.20199999999999999,
+      "draw": 0.139,
+      "away": 0.659
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0QXXHFW",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Clermont",
+    "away": "Glasgow Warriors",
+    "probabilities": {
+      "home": 0.079,
+      "draw": 0.083,
+      "away": 0.838
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_10AX7GT",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bristol",
+    "away": "Bordeaux Begles",
+    "probabilities": {
+      "home": 0.079,
+      "draw": 0.083,
+      "away": 0.838
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_16127WP",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Stormers",
+    "away": "Racing 92",
+    "probabilities": {
+      "home": 0.621,
+      "draw": 0.147,
+      "away": 0.23199999999999998
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_17Q2C8F",
+    "date": "2027-01-16",
+    "competition": "Challenge Cup",
+    "home": "Ulster",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.565,
+      "draw": 0.157,
+      "away": 0.278
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1KB12W1",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Pau",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.883,
+      "draw": 0.064,
+      "away": 0.053
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1QKVYE2",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Stade Rochelais",
+    "away": "Connacht",
+    "probabilities": {
+      "home": 0.142,
+      "draw": 0.11699999999999999,
+      "away": 0.741
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1TFMFWW",
+    "date": "2027-01-16",
+    "competition": "Challenge Cup",
+    "home": "Bayonne",
+    "away": "Zebre",
+    "probabilities": {
+      "home": 0.807,
+      "draw": 0.095,
+      "away": 0.098
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_20FF0HG",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Munster",
+    "away": "Gloucester",
+    "probabilities": {
+      "home": 0.624,
+      "draw": 0.146,
+      "away": 0.23
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3MCARZE",
+    "date": "2027-01-16",
+    "competition": "European Rugby Champions Cup",
+    "home": "Lions",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.795,
+      "draw": 0.099,
+      "away": 0.106
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_069JSZX",
+    "date": "2027-01-17",
+    "competition": "European Rugby Champions Cup",
+    "home": "Bath",
+    "away": "Stade Francais Paris",
+    "probabilities": {
+      "home": 0.9540000000000001,
+      "draw": 0.028999999999999998,
+      "away": 0.017
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_08155P7",
+    "date": "2027-01-17",
+    "competition": "Challenge Cup",
+    "home": "Cheetahs",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.7040000000000001,
+      "draw": 0.128,
+      "away": 0.168
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  }
+]
