@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T01:22:41.876301+00:00",
+  "generated_at": "2026-11-20T13:26:49.014029+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 213,
   "competitions_count": 51,
   "standings_loaded": 5,
-  "results_fetched": 0,
-  "results_history_count": 0,
-  "teams_with_form": 0,
+  "results_fetched": 1,
+  "results_history_count": 1,
+  "teams_with_form": 2,
   "validation": {
     "settled_predictions": 0,
     "hit_rate": null,
@@ -306,7 +306,23 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      },
       "away_form": null
     },
     {
@@ -328,7 +344,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_01MH849",
@@ -629,7 +661,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3MC7MMB",
@@ -671,7 +719,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_18JSKGG",
@@ -1314,7 +1378,23 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": null
     },
     {
@@ -1335,7 +1415,23 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      },
       "away_form": null
     },
     {
@@ -2043,7 +2139,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2B5E694",
@@ -2064,7 +2176,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3JKY27H",
@@ -3743,7 +3871,23 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": null
     },
     {
@@ -3764,7 +3908,23 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      },
       "away_form": null
     },
     {
@@ -4864,7 +5024,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 41.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Provence Rugby",
+            "venue": "H",
+            "scored": 41.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3MFH7RB",
@@ -4885,7 +5061,23 @@
       "prediction": null,
       "prediction_basis": null,
       "home_form": null,
-      "away_form": null
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 41.0,
+        "points_diff_avg": -11.0,
+        "results": [
+          {
+            "date": "2026-11-19",
+            "opponent": "Grenoble FC",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 41.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3Q8029Q",
