@@ -1,5 +1,117 @@
 [
   {
+    "id": "mt_3RQY3Z4",
+    "date": "2026-11-26",
+    "competition": "Pro D2",
+    "home": "CA Brive",
+    "away": "Biarritz Olympique",
+    "probabilities": {
+      "home": 0.386,
+      "draw": 0.145,
+      "away": 0.469
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_0BQWWAQ",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Narbonne",
+    "away": "Grenoble FC",
+    "probabilities": {
+      "home": 0.376,
+      "draw": 0.145,
+      "away": 0.479
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_0K7SY9W",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Valence Romans",
+    "away": "Aurillac",
+    "probabilities": {
+      "home": 0.281,
+      "draw": 0.135,
+      "away": 0.584
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_0X554V8",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Angouleme",
+    "away": "Nice",
+    "probabilities": {
+      "home": 0.35600000000000004,
+      "draw": 0.14400000000000002,
+      "away": 0.5
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_130WVGQ",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Colomiers",
+    "away": "Nevers",
+    "probabilities": {
+      "home": 0.146,
+      "draw": 0.10099999999999999,
+      "away": 0.753
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_219CBQD",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Agen",
+    "away": "Beziers",
+    "probabilities": {
+      "home": 0.542,
+      "draw": 0.14,
+      "away": 0.318
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_331530F",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "US Dax",
+    "away": "US Oyonnax",
+    "probabilities": {
+      "home": 0.44799999999999995,
+      "draw": 0.146,
+      "away": 0.406
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3MEM4A4",
+    "date": "2026-11-27",
+    "competition": "Pro D2",
+    "home": "Provence Rugby",
+    "away": "Montauban",
+    "probabilities": {
+      "home": 0.376,
+      "draw": 0.145,
+      "away": 0.479
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_01MH849",
     "date": "2026-11-28",
     "competition": "Top 14",
@@ -98,6 +210,48 @@
     "actual": null
   },
   {
+    "id": "mt_00R4EX6",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Narbonne",
+    "away": "Agen",
+    "probabilities": {
+      "home": 0.5,
+      "draw": 0.14400000000000002,
+      "away": 0.35600000000000004
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_0F3Z437",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Montauban",
+    "away": "Valence Romans",
+    "probabilities": {
+      "home": 0.49,
+      "draw": 0.14400000000000002,
+      "away": 0.366
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_0ZSKXHV",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Nice",
+    "away": "Colomiers",
+    "probabilities": {
+      "home": 0.7190000000000001,
+      "draw": 0.11,
+      "away": 0.171
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_18JSKGG",
     "date": "2026-12-04",
     "competition": "United Rugby Championship",
@@ -109,6 +263,20 @@
       "away": 0.281
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1CHJVK6",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Beziers",
+    "away": "CA Brive",
+    "probabilities": {
+      "home": 0.552,
+      "draw": 0.139,
+      "away": 0.309
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -137,6 +305,62 @@
       "away": 0.664
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_28G4Y2Z",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Aurillac",
+    "away": "Angouleme",
+    "probabilities": {
+      "home": 0.8540000000000001,
+      "draw": 0.069,
+      "away": 0.077
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_2KEY24J",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Biarritz Olympique",
+    "away": "Provence Rugby",
+    "probabilities": {
+      "home": 0.624,
+      "draw": 0.129,
+      "away": 0.247
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3MC7MMB",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "Nevers",
+    "away": "US Dax",
+    "probabilities": {
+      "home": 0.614,
+      "draw": 0.131,
+      "away": 0.255
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3VQ4AMT",
+    "date": "2026-12-04",
+    "competition": "Pro D2",
+    "home": "US Oyonnax",
+    "away": "Grenoble FC",
+    "probabilities": {
+      "home": 0.49,
+      "draw": 0.14400000000000002,
+      "away": 0.366
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -378,6 +602,76 @@
     "actual": null
   },
   {
+    "id": "mt_09DCQ51",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Agen",
+    "away": "Aurillac",
+    "probabilities": {
+      "home": 0.255,
+      "draw": 0.131,
+      "away": 0.614
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_09GYVRE",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "US Dax",
+    "away": "Biarritz Olympique",
+    "probabilities": {
+      "home": 0.542,
+      "draw": 0.14,
+      "away": 0.318
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1HHGCW2",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Valence Romans",
+    "away": "Narbonne",
+    "probabilities": {
+      "home": 0.531,
+      "draw": 0.141,
+      "away": 0.32799999999999996
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1HKBE29",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Grenoble FC",
+    "away": "Nevers",
+    "probabilities": {
+      "home": 0.44799999999999995,
+      "draw": 0.146,
+      "away": 0.406
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1Y6CD72",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Provence Rugby",
+    "away": "CA Brive",
+    "probabilities": {
+      "home": 0.49,
+      "draw": 0.14400000000000002,
+      "away": 0.366
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_231WYYC",
     "date": "2026-12-11",
     "competition": "European Rugby Champions Cup",
@@ -392,6 +686,20 @@
     "actual": null
   },
   {
+    "id": "mt_2PEYMXE",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Nice",
+    "away": "US Oyonnax",
+    "probabilities": {
+      "home": 0.376,
+      "draw": 0.145,
+      "away": 0.479
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_2Y90YJG",
     "date": "2026-12-11",
     "competition": "European Rugby Champions Cup",
@@ -403,6 +711,34 @@
       "away": 0.317
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3BPXJNP",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Angouleme",
+    "away": "Beziers",
+    "probabilities": {
+      "home": 0.386,
+      "draw": 0.145,
+      "away": 0.469
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3KNZB7A",
+    "date": "2026-12-11",
+    "competition": "Pro D2",
+    "home": "Colomiers",
+    "away": "Montauban",
+    "probabilities": {
+      "home": 0.255,
+      "draw": 0.131,
+      "away": 0.614
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -574,6 +910,20 @@
     "actual": null
   },
   {
+    "id": "mt_0C5VHPD",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "Valence Romans",
+    "away": "Agen",
+    "probabilities": {
+      "home": 0.531,
+      "draw": 0.141,
+      "away": 0.32799999999999996
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_0GRP1V8",
     "date": "2026-12-18",
     "competition": "United Rugby Championship",
@@ -585,6 +935,34 @@
       "away": 0.348
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0TR7DBD",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "Aurillac",
+    "away": "Narbonne",
+    "probabilities": {
+      "home": 0.745,
+      "draw": 0.10300000000000001,
+      "away": 0.152
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1GR0T8X",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "CA Brive",
+    "away": "Angouleme",
+    "probabilities": {
+      "home": 0.563,
+      "draw": 0.138,
+      "away": 0.299
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -602,6 +980,48 @@
     "actual": null
   },
   {
+    "id": "mt_1VZMFQR",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "Beziers",
+    "away": "Biarritz Olympique",
+    "probabilities": {
+      "home": 0.43700000000000006,
+      "draw": 0.146,
+      "away": 0.41700000000000004
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1X4F7P5",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "Nevers",
+    "away": "Provence Rugby",
+    "probabilities": {
+      "home": 0.7609999999999999,
+      "draw": 0.098,
+      "away": 0.141
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_2B5E694",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "US Dax",
+    "away": "Grenoble FC",
+    "probabilities": {
+      "home": 0.43700000000000006,
+      "draw": 0.146,
+      "away": 0.41700000000000004
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_346Z18S",
     "date": "2026-12-18",
     "competition": "United Rugby Championship",
@@ -613,6 +1033,34 @@
       "away": 0.233
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3JKY27H",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "US Oyonnax",
+    "away": "Colomiers",
+    "probabilities": {
+      "home": 0.815,
+      "draw": 0.08199999999999999,
+      "away": 0.10300000000000001
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3MSWS4S",
+    "date": "2026-12-18",
+    "competition": "Pro D2",
+    "home": "Montauban",
+    "away": "Nice",
+    "probabilities": {
+      "home": 0.531,
+      "draw": 0.141,
+      "away": 0.32799999999999996
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -1372,6 +1820,76 @@
     "actual": null
   },
   {
+    "id": "mt_0Z767Z8",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Grenoble FC",
+    "away": "Beziers",
+    "probabilities": {
+      "home": 0.6629999999999999,
+      "draw": 0.122,
+      "away": 0.215
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1PG8WFG",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Provence Rugby",
+    "away": "Valence Romans",
+    "probabilities": {
+      "home": 0.366,
+      "draw": 0.14400000000000002,
+      "away": 0.49
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1ZBZSK4",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Angouleme",
+    "away": "US Oyonnax",
+    "probabilities": {
+      "home": 0.247,
+      "draw": 0.129,
+      "away": 0.624
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_264HEGM",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Biarritz Olympique",
+    "away": "Aurillac",
+    "probabilities": {
+      "home": 0.273,
+      "draw": 0.134,
+      "away": 0.593
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_2FWGZ1R",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Colomiers",
+    "away": "CA Brive",
+    "probabilities": {
+      "home": 0.35600000000000004,
+      "draw": 0.14400000000000002,
+      "away": 0.5
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_2P7VZ50",
     "date": "2027-01-08",
     "competition": "European Rugby Champions Cup",
@@ -1383,6 +1901,48 @@
       "away": 0.08800000000000001
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2PDQ8GC",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Nice",
+    "away": "US Dax",
+    "probabilities": {
+      "home": 0.42700000000000005,
+      "draw": 0.146,
+      "away": 0.42700000000000005
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_35X0920",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Agen",
+    "away": "Nevers",
+    "probabilities": {
+      "home": 0.327,
+      "draw": 0.141,
+      "away": 0.532
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3E6TRSS",
+    "date": "2027-01-08",
+    "competition": "Pro D2",
+    "home": "Narbonne",
+    "away": "Montauban",
+    "probabilities": {
+      "home": 0.479,
+      "draw": 0.145,
+      "away": 0.376
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {
@@ -1568,6 +2128,20 @@
     "actual": null
   },
   {
+    "id": "mt_0048JTV",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "Beziers",
+    "away": "Colomiers",
+    "probabilities": {
+      "home": 0.691,
+      "draw": 0.11599999999999999,
+      "away": 0.193
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_02S6ABS",
     "date": "2027-01-15",
     "competition": "European Rugby Champions Cup",
@@ -1582,6 +2156,76 @@
     "actual": null
   },
   {
+    "id": "mt_18A79R3",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "Montauban",
+    "away": "Biarritz Olympique",
+    "probabilities": {
+      "home": 0.5,
+      "draw": 0.14400000000000002,
+      "away": 0.35600000000000004
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_1DMSR9F",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "US Dax",
+    "away": "Angouleme",
+    "probabilities": {
+      "home": 0.71,
+      "draw": 0.11199999999999999,
+      "away": 0.17800000000000002
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_2FYW7XW",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "Nevers",
+    "away": "Nice",
+    "probabilities": {
+      "home": 0.682,
+      "draw": 0.11800000000000001,
+      "away": 0.2
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_2SDYS6Z",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "CA Brive",
+    "away": "Agen",
+    "probabilities": {
+      "home": 0.406,
+      "draw": 0.146,
+      "away": 0.44799999999999995
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_34V8NQ7",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "Valence Romans",
+    "away": "Grenoble FC",
+    "probabilities": {
+      "home": 0.406,
+      "draw": 0.146,
+      "away": 0.44799999999999995
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
     "id": "mt_3FYJ8AN",
     "date": "2027-01-15",
     "competition": "European Rugby Champions Cup",
@@ -1593,6 +2237,34 @@
       "away": 0.8190000000000001
     },
     "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3MFH7RB",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "Aurillac",
+    "away": "Provence Rugby",
+    "probabilities": {
+      "home": 0.821,
+      "draw": 0.08,
+      "away": 0.099
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_3Q8029Q",
+    "date": "2027-01-15",
+    "competition": "Pro D2",
+    "home": "US Oyonnax",
+    "away": "Narbonne",
+    "probabilities": {
+      "home": 0.614,
+      "draw": 0.131,
+      "away": 0.255
+    },
+    "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
   },
   {

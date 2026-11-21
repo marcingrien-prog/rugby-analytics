@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T13:26:49.014029+00:00",
+  "generated_at": "2026-11-21T01:26:01.652326+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 213,
+  "fixtures_count": 206,
   "competitions_count": 51,
   "standings_loaded": 5,
-  "results_fetched": 1,
-  "results_history_count": 1,
-  "teams_with_form": 2,
+  "results_fetched": 7,
+  "results_history_count": 8,
+  "teams_with_form": 16,
   "validation": {
     "settled_predictions": 0,
     "hit_rate": null,
@@ -15,153 +15,6 @@
   },
   "rankings_as_of": "2026-09-19",
   "fixtures": [
-    {
-      "id": "mt_11CEVQM",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_0NTKB7H",
-        "name": "Nevers"
-      },
-      "away": {
-        "id": "tm_01V3HMS",
-        "name": "Angouleme"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_395Y96Y",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2WVEM0Z",
-        "name": "Beziers"
-      },
-      "away": {
-        "id": "tm_1SV4K8X",
-        "name": "US Dax"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_0ERV3P1",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T18:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_3WJP259",
-        "name": "Montauban"
-      },
-      "away": {
-        "id": "tm_3MN366H",
-        "name": "Agen"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_133H1QC",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T18:30:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_3RYW47W",
-        "name": "Aurillac"
-      },
-      "away": {
-        "id": "tm_31AZMJ3",
-        "name": "Colomiers"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_20NJ5Q5",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T18:30:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_37YCSFM",
-        "name": "Nice"
-      },
-      "away": {
-        "id": "tm_24TSY8Y",
-        "name": "Valence Romans"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_0BNB5YW",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2JPCFNS",
-        "name": "Biarritz Olympique"
-      },
-      "away": {
-        "id": "tm_3CWTAY8",
-        "name": "Narbonne"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_2S6T290",
-      "date": "2026-11-20",
-      "kickoff_utc": "2026-11-20T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_0M35813",
-        "name": "US Oyonnax"
-      },
-      "away": {
-        "id": "tm_1NZTESA",
-        "name": "CA Brive"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
     {
       "id": "mt_3RQY3Z4",
       "date": "2026-11-26",
@@ -178,10 +31,49 @@
         "id": "tm_2JPCFNS",
         "name": "Biarritz Olympique"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 38.6,
+        "draw": 14.5,
+        "away_win": 46.9,
+        "home_score": 28,
+        "away_score": 30,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0K7SY9W",
@@ -199,10 +91,49 @@
         "id": "tm_3RYW47W",
         "name": "Aurillac"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 28.1,
+        "draw": 13.5,
+        "away_win": 58.4,
+        "home_score": 30,
+        "away_score": 38,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0X554V8",
@@ -220,10 +151,49 @@
         "id": "tm_37YCSFM",
         "name": "Nice"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 35.6,
+        "draw": 14.4,
+        "away_win": 50.0,
+        "home_score": 30,
+        "away_score": 34,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_130WVGQ",
@@ -241,10 +211,49 @@
         "id": "tm_0NTKB7H",
         "name": "Nevers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 14.6,
+        "draw": 10.1,
+        "away_win": 75.3,
+        "home_score": 21,
+        "away_score": 38,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_219CBQD",
@@ -262,10 +271,49 @@
         "id": "tm_2WVEM0Z",
         "name": "Beziers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 54.2,
+        "draw": 14.0,
+        "away_win": 31.8,
+        "home_score": 18,
+        "away_score": 13,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_331530F",
@@ -283,10 +331,49 @@
         "id": "tm_0M35813",
         "name": "US Oyonnax"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 44.8,
+        "draw": 14.6,
+        "away_win": 40.6,
+        "home_score": 22,
+        "away_score": 21,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3MEM4A4",
@@ -304,8 +391,15 @@
         "id": "tm_3WJP259",
         "name": "Montauban"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 37.6,
+        "draw": 14.5,
+        "away_win": 47.9,
+        "home_score": 25,
+        "away_score": 28,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
         "sequence": "L",
         "played": 1,
@@ -323,7 +417,23 @@
           }
         ]
       },
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0BQWWAQ",
@@ -341,9 +451,32 @@
         "id": "tm_02EKCKP",
         "name": "Grenoble FC"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 37.6,
+        "draw": 14.5,
+        "away_win": 47.9,
+        "home_score": 32,
+        "away_score": 35,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "W",
         "played": 1,
@@ -574,10 +707,49 @@
         "id": "tm_24TSY8Y",
         "name": "Valence Romans"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 49.0,
+        "draw": 14.4,
+        "away_win": 36.6,
+        "home_score": 28,
+        "away_score": 25,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0ZSKXHV",
@@ -595,10 +767,49 @@
         "id": "tm_31AZMJ3",
         "name": "Colomiers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 71.9,
+        "draw": 11.0,
+        "away_win": 17.1,
+        "home_score": 42,
+        "away_score": 27,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1CHJVK6",
@@ -616,10 +827,49 @@
         "id": "tm_1NZTESA",
         "name": "CA Brive"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 55.2,
+        "draw": 13.9,
+        "away_win": 30.9,
+        "home_score": 24,
+        "away_score": 18,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_28G4Y2Z",
@@ -637,10 +887,49 @@
         "id": "tm_01V3HMS",
         "name": "Angouleme"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 85.4,
+        "draw": 6.9,
+        "away_win": 7.7,
+        "home_score": 41,
+        "away_score": 18,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2KEY24J",
@@ -658,9 +947,32 @@
         "id": "tm_2ZKXEJB",
         "name": "Provence Rugby"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 62.4,
+        "draw": 12.9,
+        "away_win": 24.7,
+        "home_score": 38,
+        "away_score": 29,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "L",
         "played": 1,
@@ -695,10 +1007,49 @@
         "id": "tm_1SV4K8X",
         "name": "US Dax"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 61.4,
+        "draw": 13.1,
+        "away_win": 25.5,
+        "home_score": 26,
+        "away_score": 16,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3VQ4AMT",
@@ -716,9 +1067,32 @@
         "id": "tm_02EKCKP",
         "name": "Grenoble FC"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 49.0,
+        "draw": 14.4,
+        "away_win": 36.6,
+        "home_score": 34,
+        "away_score": 30,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "W",
         "played": 1,
@@ -837,10 +1211,49 @@
         "id": "tm_3MN366H",
         "name": "Agen"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 14.4,
+        "away_win": 35.6,
+        "home_score": 26,
+        "away_score": 22,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0X9K8FE",
@@ -1334,10 +1747,49 @@
         "id": "tm_3RYW47W",
         "name": "Aurillac"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 25.5,
+        "draw": 13.1,
+        "away_win": 61.4,
+        "home_score": 20,
+        "away_score": 28,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_09GYVRE",
@@ -1355,10 +1807,49 @@
         "id": "tm_2JPCFNS",
         "name": "Biarritz Olympique"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 54.2,
+        "draw": 14.0,
+        "away_win": 31.8,
+        "home_score": 26,
+        "away_score": 20,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1HKBE29",
@@ -1376,8 +1867,15 @@
         "id": "tm_0NTKB7H",
         "name": "Nevers"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 44.8,
+        "draw": 14.6,
+        "away_win": 40.6,
+        "home_score": 32,
+        "away_score": 31,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
         "sequence": "W",
         "played": 1,
@@ -1395,7 +1893,23 @@
           }
         ]
       },
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1Y6CD72",
@@ -1413,8 +1927,15 @@
         "id": "tm_1NZTESA",
         "name": "CA Brive"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 49.0,
+        "draw": 14.4,
+        "away_win": 36.6,
+        "home_score": 34,
+        "away_score": 30,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
         "sequence": "L",
         "played": 1,
@@ -1432,7 +1953,23 @@
           }
         ]
       },
-      "away_form": null
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3BPXJNP",
@@ -1450,10 +1987,49 @@
         "id": "tm_2WVEM0Z",
         "name": "Beziers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 38.6,
+        "draw": 14.5,
+        "away_win": 46.9,
+        "home_score": 20,
+        "away_score": 22,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3KNZB7A",
@@ -1471,10 +2047,49 @@
         "id": "tm_3WJP259",
         "name": "Montauban"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 25.5,
+        "draw": 13.1,
+        "away_win": 61.4,
+        "home_score": 20,
+        "away_score": 28,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1HHGCW2",
@@ -1492,10 +2107,49 @@
         "id": "tm_3CWTAY8",
         "name": "Narbonne"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 53.1,
+        "draw": 14.1,
+        "away_win": 32.8,
+        "home_score": 36,
+        "away_score": 32,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2PEYMXE",
@@ -1513,10 +2167,49 @@
         "id": "tm_0M35813",
         "name": "US Oyonnax"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 37.6,
+        "draw": 14.5,
+        "away_win": 47.9,
+        "home_score": 31,
+        "away_score": 34,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_231WYYC",
@@ -2073,10 +2766,49 @@
         "id": "tm_3MN366H",
         "name": "Agen"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 53.1,
+        "draw": 14.1,
+        "away_win": 32.8,
+        "home_score": 29,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1GR0T8X",
@@ -2094,10 +2826,49 @@
         "id": "tm_01V3HMS",
         "name": "Angouleme"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 56.3,
+        "draw": 13.8,
+        "away_win": 29.9,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1VZMFQR",
@@ -2115,10 +2886,49 @@
         "id": "tm_2JPCFNS",
         "name": "Biarritz Olympique"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 43.7,
+        "draw": 14.6,
+        "away_win": 41.7,
+        "home_score": 24,
+        "away_score": 23,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1X4F7P5",
@@ -2136,9 +2946,32 @@
         "id": "tm_2ZKXEJB",
         "name": "Provence Rugby"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 76.1,
+        "draw": 9.8,
+        "away_win": 14.1,
+        "home_score": 40,
+        "away_score": 23,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "L",
         "played": 1,
@@ -2173,9 +3006,32 @@
         "id": "tm_02EKCKP",
         "name": "Grenoble FC"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 43.7,
+        "draw": 14.6,
+        "away_win": 41.7,
+        "home_score": 26,
+        "away_score": 26,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "W",
         "played": 1,
@@ -2210,10 +3066,49 @@
         "id": "tm_31AZMJ3",
         "name": "Colomiers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 81.5,
+        "draw": 8.2,
+        "away_win": 10.3,
+        "home_score": 40,
+        "away_score": 20,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3MSWS4S",
@@ -2231,10 +3126,49 @@
         "id": "tm_37YCSFM",
         "name": "Nice"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 53.1,
+        "draw": 14.1,
+        "away_win": 32.8,
+        "home_score": 29,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0TR7DBD",
@@ -2252,10 +3186,49 @@
         "id": "tm_3CWTAY8",
         "name": "Narbonne"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 74.5,
+        "draw": 10.3,
+        "away_win": 15.2,
+        "home_score": 40,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_0GRP1V8",
@@ -3869,8 +4842,15 @@
         "id": "tm_2WVEM0Z",
         "name": "Beziers"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 66.3,
+        "draw": 12.2,
+        "away_win": 21.5,
+        "home_score": 32,
+        "away_score": 20,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
         "sequence": "W",
         "played": 1,
@@ -3888,7 +4868,23 @@
           }
         ]
       },
-      "away_form": null
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1PG8WFG",
@@ -3906,8 +4902,15 @@
         "id": "tm_24TSY8Y",
         "name": "Valence Romans"
       },
-      "prediction": null,
-      "prediction_basis": null,
+      "prediction": {
+        "home_win": 36.6,
+        "draw": 14.4,
+        "away_win": 49.0,
+        "home_score": 35,
+        "away_score": 38,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
         "sequence": "L",
         "played": 1,
@@ -3925,7 +4928,23 @@
           }
         ]
       },
-      "away_form": null
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1ZBZSK4",
@@ -3943,10 +4962,49 @@
         "id": "tm_0M35813",
         "name": "US Oyonnax"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 24.7,
+        "draw": 12.9,
+        "away_win": 62.4,
+        "home_score": 22,
+        "away_score": 32,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_264HEGM",
@@ -3964,10 +5022,49 @@
         "id": "tm_3RYW47W",
         "name": "Aurillac"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 27.3,
+        "draw": 13.4,
+        "away_win": 59.3,
+        "home_score": 28,
+        "away_score": 36,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2FWGZ1R",
@@ -3985,10 +5082,49 @@
         "id": "tm_1NZTESA",
         "name": "CA Brive"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 35.6,
+        "draw": 14.4,
+        "away_win": 50.0,
+        "home_score": 28,
+        "away_score": 32,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2PDQ8GC",
@@ -4006,10 +5142,49 @@
         "id": "tm_1SV4K8X",
         "name": "US Dax"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 42.7,
+        "draw": 14.6,
+        "away_win": 42.7,
+        "home_score": 26,
+        "away_score": 26,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_35X0920",
@@ -4027,10 +5202,49 @@
         "id": "tm_0NTKB7H",
         "name": "Nevers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 32.7,
+        "draw": 14.1,
+        "away_win": 53.2,
+        "home_score": 19,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_3E6TRSS",
@@ -4048,10 +5262,49 @@
         "id": "tm_3WJP259",
         "name": "Montauban"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 47.9,
+        "draw": 14.5,
+        "away_win": 37.6,
+        "home_score": 25,
+        "away_score": 22,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_11NXMJB",
@@ -4916,10 +6169,49 @@
         "id": "tm_31AZMJ3",
         "name": "Colomiers"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 69.1,
+        "draw": 11.6,
+        "away_win": 19.3,
+        "home_score": 30,
+        "away_score": 17,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 19.0,
+        "points_against_avg": 43.0,
+        "points_diff_avg": -24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Aurillac",
+            "venue": "A",
+            "scored": 19.0,
+            "conceded": 43.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_18A79R3",
@@ -4937,10 +6229,49 @@
         "id": "tm_2JPCFNS",
         "name": "Biarritz Olympique"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 50.0,
+        "draw": 14.4,
+        "away_win": 35.6,
+        "home_score": 26,
+        "away_score": 22,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 16.0,
+        "points_against_avg": 15.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Agen",
+            "venue": "H",
+            "scored": 16.0,
+            "conceded": 15.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 31.0,
+        "points_against_avg": 30.0,
+        "points_diff_avg": 1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Narbonne",
+            "venue": "H",
+            "scored": 31.0,
+            "conceded": 30.0,
+            "outcome": "W"
+          }
+        ]
+      }
     },
     {
       "id": "mt_1DMSR9F",
@@ -4958,10 +6289,49 @@
         "id": "tm_01V3HMS",
         "name": "Angouleme"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 71.0,
+        "draw": 11.2,
+        "away_win": 17.8,
+        "home_score": 28,
+        "away_score": 14,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 17.0,
+        "points_against_avg": 12.0,
+        "points_diff_avg": 5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Beziers",
+            "venue": "A",
+            "scored": 17.0,
+            "conceded": 12.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 18.0,
+        "points_against_avg": 34.0,
+        "points_diff_avg": -16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nevers",
+            "venue": "A",
+            "scored": 18.0,
+            "conceded": 34.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2FYW7XW",
@@ -4979,10 +6349,49 @@
         "id": "tm_37YCSFM",
         "name": "Nice"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 68.2,
+        "draw": 11.8,
+        "away_win": 20.0,
+        "home_score": 38,
+        "away_score": 26,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 34.0,
+        "points_against_avg": 18.0,
+        "points_diff_avg": 16.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Angouleme",
+            "venue": "H",
+            "scored": 34.0,
+            "conceded": 18.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 35.0,
+        "points_against_avg": 37.0,
+        "points_diff_avg": -2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Valence Romans",
+            "venue": "H",
+            "scored": 35.0,
+            "conceded": 37.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_2SDYS6Z",
@@ -5000,10 +6409,49 @@
         "id": "tm_3MN366H",
         "name": "Agen"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 40.6,
+        "draw": 14.6,
+        "away_win": 44.8,
+        "home_score": 22,
+        "away_score": 22,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 22.0,
+        "points_against_avg": 32.0,
+        "points_diff_avg": -10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Oyonnax",
+            "venue": "A",
+            "scored": 22.0,
+            "conceded": 32.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_34V8NQ7",
@@ -5021,9 +6469,32 @@
         "id": "tm_02EKCKP",
         "name": "Grenoble FC"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 40.6,
+        "draw": 14.6,
+        "away_win": 44.8,
+        "home_score": 36,
+        "away_score": 37,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "W",
         "played": 1,
@@ -5058,9 +6529,32 @@
         "id": "tm_2ZKXEJB",
         "name": "Provence Rugby"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
+      "prediction": {
+        "home_win": 82.1,
+        "draw": 8.0,
+        "away_win": 9.9,
+        "home_score": 44,
+        "away_score": 24,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      },
       "away_form": {
         "sequence": "L",
         "played": 1,
@@ -5095,10 +6589,49 @@
         "id": "tm_3CWTAY8",
         "name": "Narbonne"
       },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
+      "prediction": {
+        "home_win": 61.4,
+        "draw": 13.1,
+        "away_win": 25.5,
+        "home_score": 34,
+        "away_score": 25,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 32.0,
+        "points_against_avg": 22.0,
+        "points_diff_avg": 10.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "CA Brive",
+            "venue": "H",
+            "scored": 32.0,
+            "conceded": 22.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 30.0,
+        "points_against_avg": 31.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Biarritz Olympique",
+            "venue": "A",
+            "scored": 30.0,
+            "conceded": 31.0,
+            "outcome": "L"
+          }
+        ]
+      }
     },
     {
       "id": "mt_02S6ABS",
