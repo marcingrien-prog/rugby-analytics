@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T01:24:02.655014+00:00",
+  "generated_at": "2026-11-22T13:09:51.245050+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 206,
+  "fixtures_count": 210,
   "competitions_count": 51,
   "standings_loaded": 5,
   "results_fetched": 0,
@@ -2268,6 +2268,69 @@
       "away_form": null
     },
     {
+      "id": "mt_0BMNSP7",
+      "date": "2026-12-12",
+      "kickoff_utc": null,
+      "status": "scheduled",
+      "competition": "Japan Rugby League One",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1RN3AKY",
+        "name": "Kobe Steelers"
+      },
+      "away": {
+        "id": "tm_33GR327",
+        "name": "Toyota Verblitz"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_1G20K3F",
+      "date": "2026-12-12",
+      "kickoff_utc": null,
+      "status": "scheduled",
+      "competition": "Japan Rugby League One",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3M0K2RM",
+        "name": "Mie Heat"
+      },
+      "away": {
+        "id": "tm_2KTPT7P",
+        "name": "Brave Lupus Tokyo"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_2GK954K",
+      "date": "2026-12-12",
+      "kickoff_utc": null,
+      "status": "scheduled",
+      "competition": "Japan Rugby League One",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2XZQ9PJ",
+        "name": "Saitama Wild Knights"
+      },
+      "away": {
+        "id": "tm_1YH04RC",
+        "name": "Urayasu D-Rocks"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_00EE5XT",
       "date": "2026-12-12",
       "kickoff_utc": "2026-12-12T13:00:00Z",
@@ -2583,6 +2646,27 @@
       "away": {
         "id": "tm_0Q95ZA8",
         "name": "Black Lion"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_2HEAK4V",
+      "date": "2026-12-13",
+      "kickoff_utc": null,
+      "status": "scheduled",
+      "competition": "Japan Rugby League One",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_040WN8D",
+        "name": "Sagamihara DynaBoars"
+      },
+      "away": {
+        "id": "tm_3C38F56",
+        "name": "Yokohama Eagles"
       },
       "prediction": null,
       "prediction_basis": null,
