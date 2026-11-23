@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:28:34.478538+00:00",
+  "generated_at": "2026-11-23T13:34:12.978072+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 220,
@@ -2268,28 +2268,7 @@
       "away_form": null
     },
     {
-      "id": "mt_0BMNSP7",
-      "date": "2026-12-12",
-      "kickoff_utc": null,
-      "status": "scheduled",
-      "competition": "Japan Rugby League One",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1RN3AKY",
-        "name": "Kobe Steelers"
-      },
-      "away": {
-        "id": "tm_33GR327",
-        "name": "Toyota Verblitz"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_1G20K3F",
+      "id": "mt_1ZHA4M1",
       "date": "2026-12-12",
       "kickoff_utc": null,
       "status": "scheduled",
@@ -2310,7 +2289,7 @@
       "away_form": null
     },
     {
-      "id": "mt_2GK954K",
+      "id": "mt_2F5JPN5",
       "date": "2026-12-12",
       "kickoff_utc": null,
       "status": "scheduled",
@@ -2324,6 +2303,27 @@
       "away": {
         "id": "tm_1YH04RC",
         "name": "Urayasu D-Rocks"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_3287G3S",
+      "date": "2026-12-12",
+      "kickoff_utc": null,
+      "status": "scheduled",
+      "competition": "Japan Rugby League One",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1RN3AKY",
+        "name": "Kobe Steelers"
+      },
+      "away": {
+        "id": "tm_2CKTBMQ",
+        "name": "Toyota Verblitz"
       },
       "prediction": null,
       "prediction_basis": null,
@@ -2653,7 +2653,7 @@
       "away_form": null
     },
     {
-      "id": "mt_2HEAK4V",
+      "id": "mt_3SZWK5D",
       "date": "2026-12-13",
       "kickoff_utc": null,
       "status": "scheduled",
