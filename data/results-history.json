@@ -118,5 +118,365 @@
       "name": "US Dax",
       "score": 17
     }
+  },
+  {
+    "id": "mt_19ZC9DR",
+    "date": "2026-11-29",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_0G0677F",
+      "name": "Académica",
+      "score": 13
+    },
+    "away": {
+      "id": "tm_3ZQ0D7Q",
+      "name": "Direito",
+      "score": 45
+    }
+  },
+  {
+    "id": "mt_1BJ24AT",
+    "date": "2026-11-29",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2WZ43ZC",
+      "name": "Montemor",
+      "score": 0
+    },
+    "away": {
+      "id": "tm_26QQEGW",
+      "name": "Cascais",
+      "score": 110
+    }
+  },
+  {
+    "id": "mt_1MTP97K",
+    "date": "2026-11-29",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2KH6PPB",
+      "name": "CDUP",
+      "score": 22
+    },
+    "away": {
+      "id": "tm_2CNY9ZM",
+      "name": "CDUL",
+      "score": 44
+    }
+  },
+  {
+    "id": "mt_3FZ6HS7",
+    "date": "2026-11-29",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_02NK1D4",
+      "name": "Belenenses",
+      "score": 31
+    },
+    "away": {
+      "id": "tm_341KRP3",
+      "name": "Agronomia",
+      "score": 29
+    }
+  },
+  {
+    "id": "mt_0X7M0N3",
+    "date": "2026-11-30",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_0NFD9EG",
+      "name": "Benfica",
+      "score": 62
+    },
+    "away": {
+      "id": "tm_3CED4H0",
+      "name": "Santarém",
+      "score": 21
+    }
+  },
+  {
+    "id": "mt_2BS85YW",
+    "date": "2026-11-30",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_15RK3E8",
+      "name": "Técnico",
+      "score": 25
+    },
+    "away": {
+      "id": "tm_30QPBCN",
+      "name": "São Miguel",
+      "score": 28
+    }
+  },
+  {
+    "id": "mt_0W0SBCD",
+    "date": "2026-12-06",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2CNY9ZM",
+      "name": "CDUL",
+      "score": 86
+    },
+    "away": {
+      "id": "tm_2WZ43ZC",
+      "name": "Montemor",
+      "score": 0
+    }
+  },
+  {
+    "id": "mt_1ABV3Z4",
+    "date": "2026-12-06",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_30QPBCN",
+      "name": "São Miguel",
+      "score": 56
+    },
+    "away": {
+      "id": "tm_0G0677F",
+      "name": "Académica",
+      "score": 10
+    }
+  },
+  {
+    "id": "mt_2B94PEX",
+    "date": "2026-12-06",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3ZQ0D7Q",
+      "name": "Direito",
+      "score": 43
+    },
+    "away": {
+      "id": "tm_15RK3E8",
+      "name": "Técnico",
+      "score": 15
+    }
+  },
+  {
+    "id": "mt_3CQ53RZ",
+    "date": "2026-12-06",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_26QQEGW",
+      "name": "Cascais",
+      "score": 66
+    },
+    "away": {
+      "id": "tm_2KH6PPB",
+      "name": "CDUP",
+      "score": 9
+    }
+  },
+  {
+    "id": "mt_2TADQ6F",
+    "date": "2026-12-07",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_341KRP3",
+      "name": "Agronomia",
+      "score": 16
+    },
+    "away": {
+      "id": "tm_0NFD9EG",
+      "name": "Benfica",
+      "score": 20
+    }
+  },
+  {
+    "id": "mt_33VE6NB",
+    "date": "2026-12-07",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3CED4H0",
+      "name": "Santarém",
+      "score": 12
+    },
+    "away": {
+      "id": "tm_02NK1D4",
+      "name": "Belenenses",
+      "score": 64
+    }
+  },
+  {
+    "id": "mt_1MY44SN",
+    "date": "2026-12-13",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2KH6PPB",
+      "name": "CDUP",
+      "score": 49
+    },
+    "away": {
+      "id": "tm_2WZ43ZC",
+      "name": "Montemor",
+      "score": 12
+    }
+  },
+  {
+    "id": "mt_277X16Q",
+    "date": "2026-12-13",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3CED4H0",
+      "name": "Santarém",
+      "score": 17
+    },
+    "away": {
+      "id": "tm_341KRP3",
+      "name": "Agronomia",
+      "score": 40
+    }
+  },
+  {
+    "id": "mt_30ZCPTS",
+    "date": "2026-12-13",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2CNY9ZM",
+      "name": "CDUL",
+      "score": 17
+    },
+    "away": {
+      "id": "tm_26QQEGW",
+      "name": "Cascais",
+      "score": 34
+    }
+  },
+  {
+    "id": "mt_3H23DC5",
+    "date": "2026-12-13",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_0G0677F",
+      "name": "Académica",
+      "score": 13
+    },
+    "away": {
+      "id": "tm_15RK3E8",
+      "name": "Técnico",
+      "score": 26
+    }
+  },
+  {
+    "id": "mt_3TKXQZW",
+    "date": "2026-12-13",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_02NK1D4",
+      "name": "Belenenses",
+      "score": 17
+    },
+    "away": {
+      "id": "tm_0NFD9EG",
+      "name": "Benfica",
+      "score": 41
+    }
+  },
+  {
+    "id": "mt_3BM29CC",
+    "date": "2026-12-14",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3ZQ0D7Q",
+      "name": "Direito",
+      "score": 48
+    },
+    "away": {
+      "id": "tm_30QPBCN",
+      "name": "São Miguel",
+      "score": 0
+    }
+  },
+  {
+    "id": "mt_0PP6WV1",
+    "date": "2026-12-20",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_26QQEGW",
+      "name": "Cascais",
+      "score": 104
+    },
+    "away": {
+      "id": "tm_2WZ43ZC",
+      "name": "Montemor",
+      "score": 0
+    }
+  },
+  {
+    "id": "mt_1BGNVXH",
+    "date": "2026-12-20",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_30QPBCN",
+      "name": "São Miguel",
+      "score": 32
+    },
+    "away": {
+      "id": "tm_15RK3E8",
+      "name": "Técnico",
+      "score": 21
+    }
+  },
+  {
+    "id": "mt_1NHYASX",
+    "date": "2026-12-20",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_2CNY9ZM",
+      "name": "CDUL",
+      "score": 40
+    },
+    "away": {
+      "id": "tm_2KH6PPB",
+      "name": "CDUP",
+      "score": 0
+    }
+  },
+  {
+    "id": "mt_392APBY",
+    "date": "2026-12-20",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3CED4H0",
+      "name": "Santarém",
+      "score": 0
+    },
+    "away": {
+      "id": "tm_0NFD9EG",
+      "name": "Benfica",
+      "score": 85
+    }
+  },
+  {
+    "id": "mt_3GMQKR7",
+    "date": "2026-12-20",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_3ZQ0D7Q",
+      "name": "Direito",
+      "score": 47
+    },
+    "away": {
+      "id": "tm_0G0677F",
+      "name": "Académica",
+      "score": 12
+    }
+  },
+  {
+    "id": "mt_3CGCJH8",
+    "date": "2026-12-21",
+    "competition": "CN Honra",
+    "home": {
+      "id": "tm_341KRP3",
+      "name": "Agronomia",
+      "score": 3
+    },
+    "away": {
+      "id": "tm_02NK1D4",
+      "name": "Belenenses",
+      "score": 22
+    }
   }
 ]

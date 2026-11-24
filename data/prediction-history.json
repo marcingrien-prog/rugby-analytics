@@ -2574,5 +2574,257 @@
     },
     "prediction_basis": "forma z ostatnich 5 meczów",
     "actual": null
+  },
+  {
+    "id": "mt_0A4WEBD",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Ospreys",
+    "away": "Edinburgh",
+    "probabilities": {
+      "home": 0.302,
+      "draw": 0.16,
+      "away": 0.5379999999999999
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0B7EN9S",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Leicester Tigers",
+    "probabilities": {
+      "home": 0.308,
+      "draw": 0.161,
+      "away": 0.531
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0C1AQR6",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Exeter Chiefs",
+    "away": "Bristol",
+    "probabilities": {
+      "home": 0.35200000000000004,
+      "draw": 0.166,
+      "away": 0.48200000000000004
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0M7J97C",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Racing 92",
+    "away": "Bordeaux Begles",
+    "probabilities": {
+      "home": 0.28,
+      "draw": 0.157,
+      "away": 0.563
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0N2KQ7M",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Stade Toulousain",
+    "away": "Stade Rochelais",
+    "probabilities": {
+      "home": 0.5579999999999999,
+      "draw": 0.158,
+      "away": 0.284
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_0TE28B5",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Lions",
+    "away": "Zebre",
+    "probabilities": {
+      "home": 0.6629999999999999,
+      "draw": 0.138,
+      "away": 0.19899999999999998
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_15FDTBG",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Pau",
+    "away": "Lyon",
+    "probabilities": {
+      "home": 0.64,
+      "draw": 0.14300000000000002,
+      "away": 0.217
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1GZZSJ5",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Castres Olympique",
+    "away": "Clermont",
+    "probabilities": {
+      "home": 0.415,
+      "draw": 0.168,
+      "away": 0.41700000000000004
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1QGFYQ9",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Benetton",
+    "away": "Bulls",
+    "probabilities": {
+      "home": 0.212,
+      "draw": 0.142,
+      "away": 0.6459999999999999
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_21EDB0S",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Montpellier",
+    "away": "Stade Francais Paris",
+    "probabilities": {
+      "home": 0.716,
+      "draw": 0.124,
+      "away": 0.16
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_29FJ1X0",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Falcons",
+    "away": "Saracens",
+    "probabilities": {
+      "home": 0.34299999999999997,
+      "draw": 0.165,
+      "away": 0.49200000000000005
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2C94QRR",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "RC Toulonnais",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.6409999999999999,
+      "draw": 0.14300000000000002,
+      "away": 0.21600000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2GXNBBM",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Harlequins",
+    "away": "Gloucester",
+    "probabilities": {
+      "home": 0.17600000000000002,
+      "draw": 0.13,
+      "away": 0.6940000000000001
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2JZB3T4",
+    "date": "2027-01-23",
+    "competition": "Top 14",
+    "home": "Vannes",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.507,
+      "draw": 0.16399999999999998,
+      "away": 0.32899999999999996
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_2VX61W2",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Munster",
+    "away": "Connacht",
+    "probabilities": {
+      "home": 0.604,
+      "draw": 0.15,
+      "away": 0.24600000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_33F2D8N",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Leinster",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.687,
+      "draw": 0.132,
+      "away": 0.18100000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3FAH7T1",
+    "date": "2027-01-23",
+    "competition": "United Rugby Championship",
+    "home": "Stormers",
+    "away": "Cardiff Rugby",
+    "probabilities": {
+      "home": 0.687,
+      "draw": 0.132,
+      "away": 0.18100000000000002
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3G0KR9T",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Bath",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.355,
+      "draw": 0.166,
+      "away": 0.479
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
   }
 ]
