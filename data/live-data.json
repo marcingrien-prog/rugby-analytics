@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T08:37:27.841384+00:00",
+  "generated_at": "2026-11-25T21:43:24.748568+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 239,
   "competitions_count": 57,
   "standings_loaded": 5,
-  "results_fetched": 24,
+  "results_fetched": 0,
   "results_history_count": 32,
   "teams_with_form": 28,
   "validation": {
