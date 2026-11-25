@@ -1638,6 +1638,20 @@
     "actual": null
   },
   {
+    "id": "mt_1PA090C",
+    "date": "2027-01-02",
+    "competition": "Top 14",
+    "home": "Bayonne",
+    "away": "RC Toulonnais",
+    "probabilities": {
+      "home": 0.359,
+      "draw": 0.166,
+      "away": 0.475
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_1SWWB61",
     "date": "2027-01-02",
     "competition": "Top 14",
