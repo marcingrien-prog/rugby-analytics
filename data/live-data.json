@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T08:21:06.252564+00:00",
+  "generated_at": "2026-11-26T21:34:18.629473+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 239,
+  "fixtures_count": 238,
   "competitions_count": 57,
   "standings_loaded": 5,
   "results_fetched": 0,
@@ -13,7 +13,7 @@
     "hit_rate": null,
     "brier_score": null
   },
-  "rankings_as_of": "2026-09-19",
+  "rankings_as_of": "2026-11-21",
   "fixtures": [
     {
       "id": "mt_3RQY3Z4",
@@ -4680,34 +4680,6 @@
         "away_win": 27.2,
         "home_score": 34,
         "away_score": 28,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_32XHKFS",
-      "date": "2027-01-02",
-      "kickoff_utc": "2027-01-02T15:35:00Z",
-      "status": "scheduled",
-      "competition": "Top 14",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_0F2PX42",
-        "name": "Bayonne"
-      },
-      "away": {
-        "id": "tm_075RGEZ",
-        "name": "RC Toulonnais"
-      },
-      "prediction": {
-        "home_win": 35.9,
-        "draw": 16.6,
-        "away_win": 47.5,
-        "home_score": 26,
-        "away_score": 29,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
