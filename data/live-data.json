@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:43:24.748568+00:00",
+  "generated_at": "2026-11-26T08:21:06.252564+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
   "fixtures_count": 239,
@@ -4687,7 +4687,7 @@
       "away_form": null
     },
     {
-      "id": "mt_1PA090C",
+      "id": "mt_32XHKFS",
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T15:35:00Z",
       "status": "scheduled",
