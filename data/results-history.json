@@ -120,6 +120,21 @@
     }
   },
   {
+    "id": "mt_3RQY3Z4",
+    "date": "2026-11-26",
+    "competition": "Pro D2",
+    "home": {
+      "id": "tm_1NZTESA",
+      "name": "CA Brive",
+      "score": 64
+    },
+    "away": {
+      "id": "tm_2JPCFNS",
+      "name": "Biarritz Olympique",
+      "score": 26
+    }
+  },
+  {
     "id": "mt_19ZC9DR",
     "date": "2026-11-29",
     "competition": "CN Honra",

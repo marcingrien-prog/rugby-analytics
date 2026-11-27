@@ -1,140 +1,20 @@
 {
-  "generated_at": "2026-11-26T21:34:18.629473+00:00",
+  "generated_at": "2026-11-27T08:37:07.801132+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 238,
+  "fixtures_count": 256,
   "competitions_count": 57,
   "standings_loaded": 5,
-  "results_fetched": 0,
-  "results_history_count": 32,
+  "results_fetched": 1,
+  "results_history_count": 33,
   "teams_with_form": 28,
   "validation": {
-    "settled_predictions": 0,
-    "hit_rate": null,
-    "brier_score": null
+    "settled_predictions": 1,
+    "hit_rate": 0.0,
+    "brier_score": 0.206
   },
   "rankings_as_of": "2026-11-21",
   "fixtures": [
-    {
-      "id": "mt_3RQY3Z4",
-      "date": "2026-11-26",
-      "kickoff_utc": "2026-11-26T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1NZTESA",
-        "name": "CA Brive"
-      },
-      "away": {
-        "id": "tm_2JPCFNS",
-        "name": "Biarritz Olympique"
-      },
-      "prediction": {
-        "home_win": 38.6,
-        "draw": 14.5,
-        "away_win": 46.9,
-        "home_score": 28,
-        "away_score": 30,
-        "confidence": "niska"
-      },
-      "prediction_basis": "forma z ostatnich 5 meczów",
-      "home_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "US Oyonnax",
-            "venue": "A",
-            "scored": 22.0,
-            "conceded": 32.0,
-            "outcome": "L"
-          }
-        ]
-      },
-      "away_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "Narbonne",
-            "venue": "H",
-            "scored": 31.0,
-            "conceded": 30.0,
-            "outcome": "W"
-          }
-        ]
-      }
-    },
-    {
-      "id": "mt_0K7SY9W",
-      "date": "2026-11-27",
-      "kickoff_utc": "2026-11-27T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_24TSY8Y",
-        "name": "Valence Romans"
-      },
-      "away": {
-        "id": "tm_3RYW47W",
-        "name": "Aurillac"
-      },
-      "prediction": {
-        "home_win": 28.1,
-        "draw": 13.5,
-        "away_win": 58.4,
-        "home_score": 30,
-        "away_score": 38,
-        "confidence": "niska"
-      },
-      "prediction_basis": "forma z ostatnich 5 meczów",
-      "home_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 37.0,
-        "points_against_avg": 35.0,
-        "points_diff_avg": 2.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "Nice",
-            "venue": "A",
-            "scored": 37.0,
-            "conceded": 35.0,
-            "outcome": "W"
-          }
-        ]
-      },
-      "away_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 43.0,
-        "points_against_avg": 19.0,
-        "points_diff_avg": 24.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "Colomiers",
-            "venue": "H",
-            "scored": 43.0,
-            "conceded": 19.0,
-            "outcome": "W"
-          }
-        ]
-      }
-    },
     {
       "id": "mt_0X554V8",
       "date": "2026-11-27",
@@ -149,7 +29,7 @@
       },
       "away": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "prediction": {
         "home_win": 35.6,
@@ -251,66 +131,6 @@
             "scored": 34.0,
             "conceded": 18.0,
             "outcome": "W"
-          }
-        ]
-      }
-    },
-    {
-      "id": "mt_219CBQD",
-      "date": "2026-11-27",
-      "kickoff_utc": "2026-11-27T00:00:00Z",
-      "status": "scheduled",
-      "competition": "Pro D2",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_3MN366H",
-        "name": "Agen"
-      },
-      "away": {
-        "id": "tm_2WVEM0Z",
-        "name": "Beziers"
-      },
-      "prediction": {
-        "home_win": 54.2,
-        "draw": 14.0,
-        "away_win": 31.8,
-        "home_score": 18,
-        "away_score": 13,
-        "confidence": "niska"
-      },
-      "prediction_basis": "forma z ostatnich 5 meczów",
-      "home_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 15.0,
-        "points_against_avg": 16.0,
-        "points_diff_avg": -1.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "Montauban",
-            "venue": "A",
-            "scored": 15.0,
-            "conceded": 16.0,
-            "outcome": "L"
-          }
-        ]
-      },
-      "away_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 12.0,
-        "points_against_avg": 17.0,
-        "points_diff_avg": -5.0,
-        "results": [
-          {
-            "date": "2026-11-20",
-            "opponent": "US Dax",
-            "venue": "H",
-            "scored": 12.0,
-            "conceded": 17.0,
-            "outcome": "L"
           }
         ]
       }
@@ -431,6 +251,126 @@
             "scored": 16.0,
             "conceded": 15.0,
             "outcome": "W"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mt_0K7SY9W",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24TSY8Y",
+        "name": "Valence Romans"
+      },
+      "away": {
+        "id": "tm_3RYW47W",
+        "name": "Aurillac"
+      },
+      "prediction": {
+        "home_win": 28.1,
+        "draw": 13.5,
+        "away_win": 58.4,
+        "home_score": 30,
+        "away_score": 38,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 37.0,
+        "points_against_avg": 35.0,
+        "points_diff_avg": 2.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Nice",
+            "venue": "A",
+            "scored": 37.0,
+            "conceded": 35.0,
+            "outcome": "W"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "W",
+        "played": 1,
+        "points_for_avg": 43.0,
+        "points_against_avg": 19.0,
+        "points_diff_avg": 24.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Colomiers",
+            "venue": "H",
+            "scored": 43.0,
+            "conceded": 19.0,
+            "outcome": "W"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mt_219CBQD",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T18:30:00Z",
+      "status": "scheduled",
+      "competition": "Pro D2",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_3MN366H",
+        "name": "Agen"
+      },
+      "away": {
+        "id": "tm_2WVEM0Z",
+        "name": "Beziers"
+      },
+      "prediction": {
+        "home_win": 54.2,
+        "draw": 14.0,
+        "away_win": 31.8,
+        "home_score": 18,
+        "away_score": 13,
+        "confidence": "niska"
+      },
+      "prediction_basis": "forma z ostatnich 5 meczów",
+      "home_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 15.0,
+        "points_against_avg": 16.0,
+        "points_diff_avg": -1.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "Montauban",
+            "venue": "A",
+            "scored": 15.0,
+            "conceded": 16.0,
+            "outcome": "L"
+          }
+        ]
+      },
+      "away_form": {
+        "sequence": "L",
+        "played": 1,
+        "points_for_avg": 12.0,
+        "points_against_avg": 17.0,
+        "points_diff_avg": -5.0,
+        "results": [
+          {
+            "date": "2026-11-20",
+            "opponent": "US Dax",
+            "venue": "H",
+            "scored": 12.0,
+            "conceded": 17.0,
+            "outcome": "L"
           }
         ]
       }
@@ -617,7 +557,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "away": {
         "id": "tm_2EA92SC",
@@ -761,7 +701,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "away": {
         "id": "tm_31AZMJ3",
@@ -828,11 +768,11 @@
         "name": "CA Brive"
       },
       "prediction": {
-        "home_win": 55.2,
+        "home_win": 30.9,
         "draw": 13.9,
-        "away_win": 30.9,
-        "home_score": 24,
-        "away_score": 18,
+        "away_win": 55.2,
+        "home_score": 23,
+        "away_score": 29,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -854,12 +794,20 @@
         ]
       },
       "away_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -948,21 +896,29 @@
         "name": "Provence Rugby"
       },
       "prediction": {
-        "home_win": 62.4,
-        "draw": 12.9,
-        "away_win": 24.7,
-        "home_score": 38,
-        "away_score": 29,
+        "home_win": 42.2,
+        "draw": 14.6,
+        "away_win": 43.2,
+        "home_score": 37,
+        "away_score": 38,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -1269,7 +1225,7 @@
       },
       "away": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "prediction": {
         "home_win": 62.4,
@@ -1648,6 +1604,34 @@
       "away_form": null
     },
     {
+      "id": "mt_2MH8TWG",
+      "date": "2026-12-05",
+      "kickoff_utc": "2026-12-05T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_35EBGHB",
+        "name": "Saracens"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 42.5,
+        "draw": 16.8,
+        "away_win": 40.7,
+        "home_score": 32,
+        "away_score": 32,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_0AP26Y0",
       "date": "2026-12-05",
       "kickoff_utc": "2026-12-05T19:45:00Z",
@@ -1697,6 +1681,34 @@
         "away_win": 61.2,
         "home_score": 22,
         "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_23C1853",
+      "date": "2026-12-06",
+      "kickoff_utc": "2026-12-06T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 54.3,
+        "draw": 16.0,
+        "away_win": 29.7,
+        "home_score": 30,
+        "away_score": 24,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -1808,11 +1820,11 @@
         "name": "Biarritz Olympique"
       },
       "prediction": {
-        "home_win": 54.2,
-        "draw": 14.0,
-        "away_win": 31.8,
-        "home_score": 26,
-        "away_score": 20,
+        "home_win": 73.2,
+        "draw": 10.6,
+        "away_win": 16.2,
+        "home_score": 34,
+        "away_score": 19,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -1834,12 +1846,20 @@
         ]
       },
       "away_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -1928,11 +1948,11 @@
         "name": "CA Brive"
       },
       "prediction": {
-        "home_win": 49.0,
-        "draw": 14.4,
-        "away_win": 36.6,
-        "home_score": 34,
-        "away_score": 30,
+        "home_win": 25.5,
+        "draw": 13.1,
+        "away_win": 61.4,
+        "home_score": 32,
+        "away_score": 41,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -1954,12 +1974,20 @@
         ]
       },
       "away_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -2161,7 +2189,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "away": {
         "id": "tm_0M35813",
@@ -2389,11 +2417,11 @@
         "name": "Bayonne"
       },
       "prediction": {
-        "home_win": 75.8,
-        "draw": 11.1,
-        "away_win": 13.1,
-        "home_score": 38,
-        "away_score": 22,
+        "home_win": 61.4,
+        "draw": 14.8,
+        "away_win": 23.8,
+        "home_score": 32,
+        "away_score": 23,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -2470,7 +2498,7 @@
       },
       "away": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "prediction": {
         "home_win": 62.5,
@@ -2690,10 +2718,10 @@
         "name": "Dragons"
       },
       "prediction": {
-        "home_win": 24.2,
-        "draw": 14.9,
-        "away_win": 60.9,
-        "home_score": 21,
+        "home_win": 13.3,
+        "draw": 11.3,
+        "away_win": 75.4,
+        "home_score": 16,
         "away_score": 30,
         "confidence": "wstępna"
       },
@@ -2807,6 +2835,34 @@
       "away_form": null
     },
     {
+      "id": "mt_3K95Z85",
+      "date": "2026-12-13",
+      "kickoff_utc": "2026-12-13T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_1MZ3SAG",
+        "name": "Zebre"
+      },
+      "prediction": {
+        "home_win": 56.5,
+        "draw": 15.7,
+        "away_win": 27.8,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_1A99GKM",
       "date": "2026-12-13",
       "kickoff_utc": "2026-12-13T17:30:00Z",
@@ -2911,21 +2967,29 @@
         "name": "Angouleme"
       },
       "prediction": {
-        "home_win": 56.3,
-        "draw": 13.8,
-        "away_win": 29.9,
-        "home_score": 30,
-        "away_score": 24,
+        "home_win": 78.5,
+        "draw": 9.1,
+        "away_win": 12.4,
+        "home_score": 41,
+        "away_score": 22,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -2971,11 +3035,11 @@
         "name": "Biarritz Olympique"
       },
       "prediction": {
-        "home_win": 43.7,
-        "draw": 14.6,
-        "away_win": 41.7,
-        "home_score": 24,
-        "away_score": 23,
+        "home_win": 63.9,
+        "draw": 12.7,
+        "away_win": 23.4,
+        "home_score": 32,
+        "away_score": 22,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -2997,12 +3061,20 @@
         ]
       },
       "away_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -3208,7 +3280,7 @@
       },
       "away": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "prediction": {
         "home_win": 53.1,
@@ -3408,7 +3480,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "away": {
         "id": "tm_2KW51M5",
@@ -3707,6 +3779,34 @@
       "away_form": null
     },
     {
+      "id": "mt_1G91J5J",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T15:05:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 69.2,
+        "draw": 13.1,
+        "away_win": 17.7,
+        "home_score": 31,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_3BG25Q2",
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T15:05:00Z",
@@ -3764,6 +3864,34 @@
     },
     {
       "id": "mt_06ADC8E",
+      "date": "2026-12-19",
+      "kickoff_utc": "2026-12-19T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 72.1,
+        "draw": 12.3,
+        "away_win": 15.6,
+        "home_score": 39,
+        "away_score": 26,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_0V42P5B",
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T17:30:00Z",
       "status": "scheduled",
@@ -4140,7 +4268,7 @@
       },
       "away": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "prediction": {
         "home_win": 31.0,
@@ -4184,6 +4312,34 @@
     },
     {
       "id": "mt_1MPMSPV",
+      "date": "2026-12-26",
+      "kickoff_utc": "2026-12-26T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2G259FF",
+        "name": "Gloucester"
+      },
+      "prediction": {
+        "home_win": 22.9,
+        "draw": 14.6,
+        "away_win": 62.5,
+        "home_score": 21,
+        "away_score": 30,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_1NYDWPQ",
       "date": "2026-12-26",
       "kickoff_utc": "2026-12-26T17:30:00Z",
       "status": "scheduled",
@@ -4379,6 +4535,34 @@
       "away_form": null
     },
     {
+      "id": "mt_3CD1D2K",
+      "date": "2026-12-28",
+      "kickoff_utc": "2026-12-28T17:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 25.2,
+        "draw": 15.2,
+        "away_win": 59.6,
+        "home_score": 27,
+        "away_score": 35,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_2MV6JQH",
       "date": "2027-01-01",
       "kickoff_utc": "2027-01-01T19:45:00Z",
@@ -4528,7 +4712,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "away": {
         "id": "tm_2XJ6QW4",
@@ -4771,6 +4955,34 @@
       "away_form": null
     },
     {
+      "id": "mt_2FSG7KZ",
+      "date": "2027-01-02",
+      "kickoff_utc": "2027-01-02T17:30:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "away": {
+        "id": "tm_2XD4Y17",
+        "name": "Exeter Chiefs"
+      },
+      "prediction": {
+        "home_win": 72.9,
+        "draw": 12.0,
+        "away_win": 15.1,
+        "home_score": 35,
+        "away_score": 22,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_37V2QCA",
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T17:30:00Z",
@@ -4876,6 +5088,34 @@
         "away_win": 47.2,
         "home_score": 29,
         "away_score": 31,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_32DP5JV",
+      "date": "2027-01-03",
+      "kickoff_utc": "2027-01-03T15:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "away": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "prediction": {
+        "home_win": 68.4,
+        "draw": 13.3,
+        "away_win": 18.3,
+        "home_score": 35,
+        "away_score": 24,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -5107,21 +5347,29 @@
         "name": "Aurillac"
       },
       "prediction": {
-        "home_win": 27.3,
-        "draw": 13.4,
-        "away_win": 59.3,
-        "home_score": 28,
-        "away_score": 36,
+        "home_win": 13.2,
+        "draw": 9.5,
+        "away_win": 77.3,
+        "home_score": 26,
+        "away_score": 44,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -5167,11 +5415,11 @@
         "name": "CA Brive"
       },
       "prediction": {
-        "home_win": 35.6,
-        "draw": 14.4,
-        "away_win": 50.0,
-        "home_score": 28,
-        "away_score": 32,
+        "home_win": 15.9,
+        "draw": 10.5,
+        "away_win": 73.6,
+        "home_score": 26,
+        "away_score": 42,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -5193,12 +5441,20 @@
         ]
       },
       "away_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -5220,7 +5476,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "away": {
         "id": "tm_1SV4K8X",
@@ -5692,6 +5948,34 @@
       "away_form": null
     },
     {
+      "id": "mt_33MXD71",
+      "date": "2027-01-08",
+      "kickoff_utc": "2027-01-08T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "away": {
+        "id": "tm_0F2PX42",
+        "name": "Bayonne"
+      },
+      "prediction": {
+        "home_win": 54.9,
+        "draw": 15.9,
+        "away_win": 29.2,
+        "home_score": 26,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_3GCKZ1R",
       "date": "2027-01-08",
       "kickoff_utc": "2027-01-08T20:00:00Z",
@@ -5736,11 +6020,11 @@
         "name": "Bayonne"
       },
       "prediction": {
-        "home_win": 70.4,
-        "draw": 12.8,
-        "away_win": 16.8,
-        "home_score": 32,
-        "away_score": 19,
+        "home_win": 54.9,
+        "draw": 15.9,
+        "away_win": 29.2,
+        "home_score": 26,
+        "away_score": 20,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -5846,6 +6130,48 @@
       "away_form": null
     },
     {
+      "id": "mt_0Y3FVRD",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_24KCBBM",
+        "name": "Sharks"
+      },
+      "away": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_1ATW4G3",
+      "date": "2027-01-09",
+      "kickoff_utc": "2027-01-09T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "away": {
+        "id": "tm_1KTEF3F",
+        "name": "Ospreys"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_3FK1F3F",
       "date": "2027-01-09",
       "kickoff_utc": "2027-01-09T13:00:00Z",
@@ -5908,7 +6234,7 @@
       },
       "away": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "prediction": {
         "home_win": 71.8,
@@ -6050,6 +6376,34 @@
     },
     {
       "id": "mt_1FNW6ZC",
+      "date": "2027-01-10",
+      "kickoff_utc": "2027-01-10T13:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "away": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "prediction": {
+        "home_win": 9.1,
+        "draw": 9.0,
+        "away_win": 81.9,
+        "home_score": 18,
+        "away_score": 36,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_22N7B1F",
       "date": "2027-01-10",
       "kickoff_utc": "2027-01-10T13:00:00Z",
       "status": "scheduled",
@@ -6226,11 +6580,11 @@
         "name": "Cheetahs"
       },
       "prediction": {
-        "home_win": 24.2,
-        "draw": 14.9,
-        "away_win": 60.9,
-        "home_score": 26,
-        "away_score": 34,
+        "home_win": 38.6,
+        "draw": 16.8,
+        "away_win": 44.6,
+        "home_score": 27,
+        "away_score": 28,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -6314,11 +6668,11 @@
         "name": "Biarritz Olympique"
       },
       "prediction": {
-        "home_win": 50.0,
-        "draw": 14.4,
-        "away_win": 35.6,
-        "home_score": 26,
-        "away_score": 22,
+        "home_win": 69.6,
+        "draw": 11.5,
+        "away_win": 18.9,
+        "home_score": 34,
+        "away_score": 21,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -6340,12 +6694,20 @@
         ]
       },
       "away_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -6431,7 +6793,7 @@
       },
       "away": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "prediction": {
         "home_win": 68.2,
@@ -6494,21 +6856,29 @@
         "name": "Agen"
       },
       "prediction": {
-        "home_win": 40.6,
-        "draw": 14.6,
-        "away_win": 44.8,
-        "home_score": 22,
-        "away_score": 22,
+        "home_win": 65.3,
+        "draw": 12.4,
+        "away_win": 22.3,
+        "home_score": 32,
+        "away_score": 21,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -6767,6 +7137,27 @@
       "away_form": null
     },
     {
+      "id": "mt_3E9ZWXM",
+      "date": "2027-01-15",
+      "kickoff_utc": "2027-01-15T20:00:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2GVM2JF",
+        "name": "Harlequins"
+      },
+      "away": {
+        "id": "tm_075RGEZ",
+        "name": "RC Toulonnais"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_3FYJ8AN",
       "date": "2027-01-15",
       "kickoff_utc": "2027-01-15T20:00:00Z",
@@ -6839,11 +7230,11 @@
         "name": "Zebre"
       },
       "prediction": {
-        "home_win": 80.7,
-        "draw": 9.5,
-        "away_win": 9.8,
-        "home_score": 39,
-        "away_score": 21,
+        "home_win": 89.3,
+        "draw": 5.9,
+        "away_win": 4.8,
+        "home_score": 40,
+        "away_score": 16,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -6963,6 +7354,55 @@
       "away_form": null
     },
     {
+      "id": "mt_3MEQBTW",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1J9G85H",
+        "name": "Ulster"
+      },
+      "away": {
+        "id": "tm_1QM2PPX",
+        "name": "Dragons"
+      },
+      "prediction": {
+        "home_win": 56.5,
+        "draw": 15.7,
+        "away_win": 27.8,
+        "home_score": 30,
+        "away_score": 24,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_3X8JBF0",
+      "date": "2027-01-16",
+      "kickoff_utc": "2027-01-16T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_2KW51M5",
+        "name": "Castres Olympique"
+      },
+      "away": {
+        "id": "tm_2XWF461",
+        "name": "Scarlets"
+      },
+      "prediction": null,
+      "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_3Y7CY8Y",
       "date": "2027-01-16",
       "kickoff_utc": "2027-01-16T15:15:00Z",
@@ -7014,7 +7454,7 @@
       "season": "2026-27",
       "home": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "away": {
         "id": "tm_1ZZ7A6N",
@@ -7196,11 +7636,11 @@
         "name": "USA Perpignan"
       },
       "prediction": {
-        "home_win": 70.4,
-        "draw": 12.8,
-        "away_win": 16.8,
-        "home_score": 32,
-        "away_score": 19,
+        "home_win": 54.9,
+        "draw": 15.9,
+        "away_win": 29.2,
+        "home_score": 26,
+        "away_score": 20,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -7225,6 +7665,34 @@
       },
       "prediction": null,
       "prediction_basis": null,
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_3MV66C8",
+      "date": "2027-01-17",
+      "kickoff_utc": "2027-01-17T15:15:00Z",
+      "status": "scheduled",
+      "competition": "Challenge Cup",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_0ZTCJ6D",
+        "name": "Cheetahs"
+      },
+      "away": {
+        "id": "tm_2EA92SC",
+        "name": "USA Perpignan"
+      },
+      "prediction": {
+        "home_win": 54.9,
+        "draw": 15.9,
+        "away_win": 29.2,
+        "home_score": 26,
+        "away_score": 20,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -7386,18 +7854,18 @@
       "season": "2026-27",
       "home": {
         "id": "tm_37YCSFM",
-        "name": "Stade Nicois"
+        "name": "Nice"
       },
       "away": {
         "id": "tm_1NZTESA",
         "name": "CA Brive"
       },
       "prediction": {
-        "home_win": 58.3,
-        "draw": 13.5,
-        "away_win": 28.2,
-        "home_score": 36,
-        "away_score": 28,
+        "home_win": 33.7,
+        "draw": 14.2,
+        "away_win": 52.1,
+        "home_score": 34,
+        "away_score": 39,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
@@ -7419,12 +7887,20 @@
         ]
       },
       "away_form": {
-        "sequence": "L",
-        "played": 1,
-        "points_for_avg": 22.0,
-        "points_against_avg": 32.0,
-        "points_diff_avg": -10.0,
+        "sequence": "WL",
+        "played": 2,
+        "points_for_avg": 43.0,
+        "points_against_avg": 29.0,
+        "points_diff_avg": 14.0,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "Biarritz Olympique",
+            "venue": "H",
+            "scored": 64.0,
+            "conceded": 26.0,
+            "outcome": "W"
+          },
           {
             "date": "2026-11-20",
             "opponent": "US Oyonnax",
@@ -7513,21 +7989,29 @@
         "name": "Nevers"
       },
       "prediction": {
-        "home_win": 34.7,
-        "draw": 14.3,
-        "away_win": 51.0,
-        "home_score": 27,
-        "away_score": 31,
+        "home_win": 18.2,
+        "draw": 11.3,
+        "away_win": 70.5,
+        "home_score": 26,
+        "away_score": 40,
         "confidence": "niska"
       },
       "prediction_basis": "forma z ostatnich 5 meczów",
       "home_form": {
-        "sequence": "W",
-        "played": 1,
-        "points_for_avg": 31.0,
-        "points_against_avg": 30.0,
-        "points_diff_avg": 1.0,
+        "sequence": "LW",
+        "played": 2,
+        "points_for_avg": 28.5,
+        "points_against_avg": 47.0,
+        "points_diff_avg": -18.5,
         "results": [
+          {
+            "date": "2026-11-26",
+            "opponent": "CA Brive",
+            "venue": "A",
+            "scored": 26.0,
+            "conceded": 64.0,
+            "outcome": "L"
+          },
           {
             "date": "2026-11-20",
             "opponent": "Narbonne",
@@ -7890,7 +8374,7 @@
       },
       "away": {
         "id": "tm_0WZX95E",
-        "name": "Stade Rochelais"
+        "name": "La Rochelle"
       },
       "prediction": {
         "home_win": 55.8,
@@ -8157,6 +8641,34 @@
       "away_form": null
     },
     {
+      "id": "mt_32W8M47",
+      "date": "2027-01-23",
+      "kickoff_utc": "2027-01-23T14:00:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1EF5HP8",
+        "name": "Bath"
+      },
+      "away": {
+        "id": "tm_28GXJQH",
+        "name": "Northampton Saints"
+      },
+      "prediction": {
+        "home_win": 35.5,
+        "draw": 16.6,
+        "away_win": 47.9,
+        "home_score": 34,
+        "away_score": 36,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
       "id": "mt_0A4WEBD",
       "date": "2027-01-23",
       "kickoff_utc": "2027-01-23T15:00:00Z",
@@ -8206,6 +8718,34 @@
         "away_win": 18.1,
         "home_score": 31,
         "away_score": 19,
+        "confidence": "wstępna"
+      },
+      "prediction_basis": "tabela + średnie punktowe",
+      "home_form": null,
+      "away_form": null
+    },
+    {
+      "id": "mt_3NGRF96",
+      "date": "2027-01-23",
+      "kickoff_utc": "2027-01-23T16:15:00Z",
+      "status": "scheduled",
+      "competition": "Premiership",
+      "competition_type": "club",
+      "season": "2026-27",
+      "home": {
+        "id": "tm_1M3P72S",
+        "name": "Sale Sharks"
+      },
+      "away": {
+        "id": "tm_2X66TS0",
+        "name": "Leicester Tigers"
+      },
+      "prediction": {
+        "home_win": 30.8,
+        "draw": 16.1,
+        "away_win": 53.1,
+        "home_score": 23,
+        "away_score": 28,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",

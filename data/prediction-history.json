@@ -11,7 +11,13 @@
       "away": 0.469
     },
     "prediction_basis": "forma z ostatnich 5 meczów",
-    "actual": null
+    "actual": "home",
+    "actual_score": [
+      64.0,
+      26.0
+    ],
+    "hit": false,
+    "brier": 0.20599
   },
   {
     "id": "mt_0BQWWAQ",
@@ -518,6 +524,20 @@
     "actual": null
   },
   {
+    "id": "mt_2MH8TWG",
+    "date": "2026-12-05",
+    "competition": "Premiership",
+    "home": "Saracens",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.425,
+      "draw": 0.168,
+      "away": 0.40700000000000003
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_35GBK7G",
     "date": "2026-12-05",
     "competition": "Top 14",
@@ -583,6 +603,20 @@
       "home": 0.436,
       "draw": 0.168,
       "away": 0.396
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_23C1853",
+    "date": "2026-12-06",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.5429999999999999,
+      "draw": 0.16,
+      "away": 0.297
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
@@ -910,6 +944,20 @@
     "actual": null
   },
   {
+    "id": "mt_3K95Z85",
+    "date": "2026-12-13",
+    "competition": "Challenge Cup",
+    "home": "USA Perpignan",
+    "away": "Zebre",
+    "probabilities": {
+      "home": 0.565,
+      "draw": 0.157,
+      "away": 0.278
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_0C5VHPD",
     "date": "2026-12-18",
     "competition": "Pro D2",
@@ -1106,6 +1154,20 @@
     "actual": null
   },
   {
+    "id": "mt_0V42P5B",
+    "date": "2026-12-19",
+    "competition": "Premiership",
+    "home": "Northampton Saints",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.721,
+      "draw": 0.12300000000000001,
+      "away": 0.156
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_0X90DWC",
     "date": "2026-12-19",
     "competition": "Premiership",
@@ -1143,6 +1205,20 @@
       "home": 0.255,
       "draw": 0.152,
       "away": 0.593
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_1G91J5J",
+    "date": "2026-12-19",
+    "competition": "Premiership",
+    "home": "Leicester Tigers",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.6920000000000001,
+      "draw": 0.131,
+      "away": 0.177
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
@@ -1372,6 +1448,20 @@
     "actual": null
   },
   {
+    "id": "mt_1NYDWPQ",
+    "date": "2026-12-26",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Gloucester",
+    "probabilities": {
+      "home": 0.22899999999999998,
+      "draw": 0.146,
+      "away": 0.625
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_2K81XFX",
     "date": "2026-12-26",
     "competition": "Top 14",
@@ -1554,6 +1644,20 @@
     "actual": null
   },
   {
+    "id": "mt_3CD1D2K",
+    "date": "2026-12-28",
+    "competition": "Premiership",
+    "home": "Harlequins",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.252,
+      "draw": 0.152,
+      "away": 0.596
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_2MV6JQH",
     "date": "2027-01-01",
     "competition": "Premiership",
@@ -1708,6 +1812,20 @@
     "actual": null
   },
   {
+    "id": "mt_2FSG7KZ",
+    "date": "2027-01-02",
+    "competition": "Premiership",
+    "home": "Leicester Tigers",
+    "away": "Exeter Chiefs",
+    "probabilities": {
+      "home": 0.7290000000000001,
+      "draw": 0.12,
+      "away": 0.151
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_2WH07WA",
     "date": "2027-01-02",
     "competition": "United Rugby Championship",
@@ -1815,6 +1933,20 @@
       "home": 0.5710000000000001,
       "draw": 0.156,
       "away": 0.273
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_32DP5JV",
+    "date": "2027-01-03",
+    "competition": "Premiership",
+    "home": "Northampton Saints",
+    "away": "Sale Sharks",
+    "probabilities": {
+      "home": 0.684,
+      "draw": 0.133,
+      "away": 0.183
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
@@ -1943,6 +2075,20 @@
       "away": 0.42700000000000005
     },
     "prediction_basis": "forma z ostatnich 5 meczów",
+    "actual": null
+  },
+  {
+    "id": "mt_33MXD71",
+    "date": "2027-01-08",
+    "competition": "Challenge Cup",
+    "home": "Dragons",
+    "away": "Bayonne",
+    "probabilities": {
+      "home": 0.5489999999999999,
+      "draw": 0.159,
+      "away": 0.292
+    },
+    "prediction_basis": "tabela + średnie punktowe",
     "actual": null
   },
   {
@@ -2123,6 +2269,20 @@
       "home": 0.242,
       "draw": 0.149,
       "away": 0.609
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_22N7B1F",
+    "date": "2027-01-10",
+    "competition": "Challenge Cup",
+    "home": "USA Perpignan",
+    "away": "Ulster",
+    "probabilities": {
+      "home": 0.091,
+      "draw": 0.09,
+      "away": 0.8190000000000001
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
@@ -2436,6 +2596,20 @@
     "actual": null
   },
   {
+    "id": "mt_3MEQBTW",
+    "date": "2027-01-16",
+    "competition": "Challenge Cup",
+    "home": "Ulster",
+    "away": "Dragons",
+    "probabilities": {
+      "home": 0.565,
+      "draw": 0.157,
+      "away": 0.278
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_069JSZX",
     "date": "2027-01-17",
     "competition": "European Rugby Champions Cup",
@@ -2459,6 +2633,20 @@
       "home": 0.7040000000000001,
       "draw": 0.128,
       "away": 0.168
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3MV66C8",
+    "date": "2027-01-17",
+    "competition": "Challenge Cup",
+    "home": "Cheetahs",
+    "away": "USA Perpignan",
+    "probabilities": {
+      "home": 0.5489999999999999,
+      "draw": 0.159,
+      "away": 0.292
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
@@ -2814,6 +3002,20 @@
     "actual": null
   },
   {
+    "id": "mt_32W8M47",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Bath",
+    "away": "Northampton Saints",
+    "probabilities": {
+      "home": 0.355,
+      "draw": 0.166,
+      "away": 0.479
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
     "id": "mt_33F2D8N",
     "date": "2027-01-23",
     "competition": "United Rugby Championship",
@@ -2851,6 +3053,20 @@
       "home": 0.355,
       "draw": 0.166,
       "away": 0.479
+    },
+    "prediction_basis": "tabela + średnie punktowe",
+    "actual": null
+  },
+  {
+    "id": "mt_3NGRF96",
+    "date": "2027-01-23",
+    "competition": "Premiership",
+    "home": "Sale Sharks",
+    "away": "Leicester Tigers",
+    "probabilities": {
+      "home": 0.308,
+      "draw": 0.161,
+      "away": 0.531
     },
     "prediction_basis": "tabela + średnie punktowe",
     "actual": null
