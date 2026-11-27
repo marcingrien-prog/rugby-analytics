@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T08:37:07.801132+00:00",
+  "generated_at": "2026-11-27T21:19:12.145734+00:00",
   "source": "rugbyAPI",
   "window_days": 60,
-  "fixtures_count": 256,
+  "fixtures_count": 237,
   "competitions_count": 57,
   "standings_loaded": 5,
   "results_fetched": 1,
@@ -1604,34 +1604,6 @@
       "away_form": null
     },
     {
-      "id": "mt_2MH8TWG",
-      "date": "2026-12-05",
-      "kickoff_utc": "2026-12-05T17:30:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_35EBGHB",
-        "name": "Saracens"
-      },
-      "away": {
-        "id": "tm_28GXJQH",
-        "name": "Northampton Saints"
-      },
-      "prediction": {
-        "home_win": 42.5,
-        "draw": 16.8,
-        "away_win": 40.7,
-        "home_score": 32,
-        "away_score": 32,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_0AP26Y0",
       "date": "2026-12-05",
       "kickoff_utc": "2026-12-05T19:45:00Z",
@@ -1681,34 +1653,6 @@
         "away_win": 61.2,
         "home_score": 22,
         "away_score": 30,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_23C1853",
-      "date": "2026-12-06",
-      "kickoff_utc": "2026-12-06T15:00:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1M3P72S",
-        "name": "Sale Sharks"
-      },
-      "away": {
-        "id": "tm_2XD4Y17",
-        "name": "Exeter Chiefs"
-      },
-      "prediction": {
-        "home_win": 54.3,
-        "draw": 16.0,
-        "away_win": 29.7,
-        "home_score": 30,
-        "away_score": 24,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -2835,34 +2779,6 @@
       "away_form": null
     },
     {
-      "id": "mt_3K95Z85",
-      "date": "2026-12-13",
-      "kickoff_utc": "2026-12-13T15:15:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2EA92SC",
-        "name": "USA Perpignan"
-      },
-      "away": {
-        "id": "tm_1MZ3SAG",
-        "name": "Zebre"
-      },
-      "prediction": {
-        "home_win": 56.5,
-        "draw": 15.7,
-        "away_win": 27.8,
-        "home_score": 30,
-        "away_score": 24,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_1A99GKM",
       "date": "2026-12-13",
       "kickoff_utc": "2026-12-13T17:30:00Z",
@@ -3779,34 +3695,6 @@
       "away_form": null
     },
     {
-      "id": "mt_1G91J5J",
-      "date": "2026-12-19",
-      "kickoff_utc": "2026-12-19T15:05:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2X66TS0",
-        "name": "Leicester Tigers"
-      },
-      "away": {
-        "id": "tm_1M3P72S",
-        "name": "Sale Sharks"
-      },
-      "prediction": {
-        "home_win": 69.2,
-        "draw": 13.1,
-        "away_win": 17.7,
-        "home_score": 31,
-        "away_score": 20,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_3BG25Q2",
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T15:05:00Z",
@@ -3864,34 +3752,6 @@
     },
     {
       "id": "mt_06ADC8E",
-      "date": "2026-12-19",
-      "kickoff_utc": "2026-12-19T17:30:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_28GXJQH",
-        "name": "Northampton Saints"
-      },
-      "away": {
-        "id": "tm_2XD4Y17",
-        "name": "Exeter Chiefs"
-      },
-      "prediction": {
-        "home_win": 72.1,
-        "draw": 12.3,
-        "away_win": 15.6,
-        "home_score": 39,
-        "away_score": 26,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_0V42P5B",
       "date": "2026-12-19",
       "kickoff_utc": "2026-12-19T17:30:00Z",
       "status": "scheduled",
@@ -4339,34 +4199,6 @@
       "away_form": null
     },
     {
-      "id": "mt_1NYDWPQ",
-      "date": "2026-12-26",
-      "kickoff_utc": "2026-12-26T17:30:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1M3P72S",
-        "name": "Sale Sharks"
-      },
-      "away": {
-        "id": "tm_2G259FF",
-        "name": "Gloucester"
-      },
-      "prediction": {
-        "home_win": 22.9,
-        "draw": 14.6,
-        "away_win": 62.5,
-        "home_score": 21,
-        "away_score": 30,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_1KCGGAD",
       "date": "2026-12-27",
       "kickoff_utc": "2026-12-27T13:30:00Z",
@@ -4510,34 +4342,6 @@
       "id": "mt_2WWKGM3",
       "date": "2026-12-28",
       "kickoff_utc": "2026-12-28T15:00:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2GVM2JF",
-        "name": "Harlequins"
-      },
-      "away": {
-        "id": "tm_28GXJQH",
-        "name": "Northampton Saints"
-      },
-      "prediction": {
-        "home_win": 25.2,
-        "draw": 15.2,
-        "away_win": 59.6,
-        "home_score": 27,
-        "away_score": 35,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_3CD1D2K",
-      "date": "2026-12-28",
-      "kickoff_utc": "2026-12-28T17:00:00Z",
       "status": "scheduled",
       "competition": "Premiership",
       "competition_type": "club",
@@ -4955,34 +4759,6 @@
       "away_form": null
     },
     {
-      "id": "mt_2FSG7KZ",
-      "date": "2027-01-02",
-      "kickoff_utc": "2027-01-02T17:30:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2X66TS0",
-        "name": "Leicester Tigers"
-      },
-      "away": {
-        "id": "tm_2XD4Y17",
-        "name": "Exeter Chiefs"
-      },
-      "prediction": {
-        "home_win": 72.9,
-        "draw": 12.0,
-        "away_win": 15.1,
-        "home_score": 35,
-        "away_score": 22,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_37V2QCA",
       "date": "2027-01-02",
       "kickoff_utc": "2027-01-02T17:30:00Z",
@@ -5088,34 +4864,6 @@
         "away_win": 47.2,
         "home_score": 29,
         "away_score": 31,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_32DP5JV",
-      "date": "2027-01-03",
-      "kickoff_utc": "2027-01-03T15:00:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_28GXJQH",
-        "name": "Northampton Saints"
-      },
-      "away": {
-        "id": "tm_1M3P72S",
-        "name": "Sale Sharks"
-      },
-      "prediction": {
-        "home_win": 68.4,
-        "draw": 13.3,
-        "away_win": 18.3,
-        "home_score": 35,
-        "away_score": 24,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
@@ -5948,34 +5696,6 @@
       "away_form": null
     },
     {
-      "id": "mt_33MXD71",
-      "date": "2027-01-08",
-      "kickoff_utc": "2027-01-08T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1QM2PPX",
-        "name": "Dragons"
-      },
-      "away": {
-        "id": "tm_0F2PX42",
-        "name": "Bayonne"
-      },
-      "prediction": {
-        "home_win": 54.9,
-        "draw": 15.9,
-        "away_win": 29.2,
-        "home_score": 26,
-        "away_score": 20,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_3GCKZ1R",
       "date": "2027-01-08",
       "kickoff_utc": "2027-01-08T20:00:00Z",
@@ -6126,48 +5846,6 @@
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_0Y3FVRD",
-      "date": "2027-01-09",
-      "kickoff_utc": "2027-01-09T13:00:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_24KCBBM",
-        "name": "Sharks"
-      },
-      "away": {
-        "id": "tm_2KW51M5",
-        "name": "Castres Olympique"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_1ATW4G3",
-      "date": "2027-01-09",
-      "kickoff_utc": "2027-01-09T13:00:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_075RGEZ",
-        "name": "RC Toulonnais"
-      },
-      "away": {
-        "id": "tm_1KTEF3F",
-        "name": "Ospreys"
-      },
-      "prediction": null,
-      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -6376,34 +6054,6 @@
     },
     {
       "id": "mt_1FNW6ZC",
-      "date": "2027-01-10",
-      "kickoff_utc": "2027-01-10T13:00:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2EA92SC",
-        "name": "USA Perpignan"
-      },
-      "away": {
-        "id": "tm_1J9G85H",
-        "name": "Ulster"
-      },
-      "prediction": {
-        "home_win": 9.1,
-        "draw": 9.0,
-        "away_win": 81.9,
-        "home_score": 18,
-        "away_score": 36,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_22N7B1F",
       "date": "2027-01-10",
       "kickoff_utc": "2027-01-10T13:00:00Z",
       "status": "scheduled",
@@ -7137,27 +6787,6 @@
       "away_form": null
     },
     {
-      "id": "mt_3E9ZWXM",
-      "date": "2027-01-15",
-      "kickoff_utc": "2027-01-15T20:00:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2GVM2JF",
-        "name": "Harlequins"
-      },
-      "away": {
-        "id": "tm_075RGEZ",
-        "name": "RC Toulonnais"
-      },
-      "prediction": null,
-      "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_3FYJ8AN",
       "date": "2027-01-15",
       "kickoff_utc": "2027-01-15T20:00:00Z",
@@ -7350,55 +6979,6 @@
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_3MEQBTW",
-      "date": "2027-01-16",
-      "kickoff_utc": "2027-01-16T15:15:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1J9G85H",
-        "name": "Ulster"
-      },
-      "away": {
-        "id": "tm_1QM2PPX",
-        "name": "Dragons"
-      },
-      "prediction": {
-        "home_win": 56.5,
-        "draw": 15.7,
-        "away_win": 27.8,
-        "home_score": 30,
-        "away_score": 24,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_3X8JBF0",
-      "date": "2027-01-16",
-      "kickoff_utc": "2027-01-16T15:15:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_2KW51M5",
-        "name": "Castres Olympique"
-      },
-      "away": {
-        "id": "tm_2XWF461",
-        "name": "Scarlets"
-      },
-      "prediction": null,
-      "prediction_basis": null,
       "home_form": null,
       "away_form": null
     },
@@ -7665,34 +7245,6 @@
       },
       "prediction": null,
       "prediction_basis": null,
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_3MV66C8",
-      "date": "2027-01-17",
-      "kickoff_utc": "2027-01-17T15:15:00Z",
-      "status": "scheduled",
-      "competition": "Challenge Cup",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_0ZTCJ6D",
-        "name": "Cheetahs"
-      },
-      "away": {
-        "id": "tm_2EA92SC",
-        "name": "USA Perpignan"
-      },
-      "prediction": {
-        "home_win": 54.9,
-        "draw": 15.9,
-        "away_win": 29.2,
-        "home_score": 26,
-        "away_score": 20,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
       "home_form": null,
       "away_form": null
     },
@@ -8641,34 +8193,6 @@
       "away_form": null
     },
     {
-      "id": "mt_32W8M47",
-      "date": "2027-01-23",
-      "kickoff_utc": "2027-01-23T14:00:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1EF5HP8",
-        "name": "Bath"
-      },
-      "away": {
-        "id": "tm_28GXJQH",
-        "name": "Northampton Saints"
-      },
-      "prediction": {
-        "home_win": 35.5,
-        "draw": 16.6,
-        "away_win": 47.9,
-        "home_score": 34,
-        "away_score": 36,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
       "id": "mt_0A4WEBD",
       "date": "2027-01-23",
       "kickoff_utc": "2027-01-23T15:00:00Z",
@@ -8718,34 +8242,6 @@
         "away_win": 18.1,
         "home_score": 31,
         "away_score": 19,
-        "confidence": "wstępna"
-      },
-      "prediction_basis": "tabela + średnie punktowe",
-      "home_form": null,
-      "away_form": null
-    },
-    {
-      "id": "mt_3NGRF96",
-      "date": "2027-01-23",
-      "kickoff_utc": "2027-01-23T16:15:00Z",
-      "status": "scheduled",
-      "competition": "Premiership",
-      "competition_type": "club",
-      "season": "2026-27",
-      "home": {
-        "id": "tm_1M3P72S",
-        "name": "Sale Sharks"
-      },
-      "away": {
-        "id": "tm_2X66TS0",
-        "name": "Leicester Tigers"
-      },
-      "prediction": {
-        "home_win": 30.8,
-        "draw": 16.1,
-        "away_win": 53.1,
-        "home_score": 23,
-        "away_score": 28,
         "confidence": "wstępna"
       },
       "prediction_basis": "tabela + średnie punktowe",
